@@ -12,8 +12,7 @@ function TileHolder({ id, children }: Props) {
   });
   return (
     <div
-      className="aspect-square w-24 
-      flex justify-center items-center"
+      className="aspect-square w-24 relative flex justify-center "
       ref={setNodeRef}
     >
       {children}

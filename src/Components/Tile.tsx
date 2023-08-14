@@ -18,11 +18,12 @@ function Tile({ text, id, flippedProps }: Props) {
 
   return (
     <button
-      className={` aspect-square w-24 rounded-lg select-none
+      className={` aspect-square rounded-lg select-none
       bg-zinc-100 border-b-4 border-zinc-300 
-      flex justify-center items-center text-center ${
-        !flippedProps && !transform ? "transition-transform" : ""
-      }`}
+      absolute place-self-center
+      flex justify-center items-center text-center 
+      ${transform ? "w-28" : "w-24"} ${transform ? "z-10" : "z-0"} 
+      transition-[width]`}
       ref={setNodeRef}
       style={style}
       {...listeners}
