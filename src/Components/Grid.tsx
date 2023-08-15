@@ -61,7 +61,7 @@ function Grid({}: Props) {
   return (
     <div className=" w-full flex justify-center mt-44 ">
       <Flipper flipKey={tiles}>
-        <div className=" grid grid-rows-4 grid-cols-4 gap-3 bg-orange-100 p-6 rounded-lg">
+        <div className=" grid grid-rows-4 grid-cols-4 gap-3 bg-stone-200 p-6 rounded-lg">
           <DndContext
             onDragStart={handleDragStart}
             onDragEnd={handleDragEnd}
