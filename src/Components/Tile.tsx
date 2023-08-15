@@ -9,9 +9,9 @@ function Tile({ text, flippedProps, isDragging = false }: Props) {
     <div
       className={` aspect-square rounded-lg select-none
       bg-zinc-100 border-b-4 border-zinc-300 
-      absolute 
-      flex justify-center items-center text-center 
-      ${isDragging ? "w-28 text-lg" : "w-24"}`}
+      absolute flex justify-center items-center text-center 
+      shadow-md
+      ${isDragging ? "w-32 text-lg" : "w-24 text-sm"}`}
       {...flippedProps}
     >
       {text}
