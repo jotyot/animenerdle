@@ -14,7 +14,7 @@ function Tile({ text, flippedProps, isDragging = false }: Props) {
       absolute flex justify-center items-center w-24
       text-center shadow-md font-sans p-1 font-medium
       ${isDragging ? " scale-150" : " scale-100 "} 
-      ${long ? "text-xs" : med ? "text-sm" : "text-md"}`}
+      ${long ? "text-xs" : med ? "text-sm" : "text-base"}`}
       {...flippedProps}
     >
       {text}
