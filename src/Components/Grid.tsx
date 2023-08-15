@@ -1,15 +1,10 @@
-import {
-  DndContext,
-  DragEndEvent,
-  DragOverlay,
-  DragStartEvent,
-} from "@dnd-kit/core";
+import { DndContext, DragEndEvent, DragStartEvent } from "@dnd-kit/core";
 import Tile from "./Tile";
 import TileHolder from "./TileHolder";
 import { useState } from "react";
 import { Flipped, Flipper } from "react-flip-toolkit";
-import { snapCenterToCursor } from "@dnd-kit/modifiers";
 import Draggable from "./Draggable";
+import DraggingTile from "./DraggingTile";
 interface Props {}
 
 function Grid({}: Props) {
@@ -32,15 +27,6 @@ function Grid({}: Props) {
     "Attack on Titan Season 3 Part 2",
   ]);
   const [activeId, setActiveId] = useState<undefined | string>(undefined);
-  const tiles = animeOrder.map((anime) => (
-    <Flipped key={anime} flipId={anime}>
-      {(flippedProps) => (
-        <Draggable id={anime}>
-          <Tile text={anime} flippedProps={flippedProps} />
-        </Draggable>
-      )}
-    </Flipped>
-  ));
 
   function handleDragEnd(event: DragEndEvent) {
     const { active, over } = event;
@@ -58,35 +44,27 @@ function Grid({}: Props) {
     setAnimeOrder(animeOrder.slice());
   }
 
+  const tiles = animeOrder.map((anime) => (
+    <Flipped key={anime} flipId={anime}>
+      {(flippedProps) => (
+        <Draggable id={anime}>
+          <Tile text={anime} flippedProps={flippedProps} />
+        </Draggable>
+      )}
+    </Flipped>
+  ));
+
   return (
-    <div className=" w-full flex justify-center mt-44 ">
+    <div className="w-full flex justify-center mt-44">
       <Flipper flipKey={tiles}>
-        <div className=" grid grid-rows-4 grid-cols-4 gap-3 bg-stone-200 p-6 rounded-lg">
-          <DndContext
-            onDragStart={handleDragStart}
-            onDragEnd={handleDragEnd}
-            modifiers={[snapCenterToCursor]}
-          >
-            {Array(16)
-              .fill(0)
-              .map((_v, i) => (
-                <TileHolder id={`drop ${i}`} key={`drop ${i}`}>
-                  {activeId !== tiles[i].key ? tiles[i] : undefined}
-                </TileHolder>
-              ))}
-            <Flipped flipId={activeId}>
-              {(flippedProps) =>
-                activeId ? (
-                  <DragOverlay wrapperElement="button">
-                    <Tile
-                      text={activeId}
-                      isDragging
-                      flippedProps={flippedProps}
-                    ></Tile>
-                  </DragOverlay>
-                ) : undefined
-              }
-            </Flipped>
+        <div className="grid grid-rows-4 grid-cols-4 gap-3 bg-stone-200 p-6 rounded-lg">
+          <DndContext onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
+            {[...Array(16)].map((_v, i) => (
+              <TileHolder id={`drop ${i}`} key={`drop ${i}`}>
+                {tiles[i]}
+              </TileHolder>
+            ))}
+            {activeId && <DraggingTile id={activeId} />}
           </DndContext>
         </div>
       </Flipper>
