@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/modifiers": "^6.0.1",
     "@tutkli/jikan-ts": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
