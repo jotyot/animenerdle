@@ -7,24 +7,24 @@ interface Props {
 }
 
 function Tile({ text, id, flippedProps }: Props) {
-  const { attributes, listeners, setNodeRef, transform } = useDraggable({
-    id: id,
-  });
+  const { isDragging, attributes, listeners, setNodeRef, transform } =
+    useDraggable({
+      id: id,
+    });
   const style = {
     transform: transform
       ? `translate3d(${transform.x}px, ${transform.y}px, 0)`
       : "none",
-    transitionProperty: `width`,
   };
 
   return (
-    <button
+    <div
       className={` aspect-square rounded-lg select-none
       bg-zinc-100 border-b-4 border-zinc-300 
-      absolute place-self-center origin-center
+      absolute 
       flex justify-center items-center text-center 
-      ${transform ? "w-32" : "w-24"} ${transform ? "z-10" : "z-0"} 
-      transition`}
+      ${isDragging ? "w-32 z-10" : "w-24 z-0"}
+      transition-[width] `}
       ref={setNodeRef}
       style={style}
       {...listeners}
@@ -32,7 +32,7 @@ function Tile({ text, id, flippedProps }: Props) {
       {...flippedProps}
     >
       {text}
-    </button>
+    </div>
   );
 }
 

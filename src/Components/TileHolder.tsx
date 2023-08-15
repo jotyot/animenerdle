@@ -11,10 +11,7 @@ function TileHolder({ id, children }: Props) {
     id: id,
   });
   return (
-    <div
-      className="aspect-square w-24 relative flex justify-center "
-      ref={setNodeRef}
-    >
+    <div className="aspect-square w-24 relative " ref={setNodeRef}>
       {children}
     </div>
   );
