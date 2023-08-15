@@ -1,9 +1,15 @@
-import { DndContext, DragEndEvent } from "@dnd-kit/core";
+import {
+  DndContext,
+  DragEndEvent,
+  DragOverlay,
+  DragStartEvent,
+} from "@dnd-kit/core";
 import Tile from "./Tile";
 import TileHolder from "./TileHolder";
 import { useState } from "react";
 import { Flipped, Flipper } from "react-flip-toolkit";
 import { snapCenterToCursor } from "@dnd-kit/modifiers";
+import Draggable from "./Draggable";
 interface Props {}
 
 function Grid({}: Props) {
@@ -12,15 +18,14 @@ function Grid({}: Props) {
     .map((v, i) => (
       <Flipped key={`drag ${i}`} flipId={`drag ${i}`}>
         {(flippedProps) => (
-          <Tile
-            text={`${v} ${i}`}
-            id={`drag ${i}`}
-            flippedProps={flippedProps}
-          />
+          <Draggable id={`drag ${i}`}>
+            <Tile text={`${v} ${i}`} flippedProps={flippedProps} />
+          </Draggable>
         )}
       </Flipped>
     ));
   const [tiles, setTiles] = useState(defaultTiles);
+  const [activeId, setActiveId] = useState<undefined | string>(undefined);
 
   function handleDragEnd(event: DragEndEvent) {
     const { active, over } = event;
@@ -29,7 +34,13 @@ function Grid({}: Props) {
 
     const swap = tiles.slice();
     [swap[drop], swap[drag]] = [swap[drag], swap[drop]];
+    setActiveId(undefined);
     setTiles(swap);
+  }
+
+  function handleDragStart(event: DragStartEvent) {
+    setActiveId(event.active.id.toString());
+    setTiles(tiles.slice());
   }
 
   return (
@@ -37,16 +48,30 @@ function Grid({}: Props) {
       <Flipper flipKey={tiles}>
         <div className=" grid grid-rows-4 grid-cols-4 gap-3 ">
           <DndContext
+            onDragStart={handleDragStart}
             onDragEnd={handleDragEnd}
             modifiers={[snapCenterToCursor]}
           >
             {Array(16)
               .fill(0)
               .map((_v, i) => (
-                <TileHolder id={`drag ${i}`} key={`drag ${i}`}>
-                  {tiles[i]}
+                <TileHolder id={`drop ${i}`} key={`drop ${i}`}>
+                  {activeId !== tiles[i].key ? tiles[i] : undefined}
                 </TileHolder>
               ))}
+            <Flipped flipId={activeId}>
+              {(flippedProps) =>
+                activeId ? (
+                  <DragOverlay wrapperElement="button">
+                    <Tile
+                      text={`Box ${activeId.split(" ")[1]}`}
+                      isDragging
+                      flippedProps={flippedProps}
+                    ></Tile>
+                  </DragOverlay>
+                ) : undefined
+              }
+            </Flipped>
           </DndContext>
         </div>
       </Flipper>
