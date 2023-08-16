@@ -1,31 +1,20 @@
 import { DndContext, DragEndEvent, DragStartEvent } from "@dnd-kit/core";
 import Tile from "./Tile";
 import TileHolder from "./TileHolder";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Flipped, Flipper } from "react-flip-toolkit";
 import Draggable from "./Draggable";
 import DraggingTile from "./DraggingTile";
-interface Props {}
+import { Puzzle, PuzzleTemplate } from "../Classes/Puzzle";
 
-function Grid({}: Props) {
-  const [animeOrder, setAnimeOrder] = useState([
-    "Noragami",
-    "My Hero Academia Season 3",
-    "Fullmetal Alchemist",
-    "Mob Psycho 100 II",
-    "Charlotte",
-    "Love, Chunibyo & Other Delusions!: Heart Throb",
-    "High School DxD New",
-    "Haikyu!! 2nd Season",
-    "Kuroko's Basketball 3",
-    "Dr. Stone",
-    "Fairy Tail",
-    "Great Teacher Onizuka",
-    "Soul Eater",
-    "Clannad: After Story",
-    "Code Geass: Lelouch of the Rebellion R2",
-    "Attack on Titan Season 3 Part 2",
-  ]);
+interface Props {
+  puzzleTemplate: PuzzleTemplate;
+}
+
+function Grid({ puzzleTemplate }: Props) {
+  const puzzle = useRef(new Puzzle(puzzleTemplate));
+
+  const [tileData, setTilleData] = useState(puzzle.current.getTileData());
   const [activeId, setActiveId] = useState<undefined | string>(undefined);
 
   function handleDragEnd(event: DragEndEvent) {
@@ -33,22 +22,24 @@ function Grid({}: Props) {
     const drag = tiles.findIndex((tile) => tile.key === active.id);
     const drop = over ? parseInt(over.id.toString().split(" ")[1]) : drag;
 
-    const swap = animeOrder.slice();
-    [swap[drop], swap[drag]] = [swap[drag], swap[drop]];
+    puzzle.current.SwapEntries(drag, drop);
     setActiveId(undefined);
-    setAnimeOrder(swap);
+    setTilleData(puzzle.current.getTileData());
   }
 
   function handleDragStart(event: DragStartEvent) {
     setActiveId(event.active.id.toString());
-    setAnimeOrder(animeOrder.slice());
   }
 
-  const tiles = animeOrder.map((anime) => (
-    <Flipped key={anime} flipId={anime}>
+  const tiles = tileData.map((tile) => (
+    <Flipped key={tile.name} flipId={tile.name}>
       {(flippedProps) => (
-        <Draggable id={anime}>
-          <Tile text={anime} flippedProps={flippedProps} />
+        <Draggable id={tile.name}>
+          <Tile
+            text={tile.name}
+            flippedProps={flippedProps}
+            colorID={tile.colorID}
+          />
         </Draggable>
       )}
     </Flipped>
