@@ -32,7 +32,12 @@ function Grid({ puzzleTemplate }: Props) {
   }
 
   const tiles = tileData.map((tile) => (
-    <Flipped key={tile.name} flipId={tile.name}>
+    <Flipped
+      key={tile.name}
+      flipId={tile.name}
+      onStart={(dom) => (dom.style.zIndex = "10")}
+      onComplete={(dom) => (dom.style.zIndex = "0")}
+    >
       {(flippedProps) => (
         <Draggable id={tile.name}>
           <Tile
