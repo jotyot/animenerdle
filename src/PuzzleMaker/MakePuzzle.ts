@@ -1,136 +1,188 @@
+import propList from "./props.json" assert { type: "json" };
 import fs from "node:fs";
+
+const PropList = propList;
 
 interface Entry {
   name: string;
   properties: string[];
 }
 
-const RawData = fs.readFileSync("./props.json");
-const Props = JSON.parse(RawData.toString());
+const Puzzle = MakePuzzle();
+console.log(Puzzle);
+fs.writeFileSync(
+  "./src/PuzzleMaker/puzzle.json",
+  JSON.stringify(Puzzle, null, 2)
+);
 
-const RandomValue = (obj: Object) =>
-  Object.keys(obj)[~~(Math.random() * Object.keys(obj).length)];
-const RandomProp = () => RandomValue(Props);
-const RandomAnime = (prop: string) => RandomValue(Props[prop]);
-const RandomItem = (array: any[]) => array[~~(Math.random() * array.length)];
+function MakePuzzle() {
+  while (true) {
+    let { failed, propertyE, puzzleProperties, eAnimes } = GetPropertyE();
 
-let puzzleProps: string[];
-let Animes: string[];
-let EAnimes: string[];
-let repeat = false;
-let E = RandomProp();
-let AnimeEntries: Entry[];
+    const properties = [...puzzleProperties, propertyE];
+    const entries = [...eAnimes];
+    puzzleProperties.forEach((property) => {
+      const animes = SinglePropertyAnimes(property, entries, properties);
+      failed = failed || animes.failed;
+      entries.push(...animes.singlePropertyAnimes);
+    });
 
-do {
-  AnimeEntries = [];
-  E = RandomProp();
-  puzzleProps = [];
-  Animes = [];
-  EAnimes = [];
-
-  repeat = FillProps();
-  if (repeat) continue;
-
-  Animes = [...Animes, ...EAnimes];
-  repeat = puzzleProps.map((prop) => SinglePropAnime(prop)).includes(true);
-  puzzleProps = [...puzzleProps, E];
-} while (repeat);
-
-const Puzzle = {
-  properties: puzzleProps,
-  entries: AnimeEntries,
-};
-
-fs.writeFileSync("puzzle.json", JSON.stringify(Puzzle, null, 2));
-
-function FillProps() {
-  let loopCount = 0;
-  while (puzzleProps.length < 4) {
-    repeat = false;
-    let anime = RandomAnime(E);
-    let animeProps: string[] = Props[E][anime];
-    let newProp = RandomItem(animeProps);
-
-    while (InvalidProperty(animeProps, anime, newProp)) {
-      anime = RandomAnime(E);
-      animeProps = Props[E][anime];
-      newProp = RandomItem(animeProps);
-
-      loopCount++;
-      repeat = loopCount > 100;
-      if (repeat) return true;
-    }
-
-    puzzleProps = [...puzzleProps, newProp];
-    EAnimes = [...EAnimes, anime];
-
-    let entry: Entry = {
-      name: anime,
-      properties: [puzzleProps[puzzleProps.length - 1], E],
-    };
-    AnimeEntries.push(entry);
-
-    loopCount++;
-    repeat = loopCount > 100;
-    if (repeat) return true;
+    if (!failed)
+      return {
+        properties: properties,
+        entries: entries,
+      };
   }
-  return false;
 }
 
-function InvalidProperty(animeProps: string[], anime: string, newProp: string) {
-  return (
-    animeProps.length < 1 ||
-    animeProps.filter((prop) => puzzleProps.includes(prop)).length > 0 ||
-    Animes.includes(anime) ||
-    DupPropType(newProp, "Voice Actor") ||
-    DupPropType(newProp, "Theme Song Artist") ||
-    IsRelated(anime, EAnimes) ||
-    EAnimes.map((an) => Props[E][an])
-      .flat()
-      .includes(newProp)
-  );
+function RandomElement(array: any[]) {
+  return array[~~(Math.random() * array.length)];
 }
 
-function DupPropType(newProp: string, prop: string): boolean {
-  return (
-    [E, ...puzzleProps].map((v) => v.split(":")[0]).includes(prop) &&
-    newProp.split(":")[0] === prop
-  );
+function RandomPropertyName(): string {
+  return RandomElement(PropList).name;
 }
 
-function SinglePropAnime(prop: string): boolean {
-  let singlePropAnime: string[] = [];
-  let loopCount = 0;
-  while (singlePropAnime.length < 3) {
-    let anime = RandomAnime(prop);
-    let animeProps: string[] = Props[prop][anime];
-    while (InvalidAnime(anime, animeProps, singlePropAnime)) {
-      anime = RandomAnime(prop);
-      animeProps = Props[prop][anime];
-      loopCount++;
-      if (loopCount > 40) return true;
+function RandomAnime(property: string): Entry {
+  const entries = PropList.find((prop) => prop.name === property)?.entries ?? [
+    { name: "error", properties: [] },
+  ];
+  return RandomElement(entries);
+}
+
+function RandomAnimeProperty(anime: Entry): string {
+  return RandomElement(anime.properties);
+}
+
+function GetPropertyE() {
+  let loops = 0;
+  const propertyE = RandomPropertyName();
+  const puzzleProperties: string[] = [];
+  const eAnimes: Entry[] = [];
+  while (puzzleProperties.length < 4) {
+    loops++;
+    if (loops > 100)
+      return { failed: true, propertyE, puzzleProperties, eAnimes };
+    const { success, anime, newProperty } = GetEAnime(
+      propertyE,
+      puzzleProperties,
+      eAnimes
+    );
+    if (success) {
+      eAnimes.push(anime);
+      puzzleProperties.push(newProperty);
     }
-    singlePropAnime = [...singlePropAnime, anime];
-    Animes = [...Animes, anime];
-
-    let entry: Entry = {
-      name: anime,
-      properties: [prop],
-    };
-    AnimeEntries.push(entry);
   }
-  return false;
+  return { failed: false, propertyE, puzzleProperties, eAnimes };
 }
-function InvalidAnime(
-  anime: string,
-  animeProps: string[],
-  singlePropAnime: string[]
+
+function GetEAnime(
+  propertyE: string,
+  puzzleProperties: string[],
+  eAnimes: Entry[]
 ) {
+  const anime = RandomAnime(propertyE);
+  const newProperty = RandomAnimeProperty(anime);
+  const success =
+    ValidEAnime(anime, eAnimes, puzzleProperties) &&
+    ValidProperty(newProperty, eAnimes, propertyE, puzzleProperties);
+  return { success, anime, newProperty };
+}
+
+function ValidEAnime(
+  anime: Entry,
+  eAnimes: Entry[],
+  puzzleProperties: string[]
+) {
+  const invalidity = [
+    anime.properties.length < 1,
+    !ValidAnime(anime, eAnimes, eAnimes, puzzleProperties),
+  ];
+  return !invalidity.includes(true);
+}
+
+function ValidProperty(
+  newProperty: string,
+  eAnimes: Entry[],
+  propertyE: string,
+  puzzleProperties: string[]
+) {
+  const invalidity = [
+    eAnimes
+      .map((entry) => entry.properties)
+      .flat()
+      .includes(newProperty),
+    DuplicatePropertyType(newProperty, [...puzzleProperties, propertyE]),
+  ];
+  return !invalidity.includes(true);
+}
+
+function DuplicatePropertyType(
+  newProperty: string,
+  puzzleProperties: string[]
+) {
+  const LimitedTypes = ["Voice Actor", "Theme Song Artist"];
   return (
-    Animes.includes(anime) ||
-    animeProps.some((p) => puzzleProps.includes(p)) ||
-    IsRelated(anime, [...EAnimes, ...singlePropAnime])
+    puzzleProperties
+      .map((name) => name.split(":")[0])
+      .some((type) => LimitedTypes.includes(type)) &&
+    LimitedTypes.includes(newProperty.split(":")[0])
   );
+}
+
+function SinglePropertyAnimes(
+  property: string,
+  animes: Entry[],
+  puzzleProperties: string[]
+) {
+  let loops = 0;
+  const singlePropertyAnimes: Entry[] = [];
+  while (singlePropertyAnimes.length < 3) {
+    loops++;
+    if (loops > 100) return { failed: true, singlePropertyAnimes };
+    const { success, anime } = GetSingleAnime(
+      property,
+      singlePropertyAnimes,
+      animes,
+      puzzleProperties
+    );
+    if (success) singlePropertyAnimes.push(anime);
+  }
+  return { failed: false, singlePropertyAnimes };
+}
+
+function GetSingleAnime(
+  property: string,
+  singlePropertyAnimes: Entry[],
+  animes: Entry[],
+  puzzleProperties: string[]
+) {
+  const anime = RandomAnime(property);
+  const success = ValidAnime(
+    anime,
+    singlePropertyAnimes,
+    animes,
+    puzzleProperties
+  );
+  return { success, anime };
+}
+
+function ValidAnime(
+  anime: Entry,
+  sameGroupAnime: Entry[],
+  animes: Entry[],
+  puzzleProperties: string[]
+) {
+  const eAnimeNames = animes.slice(0, 4).map((entry) => entry.name);
+  const invalidity = [
+    animes.some((entry) => entry.name === anime.name),
+    IsRelated(anime.name, [
+      ...eAnimeNames,
+      ...sameGroupAnime.map((entry) => entry.name),
+    ]),
+    anime.properties.some((property) => puzzleProperties.includes(property)),
+  ];
+  return !invalidity.includes(true);
 }
 
 function IsRelated(entry: string, list: string[]) {

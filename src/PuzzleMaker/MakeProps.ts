@@ -1,41 +1,62 @@
+import Entries from "./entries.json" assert { type: "json" };
 import fs from "node:fs";
-import AnimeEntry from "./AnimeEntry";
 
-const RawData = fs.readFileSync("./entries.json");
-const Entries: AnimeEntry[] = JSON.parse(RawData.toString());
+interface Entry {
+  name: string;
+  properties: string[];
+}
 
-let PropList: any = {};
+interface Property {
+  name: string;
+  entries: Entry[];
+}
 
+let Props: Property[] = [];
+
+/**
+ * a list of properties with their respective animes that have that property
+ */
 for (const entry of Entries) {
   for (const pair of Object.entries(entry).filter(
     (pair) => pair[0] !== "Name"
   )) {
-    const key = pair[0];
     const values = Array.isArray(pair[1]) ? [...pair[1]] : [pair[1]];
-    const props = values.map((value) => key + ": " + value);
-    for (const prop of props) {
-      const list: string[] = PropList[prop] || [];
-      PropList[prop] = [...list, entry.Name];
+    const propNames = values.map((value) => pair[0] + ": " + value);
+    const properties = propNames
+      .map((name): Property => ({ name: name, entries: [] }))
+      .filter((property) => !Props.some((prop) => prop.name === property.name));
+
+    Props.push(...properties);
+    for (const propName of propNames) {
+      Props.find((property) => property.name === propName)?.entries.push({
+        name: entry.Name,
+        properties: [],
+      });
     }
   }
 }
-for (const prop in PropList) {
-  if (PropList[prop].length < 4) delete PropList[prop];
-}
 
-let Props: any = {};
+Props = Props.filter((property) => property.entries.length >= 4);
 
-for (const prop in PropList) {
-  let pop: any = {};
-  for (const anime of PropList[prop]) {
-    let others: string[] = [];
-    for (const other in PropList) {
-      if (other !== prop && PropList[other].includes(anime))
-        others = [...others, other];
+/**
+ * add the anime's props under it
+ * for every anime, find all of the props where its referenced and add it to its props
+ */
+for (const property of Props) {
+  for (const entry of property.entries) {
+    for (const otherProperty of Props) {
+      if (
+        property.name !== otherProperty.name &&
+        otherProperty.entries.some(
+          (otherEntry) => otherEntry.name === entry.name
+        )
+      )
+        entry.properties.push(otherProperty.name);
     }
-    pop[anime] = others;
   }
-  Props[prop] = pop;
 }
 
-fs.writeFileSync("props.json", JSON.stringify(Props, null, 2));
+fs.writeFileSync(
+  "./src/PuzzleMaker/props.json",
+  JSON.stringify(Props, null, 2)
+);

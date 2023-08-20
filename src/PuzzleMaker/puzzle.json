@@ -1,110 +1,181 @@
 {
   "properties": [
-    "Voice Actor: Uchida, Maaya",
-    "Manga Serialization: Shounen Jump (Weekly)",
-    "Length: 30+ episodes",
     "Score: above 8.7",
-    "Studio: Bones"
+    "Theme: Harem",
+    "Source: Original",
+    "Studio: Madhouse",
+    "Voice Actor: Inoue, Marina"
   ],
   "entries": [
     {
-      "name": "Noragami",
+      "name": "Attack on Titan: Final Season",
       "properties": [
-        "Voice Actor: Uchida, Maaya",
-        "Studio: Bones"
+        "Manga Serialization: Bessatsu Shounen Magazine",
+        "Voice Actor: Ishikawa, Yui",
+        "Voice Actor: Kaji, Yuuki",
+        "Original Creator: Isayama, Hajime",
+        "Score: above 8.7",
+        "Studio: MAPPA",
+        "Season: Winter 2021"
       ]
     },
     {
-      "name": "My Hero Academia Season 3",
+      "name": "Date A Live",
       "properties": [
-        "Manga Serialization: Shounen Jump (Weekly)",
-        "Studio: Bones"
+        "Season: Spring 2013",
+        "Source: Light novel",
+        "Voice Actor: Taketatsu, Ayana",
+        "Theme: Mecha",
+        "Voice Actor: Shimazaki, Nobunaga",
+        "Theme: Harem"
       ]
     },
     {
-      "name": "Fullmetal Alchemist",
+      "name": "Gurren Lagann",
+      "properties": [
+        "Source: Original",
+        "Theme: Mecha",
+        "Voice Actor: Konishi, Katsuyuki"
+      ]
+    },
+    {
+      "name": "High School of the Dead",
+      "properties": [
+        "Studio: Madhouse",
+        "Voice Actor: Taketatsu, Ayana",
+        "Voice Actor: Sawashiro, Miyuki",
+        "Voice Actor: Kitamura, Eri",
+        "Voice Actor: Suwabe, Junichi"
+      ]
+    },
+    {
+      "name": "Fullmetal Alchemist: Brotherhood",
       "properties": [
         "Length: 30+ episodes",
-        "Studio: Bones"
+        "Studio: Bones",
+        "Voice Actor: Kugimiya, Rie",
+        "Theme Song Artist: NICO Touches the Walls",
+        "Theme Song Artist: SID"
       ]
     },
     {
-      "name": "Mob Psycho 100 II",
+      "name": "Haikyu!! 3rd Season",
       "properties": [
-        "Score: above 8.7",
-        "Studio: Bones"
-      ]
-    },
-    {
-      "name": "Charlotte",
-      "properties": [
-        "Voice Actor: Uchida, Maaya"
-      ]
-    },
-    {
-      "name": "Love, Chunibyo & Other Delusions!: Heart Throb",
-      "properties": [
-        "Voice Actor: Uchida, Maaya"
-      ]
-    },
-    {
-      "name": "High School DxD New",
-      "properties": [
-        "Voice Actor: Uchida, Maaya"
-      ]
-    },
-    {
-      "name": "Haikyu!! 2nd Season",
-      "properties": [
-        "Manga Serialization: Shounen Jump (Weekly)"
-      ]
-    },
-    {
-      "name": "Kuroko's Basketball 3",
-      "properties": [
-        "Manga Serialization: Shounen Jump (Weekly)"
-      ]
-    },
-    {
-      "name": "Dr. Stone",
-      "properties": [
-        "Manga Serialization: Shounen Jump (Weekly)"
-      ]
-    },
-    {
-      "name": "Fairy Tail",
-      "properties": [
-        "Length: 30+ episodes"
-      ]
-    },
-    {
-      "name": "Great Teacher Onizuka",
-      "properties": [
-        "Length: 30+ episodes"
-      ]
-    },
-    {
-      "name": "Soul Eater",
-      "properties": [
-        "Length: 30+ episodes"
+        "Manga Serialization: Shounen Jump (Weekly)",
+        "Theme Song Artist: NICO Touches the Walls",
+        "Voice Actor: Ishikawa, Kaito",
+        "Studio: Production I.G",
+        "Theme: Team Sports",
+        "Voice Actor: Murase, Ayumu",
+        "Original Creator: Furudate, Haruichi",
+        "Theme Song Artist: BURNOUT SYNDROMES"
       ]
     },
     {
       "name": "Clannad: After Story",
       "properties": [
-        "Score: above 8.7"
+        "Source: Visual novel",
+        "Voice Actor: Nakamura, Yuuichi",
+        "Season: Fall 2008",
+        "Original Creator: Maeda, Jun",
+        "Theme Song Artist: Lia",
+        "Studio: Kyoto Animation",
+        "Voice Actor: Nakahara, Mai"
       ]
     },
     {
-      "name": "Code Geass: Lelouch of the Rebellion R2",
+      "name": "The Familiar of Zero",
       "properties": [
-        "Score: above 8.7"
+        "Voice Actor: Kugimiya, Rie",
+        "Source: Light novel",
+        "Theme: Isekai",
+        "Studio: J.C.Staff",
+        "Voice Actor: Hino, Satoshi"
       ]
     },
     {
-      "name": "Attack on Titan Season 3 Part 2",
+      "name": "Nisekoi: False Love",
       "properties": [
-        "Score: above 8.7"
+        "Manga Serialization: Shounen Jump (Weekly)",
+        "Voice Actor: Hanazawa, Kana",
+        "Theme Song Artist: Touyama, Nao",
+        "Voice Actor: Uchiyama, Kouki",
+        "Voice Actor: Touyama, Nao",
+        "Studio: Shaft",
+        "Theme Song Artist: Hanazawa, Kana",
+        "Theme Song Artist: ClariS"
+      ]
+    },
+    {
+      "name": "Trinity Seven",
+      "properties": [
+        "Theme Song Artist: Hikasa, Youko",
+        "Voice Actor: Matsuoka, Yoshitsugu",
+        "Voice Actor: Sakura, Ayane",
+        "Voice Actor: Hikasa, Youko",
+        "Season: Fall 2014",
+        "Theme Song Artist: Touyama, Nao",
+        "Voice Actor: Hara, Yumi",
+        "Voice Actor: Touyama, Nao",
+        "Theme Song Artist: ZAQ"
+      ]
+    },
+    {
+      "name": "Puella Magi Madoka Magica",
+      "properties": [
+        "Voice Actor: Kitamura, Eri",
+        "Voice Actor: Yuuki, Aoi",
+        "Studio: Shaft",
+        "Theme Song Artist: ClariS",
+        "Theme Song Artist: Kalafina"
+      ]
+    },
+    {
+      "name": "Free! - Iwatobi Swim Club",
+      "properties": [
+        "Voice Actor: Miyano, Mamoru",
+        "Studio: Kyoto Animation",
+        "Theme Song Artist: OLDCODEX",
+        "Voice Actor: Yukino, Satsuki"
+      ]
+    },
+    {
+      "name": "Angel Beats!",
+      "properties": [
+        "Theme Song Artist: LiSA",
+        "Voice Actor: Hanazawa, Kana",
+        "Voice Actor: Kamiya, Hiroshi",
+        "Voice Actor: Kimura, Ryouhei",
+        "Original Creator: Maeda, Jun",
+        "Theme Song Artist: Lia"
+      ]
+    },
+    {
+      "name": "BTOOOM!",
+      "properties": [
+        "Season: Fall 2012"
+      ]
+    },
+    {
+      "name": "One Punch Man",
+      "properties": [
+        "Season: Fall 2015",
+        "Voice Actor: Ishikawa, Kaito",
+        "Voice Actor: Furukawa, Makoto",
+        "Original Creator: ONE"
+      ]
+    },
+    {
+      "name": "No Game, No Life",
+      "properties": [
+        "Source: Light novel",
+        "Voice Actor: Matsuoka, Yoshitsugu",
+        "Season: Spring 2014",
+        "Theme: Isekai",
+        "Voice Actor: Hikasa, Youko",
+        "Voice Actor: Kayano, Ai",
+        "Theme Song Artist: Kayano, Ai",
+        "Theme Song Artist: Suzuki, Konomi"
       ]
     }
   ]
