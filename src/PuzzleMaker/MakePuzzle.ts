@@ -8,6 +8,12 @@ interface Entry {
   properties: string[];
 }
 
+interface PuzzleItem {
+  name: string;
+  property1: string;
+  property2?: string;
+}
+
 const Puzzle = MakePuzzle();
 console.log(Puzzle);
 fs.writeFileSync(
@@ -27,31 +33,48 @@ function MakePuzzle() {
       entries.push(...animes.singlePropertyAnimes);
     });
 
-    if (!failed)
-      return {
-        properties: properties,
-        entries: entries,
-      };
+    if (!failed) return ConvertPuzzle(entries, properties);
   }
 }
 
-function RandomElement(array: any[]) {
+function RandomElement<T>(array: T[]) {
   return array[~~(Math.random() * array.length)];
 }
 
-function RandomPropertyName(): string {
+function RandomPropertyName() {
   return RandomElement(PropList).name;
 }
 
-function RandomAnime(property: string): Entry {
+function RandomAnime(property: string) {
   const entries = PropList.find((prop) => prop.name === property)?.entries ?? [
     { name: "error", properties: [] },
   ];
   return RandomElement(entries);
 }
 
-function RandomAnimeProperty(anime: Entry): string {
+function RandomAnimeProperty(anime: Entry) {
   return RandomElement(anime.properties);
+}
+
+function ConvertPuzzle(entries: Entry[], properties: string[]) {
+  const puzzleItems: PuzzleItem[] = [];
+  puzzleItems.push(
+    ...entries.slice(0, 4).map((entry, i) => ({
+      name: entry.name,
+      property1: properties[i],
+      property2: properties[4],
+    }))
+  );
+  puzzleItems.push(
+    ...entries.slice(4).map((entry, i) => ({
+      name: entry.name,
+      property1: properties[~~(i / 3)],
+    }))
+  );
+  return {
+    properties: properties,
+    entries: puzzleItems,
+  };
 }
 
 function GetPropertyE() {
@@ -181,8 +204,17 @@ function ValidAnime(
       ...sameGroupAnime.map((entry) => entry.name),
     ]),
     anime.properties.some((property) => puzzleProperties.includes(property)),
+    ExtraGroup(anime, animes),
   ];
   return !invalidity.includes(true);
+}
+
+function ExtraGroup(anime: Entry, animes: Entry[]) {
+  const otherProperties = animes.map((entry) => entry.properties).flat();
+  return anime.properties.some(
+    (property) =>
+      otherProperties.filter((other) => other === property).length >= 3
+  );
 }
 
 function IsRelated(entry: string, list: string[]) {

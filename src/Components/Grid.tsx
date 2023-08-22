@@ -44,6 +44,7 @@ function Grid({ puzzleTemplate }: Props) {
             text={tile.name}
             flippedProps={flippedProps}
             colorID={tile.colorID}
+            glow={tile.glow}
           />
         </Draggable>
       )}

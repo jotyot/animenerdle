@@ -1,182 +1,79 @@
 {
   "properties": [
-    "Score: above 8.7",
-    "Theme: Harem",
-    "Source: Original",
-    "Studio: Madhouse",
-    "Voice Actor: Inoue, Marina"
+    "Source: Light novel",
+    "Voice Actor: Kimura, Ryouhei",
+    "Studio: Wit Studio",
+    "Studio: MAPPA",
+    "Season: Summer 2018"
   ],
   "entries": [
     {
-      "name": "Attack on Titan: Final Season",
-      "properties": [
-        "Manga Serialization: Bessatsu Shounen Magazine",
-        "Voice Actor: Ishikawa, Yui",
-        "Voice Actor: Kaji, Yuuki",
-        "Original Creator: Isayama, Hajime",
-        "Score: above 8.7",
-        "Studio: MAPPA",
-        "Season: Winter 2021"
-      ]
+      "name": "How Not to Summon a Demon Lord",
+      "property1": "Source: Light novel",
+      "property2": "Season: Summer 2018"
     },
     {
-      "name": "Date A Live",
-      "properties": [
-        "Season: Spring 2013",
-        "Source: Light novel",
-        "Voice Actor: Taketatsu, Ayana",
-        "Theme: Mecha",
-        "Voice Actor: Shimazaki, Nobunaga",
-        "Theme: Harem"
-      ]
+      "name": "Grand Blue Dreaming",
+      "property1": "Voice Actor: Kimura, Ryouhei",
+      "property2": "Season: Summer 2018"
     },
     {
-      "name": "Gurren Lagann",
-      "properties": [
-        "Source: Original",
-        "Theme: Mecha",
-        "Voice Actor: Konishi, Katsuyuki"
-      ]
+      "name": "Attack on Titan Season 3",
+      "property1": "Studio: Wit Studio",
+      "property2": "Season: Summer 2018"
     },
     {
-      "name": "High School of the Dead",
-      "properties": [
-        "Studio: Madhouse",
-        "Voice Actor: Taketatsu, Ayana",
-        "Voice Actor: Sawashiro, Miyuki",
-        "Voice Actor: Kitamura, Eri",
-        "Voice Actor: Suwabe, Junichi"
-      ]
+      "name": "Banana Fish",
+      "property1": "Studio: MAPPA",
+      "property2": "Season: Summer 2018"
     },
     {
-      "name": "Fullmetal Alchemist: Brotherhood",
-      "properties": [
-        "Length: 30+ episodes",
-        "Studio: Bones",
-        "Voice Actor: Kugimiya, Rie",
-        "Theme Song Artist: NICO Touches the Walls",
-        "Theme Song Artist: SID"
-      ]
+      "name": "Kokoro Connect",
+      "property1": "Source: Light novel"
     },
     {
-      "name": "Haikyu!! 3rd Season",
-      "properties": [
-        "Manga Serialization: Shounen Jump (Weekly)",
-        "Theme Song Artist: NICO Touches the Walls",
-        "Voice Actor: Ishikawa, Kaito",
-        "Studio: Production I.G",
-        "Theme: Team Sports",
-        "Voice Actor: Murase, Ayumu",
-        "Original Creator: Furudate, Haruichi",
-        "Theme Song Artist: BURNOUT SYNDROMES"
-      ]
+      "name": "Overlord",
+      "property1": "Source: Light novel"
     },
     {
-      "name": "Clannad: After Story",
-      "properties": [
-        "Source: Visual novel",
-        "Voice Actor: Nakamura, Yuuichi",
-        "Season: Fall 2008",
-        "Original Creator: Maeda, Jun",
-        "Theme Song Artist: Lia",
-        "Studio: Kyoto Animation",
-        "Voice Actor: Nakahara, Mai"
-      ]
+      "name": "My Teen Romantic Comedy SNAFU",
+      "property1": "Source: Light novel"
     },
     {
-      "name": "The Familiar of Zero",
-      "properties": [
-        "Voice Actor: Kugimiya, Rie",
-        "Source: Light novel",
-        "Theme: Isekai",
-        "Studio: J.C.Staff",
-        "Voice Actor: Hino, Satoshi"
-      ]
+      "name": "ReLIFE",
+      "property1": "Voice Actor: Kimura, Ryouhei"
     },
     {
-      "name": "Nisekoi: False Love",
-      "properties": [
-        "Manga Serialization: Shounen Jump (Weekly)",
-        "Voice Actor: Hanazawa, Kana",
-        "Theme Song Artist: Touyama, Nao",
-        "Voice Actor: Uchiyama, Kouki",
-        "Voice Actor: Touyama, Nao",
-        "Studio: Shaft",
-        "Theme Song Artist: Hanazawa, Kana",
-        "Theme Song Artist: ClariS"
-      ]
-    },
-    {
-      "name": "Trinity Seven",
-      "properties": [
-        "Theme Song Artist: Hikasa, Youko",
-        "Voice Actor: Matsuoka, Yoshitsugu",
-        "Voice Actor: Sakura, Ayane",
-        "Voice Actor: Hikasa, Youko",
-        "Season: Fall 2014",
-        "Theme Song Artist: Touyama, Nao",
-        "Voice Actor: Hara, Yumi",
-        "Voice Actor: Touyama, Nao",
-        "Theme Song Artist: ZAQ"
-      ]
-    },
-    {
-      "name": "Puella Magi Madoka Magica",
-      "properties": [
-        "Voice Actor: Kitamura, Eri",
-        "Voice Actor: Yuuki, Aoi",
-        "Studio: Shaft",
-        "Theme Song Artist: ClariS",
-        "Theme Song Artist: Kalafina"
-      ]
-    },
-    {
-      "name": "Free! - Iwatobi Swim Club",
-      "properties": [
-        "Voice Actor: Miyano, Mamoru",
-        "Studio: Kyoto Animation",
-        "Theme Song Artist: OLDCODEX",
-        "Voice Actor: Yukino, Satsuki"
-      ]
+      "name": "Monthly Girls' Nozaki-kun",
+      "property1": "Voice Actor: Kimura, Ryouhei"
     },
     {
       "name": "Angel Beats!",
-      "properties": [
-        "Theme Song Artist: LiSA",
-        "Voice Actor: Hanazawa, Kana",
-        "Voice Actor: Kamiya, Hiroshi",
-        "Voice Actor: Kimura, Ryouhei",
-        "Original Creator: Maeda, Jun",
-        "Theme Song Artist: Lia"
-      ]
+      "property1": "Voice Actor: Kimura, Ryouhei"
     },
     {
-      "name": "BTOOOM!",
-      "properties": [
-        "Season: Fall 2012"
-      ]
+      "name": "Spy x Family Part 2",
+      "property1": "Studio: Wit Studio"
     },
     {
-      "name": "One Punch Man",
-      "properties": [
-        "Season: Fall 2015",
-        "Voice Actor: Ishikawa, Kaito",
-        "Voice Actor: Furukawa, Makoto",
-        "Original Creator: ONE"
-      ]
+      "name": "Seraph of the End: Battle in Nagoya",
+      "property1": "Studio: Wit Studio"
     },
     {
-      "name": "No Game, No Life",
-      "properties": [
-        "Source: Light novel",
-        "Voice Actor: Matsuoka, Yoshitsugu",
-        "Season: Spring 2014",
-        "Theme: Isekai",
-        "Voice Actor: Hikasa, Youko",
-        "Voice Actor: Kayano, Ai",
-        "Theme Song Artist: Kayano, Ai",
-        "Theme Song Artist: Suzuki, Konomi"
-      ]
+      "name": "Vinland Saga",
+      "property1": "Studio: Wit Studio"
+    },
+    {
+      "name": "The God of High School",
+      "property1": "Studio: MAPPA"
+    },
+    {
+      "name": "Yuri!!! On ICE",
+      "property1": "Studio: MAPPA"
+    },
+    {
+      "name": "Chainsaw Man",
+      "property1": "Studio: MAPPA"
     }
   ]
 }
