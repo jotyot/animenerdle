@@ -2,6 +2,7 @@ interface PuzzleTemplate {
   properties: string[];
   entries: Entry[];
 }
+
 interface Entry {
   name: string;
   property1: string;
@@ -14,16 +15,28 @@ interface TileData {
   glow: boolean;
 }
 
+interface PropertyDisplay {
+  name: string;
+  colorID: number;
+  active: boolean;
+}
+
 class Puzzle {
   readonly properties: string[];
   private entries: Entry[];
   constructor(template: PuzzleTemplate) {
     this.properties = template.properties;
-    this.entries = template.entries
-      .map((value) => ({ value, sort: Math.random() }))
-      .sort((a, b) => a.sort - b.sort)
-      .map(({ value }) => value);
+    this.entries = template.entries;
+
+    // shuffle until the tiles don't glow by default
+    while (this.getTileData().some((tile) => tile.glow)) {
+      this.entries = this.entries
+        .map((value) => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
+    }
   }
+
   public SwapEntries(i: number, j: number) {
     [this.entries[i], this.entries[j]] = [this.entries[j], this.entries[i]];
   }
@@ -58,6 +71,13 @@ class Puzzle {
     return tileData;
   }
 
+  public getPropertyDisplayInfo = () =>
+    this.properties.map((name, id) => ({
+      name: name,
+      colorID: id,
+      active: this.getTileData().some((tile) => tile.colorID == id),
+    }));
+
   private CommonProp(line: [number, number, number, number]) {
     const lineEntries = line.map((n) => this.entries[n]);
     const { property1, property2 } = lineEntries[0];
@@ -86,5 +106,5 @@ class Puzzle {
   }
 }
 
-export type { PuzzleTemplate };
+export type { PuzzleTemplate, PropertyDisplay, TileData };
 export { Puzzle };

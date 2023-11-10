@@ -6,6 +6,7 @@ import { Flipped, Flipper } from "react-flip-toolkit";
 import Draggable from "./Draggable";
 import DraggingTile from "./DraggingTile";
 import { Puzzle, PuzzleTemplate } from "../Classes/Puzzle";
+import PropertyInfo from "./PropertyInfo";
 
 interface Props {
   puzzleTemplate: PuzzleTemplate;
@@ -14,7 +15,10 @@ interface Props {
 function Grid({ puzzleTemplate }: Props) {
   const puzzle = useRef(new Puzzle(puzzleTemplate));
 
-  const [tileData, setTilleData] = useState(puzzle.current.getTileData());
+  const [tileData, setTileData] = useState(puzzle.current.getTileData());
+  const [propertyDisplay, setPropertyDisplay] = useState(
+    puzzle.current.getPropertyDisplayInfo()
+  );
   const [activeId, setActiveId] = useState<undefined | string>(undefined);
 
   function handleDragEnd(event: DragEndEvent) {
@@ -24,7 +28,8 @@ function Grid({ puzzleTemplate }: Props) {
 
     puzzle.current.SwapEntries(drag, drop);
     setActiveId(undefined);
-    setTilleData(puzzle.current.getTileData());
+    setTileData(puzzle.current.getTileData());
+    setPropertyDisplay(puzzle.current.getPropertyDisplayInfo());
   }
 
   function handleDragStart(event: DragStartEvent) {
@@ -51,8 +56,8 @@ function Grid({ puzzleTemplate }: Props) {
     </Flipped>
   ));
 
-  return (
-    <div className="w-full flex justify-center mt-44">
+  const DraggableGrid = (
+    <div className="w-full flex justify-center mt-28">
       <Flipper flipKey={tiles}>
         <div className="grid grid-rows-4 grid-cols-4 gap-3 bg-stone-200 p-6 rounded-lg">
           <DndContext onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
@@ -66,6 +71,13 @@ function Grid({ puzzleTemplate }: Props) {
         </div>
       </Flipper>
     </div>
+  );
+
+  return (
+    <>
+      {DraggableGrid}
+      <PropertyInfo propertyDisplay={propertyDisplay} />
+    </>
   );
 }
 
