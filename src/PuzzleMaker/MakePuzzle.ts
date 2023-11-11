@@ -1,5 +1,6 @@
 import propList from "./props.json" assert { type: "json" };
 import fs from "node:fs";
+import { Puzzle } from "../Classes/Puzzle.ts";
 
 const PropList = propList;
 
@@ -14,12 +15,10 @@ interface PuzzleItem {
   property2?: string;
 }
 
-const Puzzle = MakePuzzle();
-console.log(Puzzle);
-fs.writeFileSync(
-  "./src/PuzzleMaker/puzzle.json",
-  JSON.stringify(Puzzle, null, 2)
-);
+const RawPuzzle = MakePuzzle();
+console.log(RawPuzzle);
+const ShuffledPuzzle = new Puzzle(RawPuzzle).getTemplate();
+fs.writeFileSync("./puzzle.json", JSON.stringify(ShuffledPuzzle, null, 2));
 
 function MakePuzzle() {
   while (true) {
@@ -210,10 +209,11 @@ function ValidAnime(
 }
 
 function ExtraGroup(anime: Entry, animes: Entry[]) {
-  const otherProperties = animes.map((entry) => entry.properties).flat();
-  return anime.properties.some(
-    (property) =>
-      otherProperties.filter((other) => other === property).length >= 3
+  const otherProperties = [anime, ...animes]
+    .map((entry) => entry.properties)
+    .flat();
+  return otherProperties.some(
+    (property, _, list) => list.filter((x) => x === property).length >= 4
   );
 }
 

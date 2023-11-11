@@ -29,7 +29,10 @@ class Puzzle {
     this.entries = template.entries;
 
     // shuffle until the tiles don't glow by default
-    while (this.getTileData().some((tile) => tile.glow)) {
+    while (
+      this.getTileData().some((tile) => tile.glow) ||
+      this.getTileData().some((tile) => tile.colorID !== -1)
+    ) {
       this.entries = this.entries
         .map((value) => ({ value, sort: Math.random() }))
         .sort((a, b) => a.sort - b.sort)
@@ -77,6 +80,11 @@ class Puzzle {
       colorID: id,
       active: this.getTileData().some((tile) => tile.colorID == id),
     }));
+
+  public getTemplate = () => ({
+    properties: this.properties,
+    entries: this.entries,
+  });
 
   private CommonProp(line: [number, number, number, number]) {
     const lineEntries = line.map((n) => this.entries[n]);

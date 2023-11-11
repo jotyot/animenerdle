@@ -1,79 +1,79 @@
 {
   "properties": [
+    "Season: Fall 2015",
+    "Studio: A-1 Pictures",
     "Source: Light novel",
-    "Voice Actor: Kimura, Ryouhei",
-    "Studio: Wit Studio",
-    "Studio: MAPPA",
-    "Season: Summer 2018"
+    "Season: Summer 2014",
+    "Voice Actor: Sawashiro, Miyuki"
   ],
   "entries": [
     {
-      "name": "How Not to Summon a Demon Lord",
-      "property1": "Source: Light novel",
-      "property2": "Season: Summer 2018"
-    },
-    {
-      "name": "Grand Blue Dreaming",
-      "property1": "Voice Actor: Kimura, Ryouhei",
-      "property2": "Season: Summer 2018"
-    },
-    {
-      "name": "Attack on Titan Season 3",
-      "property1": "Studio: Wit Studio",
-      "property2": "Season: Summer 2018"
-    },
-    {
-      "name": "Banana Fish",
-      "property1": "Studio: MAPPA",
-      "property2": "Season: Summer 2018"
-    },
-    {
-      "name": "Kokoro Connect",
-      "property1": "Source: Light novel"
-    },
-    {
-      "name": "Overlord",
-      "property1": "Source: Light novel"
-    },
-    {
-      "name": "My Teen Romantic Comedy SNAFU",
-      "property1": "Source: Light novel"
-    },
-    {
-      "name": "ReLIFE",
-      "property1": "Voice Actor: Kimura, Ryouhei"
-    },
-    {
-      "name": "Monthly Girls' Nozaki-kun",
-      "property1": "Voice Actor: Kimura, Ryouhei"
-    },
-    {
-      "name": "Angel Beats!",
-      "property1": "Voice Actor: Kimura, Ryouhei"
-    },
-    {
-      "name": "Spy x Family Part 2",
-      "property1": "Studio: Wit Studio"
+      "name": "Haikyu!! 2nd Season",
+      "property1": "Season: Fall 2015"
     },
     {
       "name": "Seraph of the End: Battle in Nagoya",
-      "property1": "Studio: Wit Studio"
+      "property1": "Season: Fall 2015"
     },
     {
-      "name": "Vinland Saga",
-      "property1": "Studio: Wit Studio"
+      "name": "Blue Exorcist",
+      "property1": "Studio: A-1 Pictures"
     },
     {
-      "name": "The God of High School",
-      "property1": "Studio: MAPPA"
+      "name": "Durarara!!",
+      "property1": "Source: Light novel",
+      "property2": "Voice Actor: Sawashiro, Miyuki"
     },
     {
-      "name": "Yuri!!! On ICE",
-      "property1": "Studio: MAPPA"
+      "name": "DARLING in the FRANXX",
+      "property1": "Studio: A-1 Pictures"
     },
     {
-      "name": "Chainsaw Man",
-      "property1": "Studio: MAPPA"
+      "name": "Haganai: I don't have many friends",
+      "property1": "Source: Light novel"
+    },
+    {
+      "name": "KonoSuba: God's Blessing on This Wonderful World!",
+      "property1": "Source: Light novel"
+    },
+    {
+      "name": "Noragami Aragoto",
+      "property1": "Season: Fall 2015",
+      "property2": "Voice Actor: Sawashiro, Miyuki"
+    },
+    {
+      "name": "Tokyo Ghoul",
+      "property1": "Season: Summer 2014"
+    },
+    {
+      "name": "Wotakoi: Love is Hard for Otaku",
+      "property1": "Studio: A-1 Pictures",
+      "property2": "Voice Actor: Sawashiro, Miyuki"
+    },
+    {
+      "name": "Blue Spring Ride",
+      "property1": "Season: Summer 2014"
+    },
+    {
+      "name": "Violet Evergarden",
+      "property1": "Source: Light novel"
+    },
+    {
+      "name": "Monthly Girls' Nozaki-kun",
+      "property1": "Season: Summer 2014",
+      "property2": "Voice Actor: Sawashiro, Miyuki"
+    },
+    {
+      "name": "Akame ga Kill!",
+      "property1": "Season: Summer 2014"
+    },
+    {
+      "name": "One Punch Man",
+      "property1": "Season: Fall 2015"
+    },
+    {
+      "name": "ERASED",
+      "property1": "Studio: A-1 Pictures"
     }
   ]
 }

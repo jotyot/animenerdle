@@ -56,7 +56,4 @@ for (const property of Props) {
   }
 }
 
-fs.writeFileSync(
-  "./src/PuzzleMaker/props.json",
-  JSON.stringify(Props, null, 2)
-);
+fs.writeFileSync("./props.json", JSON.stringify(Props, null, 2));
