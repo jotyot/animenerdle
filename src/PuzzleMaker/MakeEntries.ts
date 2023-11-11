@@ -9,6 +9,9 @@ import {
   MangaClient,
   AnimeCharacter,
   AnimeStaff,
+  AnimeSearchParams,
+  SearchOrder,
+  SortOptions,
 } from "@tutkli/jikan-ts";
 import AnimeEntry from "./AnimeEntry";
 import fs from "node:fs";
@@ -17,7 +20,7 @@ const topClient = new TopClient();
 const animeClient = new AnimeClient();
 const mangaClient = new MangaClient();
 
-const wait = 300;
+const wait = 600;
 
 const Themes = [
   "Anthropomorphic",
@@ -36,24 +39,27 @@ const Themes = [
   "Vampire",
 ];
 
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
 (async () => {
-  const ids = await IDsFromPages(10);
+  const topIds = await IDsFromPagesTop(10);
+  const recentIds = await IDsFromPagesRecent(2, 2021);
+  const ids = [...new Set([...topIds, ...recentIds])];
   const entries = await MakeEntries(ids);
   fs.writeFileSync("entries.json", JSON.stringify(entries, null, 2));
 })();
 
-const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
-
-async function IDsFromPages(finalPage: number): Promise<number[]> {
+async function IDsFromPagesTop(finalPage: number): Promise<number[]> {
   let totalIDs: number[] = [];
   for (let i = 1; i < finalPage + 1; i++) {
-    const ids = await IDsFromPage(i);
+    const ids = await IDsFromPageTop(i);
     totalIDs.push(...ids);
   }
   return totalIDs;
 }
 
-async function IDsFromPage(page: number): Promise<number[]> {
+async function IDsFromPageTop(page: number): Promise<number[]> {
+  await sleep(wait);
   const searchParams: AnimeTopParams = {
     type: AnimeType.tv,
     page: page,
@@ -62,6 +68,35 @@ async function IDsFromPage(page: number): Promise<number[]> {
   return topClient
     .getTopAnime(searchParams)
     .then((res) => res.data.map((anime) => anime.mal_id));
+}
+
+async function IDsFromPageRecent(
+  page: number,
+  year: number
+): Promise<number[]> {
+  await sleep(wait);
+  const searchParams: AnimeSearchParams = {
+    type: AnimeType.tv,
+    page: page,
+    start_date: year.toString() + "-01-01",
+    order_by: SearchOrder.members,
+    sort: SortOptions.desc,
+  };
+  return animeClient
+    .getAnimeSearch(searchParams)
+    .then((res) => res.data.map((anime) => anime.mal_id));
+}
+
+async function IDsFromPagesRecent(
+  finalPage: number,
+  year: number
+): Promise<number[]> {
+  let totalIDs: number[] = [];
+  for (let i = 1; i < finalPage + 1; i++) {
+    const ids = await IDsFromPageRecent(i, year);
+    totalIDs.push(...ids);
+  }
+  return totalIDs;
 }
 
 async function MakeEntries(ids: number[]): Promise<AnimeEntry[]> {

@@ -361,28 +361,6 @@
     ]
   },
   {
-    "Name": "Jujutsu Kaisen",
-    "Studio": [
-      "MAPPA"
-    ],
-    "Season": "Fall 2020",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Uchida, Yuuma",
-      "Nakamura, Yuuichi",
-      "Enoki, Junya",
-      "Seto, Asami"
-    ],
-    "Original Creator": "Akutami, Gege",
-    "Theme Song Artist": [
-      "ALI",
-      "Cö shu Nie",
-      "Eve",
-      "Who-ya Extended"
-    ]
-  },
-  {
     "Name": "No Game, No Life",
     "Studio": [
       "Madhouse"
@@ -402,6 +380,28 @@
       "Kayano, Ai",
       "Sawashiro, Miyuki",
       "Suzuki, Konomi"
+    ]
+  },
+  {
+    "Name": "Jujutsu Kaisen",
+    "Studio": [
+      "MAPPA"
+    ],
+    "Season": "Fall 2020",
+    "Theme": [],
+    "Manga Serialization": "Shounen Jump (Weekly)",
+    "Voice Actor": [
+      "Uchida, Yuuma",
+      "Nakamura, Yuuichi",
+      "Enoki, Junya",
+      "Seto, Asami"
+    ],
+    "Original Creator": "Akutami, Gege",
+    "Theme Song Artist": [
+      "ALI",
+      "Cö shu Nie",
+      "Eve",
+      "Who-ya Extended"
     ]
   },
   {
@@ -522,27 +522,6 @@
     ]
   },
   {
-    "Name": "Attack on Titan Season 3 Part 2",
-    "Score": "above 8.7",
-    "Studio": [
-      "Wit Studio"
-    ],
-    "Season": "Spring 2019",
-    "Theme": [],
-    "Manga Serialization": "Bessatsu Shounen Magazine",
-    "Voice Actor": [
-      "Ishikawa, Yui",
-      "Inoue, Marina",
-      "Kamiya, Hiroshi",
-      "Kaji, Yuuki"
-    ],
-    "Original Creator": "Isayama, Hajime",
-    "Theme Song Artist": [
-      "Cinema Staff",
-      "Linked Horizon"
-    ]
-  },
-  {
     "Name": "Toradora!",
     "Studio": [
       "J.C.Staff"
@@ -562,6 +541,27 @@
       "Horie, Yui",
       "Kitamura, Eri",
       "Kugimiya, Rie"
+    ]
+  },
+  {
+    "Name": "Attack on Titan Season 3 Part 2",
+    "Score": "above 8.7",
+    "Studio": [
+      "Wit Studio"
+    ],
+    "Season": "Spring 2019",
+    "Theme": [],
+    "Manga Serialization": "Bessatsu Shounen Magazine",
+    "Voice Actor": [
+      "Ishikawa, Yui",
+      "Inoue, Marina",
+      "Kamiya, Hiroshi",
+      "Kaji, Yuuki"
+    ],
+    "Original Creator": "Isayama, Hajime",
+    "Theme Song Artist": [
+      "Cinema Staff",
+      "Linked Horizon"
     ]
   },
   {
@@ -651,26 +651,6 @@
     ]
   },
   {
-    "Name": "ERASED",
-    "Studio": [
-      "A-1 Pictures"
-    ],
-    "Season": "Winter 2016",
-    "Theme": [
-      "Time Travel"
-    ],
-    "Manga Serialization": "Young Ace",
-    "Voice Actor": [
-      "Mitsushima, Shinnosuke",
-      "Yuuki, Aoi"
-    ],
-    "Original Creator": "Sanbe, Kei",
-    "Theme Song Artist": [
-      "Asian Kung-Fu Generation",
-      "Sayuri"
-    ]
-  },
-  {
     "Name": "Angel Beats!",
     "Studio": [
       "P.A. Works"
@@ -711,6 +691,26 @@
       "Amamiya, Sora",
       "Mayama, Rika",
       "Sawai, Miku"
+    ]
+  },
+  {
+    "Name": "ERASED",
+    "Studio": [
+      "A-1 Pictures"
+    ],
+    "Season": "Winter 2016",
+    "Theme": [
+      "Time Travel"
+    ],
+    "Manga Serialization": "Young Ace",
+    "Voice Actor": [
+      "Mitsushima, Shinnosuke",
+      "Yuuki, Aoi"
+    ],
+    "Original Creator": "Sanbe, Kei",
+    "Theme Song Artist": [
+      "Asian Kung-Fu Generation",
+      "Sayuri"
     ]
   },
   {
@@ -865,6 +865,30 @@
     ]
   },
   {
+    "Name": "KonoSuba: God's Blessing on This Wonderful World!",
+    "Studio": [
+      "Studio Deen"
+    ],
+    "Season": "Winter 2016",
+    "Source": "Light novel",
+    "Theme": [
+      "Isekai"
+    ],
+    "Voice Actor": [
+      "Amamiya, Sora",
+      "Kayano, Ai",
+      "Takahashi, Rie",
+      "Fukushima, Jun"
+    ],
+    "Original Creator": "Akatsuki, Natsume",
+    "Theme Song Artist": [
+      "Amamiya, Sora",
+      "Kayano, Ai",
+      "Machico",
+      "Takahashi, Rie"
+    ]
+  },
+  {
     "Name": "Bleach",
     "Studio": [
       "Pierrot"
@@ -939,30 +963,6 @@
     "Theme Song Artist": [
       "Ando, Yuko",
       "Shinsei Kamattechan"
-    ]
-  },
-  {
-    "Name": "KonoSuba: God's Blessing on This Wonderful World!",
-    "Studio": [
-      "Studio Deen"
-    ],
-    "Season": "Winter 2016",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai"
-    ],
-    "Voice Actor": [
-      "Amamiya, Sora",
-      "Kayano, Ai",
-      "Takahashi, Rie",
-      "Fukushima, Jun"
-    ],
-    "Original Creator": "Akatsuki, Natsume",
-    "Theme Song Artist": [
-      "Amamiya, Sora",
-      "Kayano, Ai",
-      "Machico",
-      "Takahashi, Rie"
     ]
   },
   {
@@ -1286,6 +1286,24 @@
     ]
   },
   {
+    "Name": "Another",
+    "Studio": [
+      "P.A. Works"
+    ],
+    "Season": "Winter 2012",
+    "Source": "Novel",
+    "Theme": [],
+    "Voice Actor": [
+      "Takamori, Natsumi",
+      "Abe, Atsushi"
+    ],
+    "Original Creator": "Ayatsuji, Yukito",
+    "Theme Song Artist": [
+      "ALI PROJECT",
+      "Annabel"
+    ]
+  },
+  {
     "Name": "One Punch Man Season 2",
     "Studio": [
       "J.C.Staff"
@@ -1304,21 +1322,24 @@
     ]
   },
   {
-    "Name": "Another",
+    "Name": "Food Wars! Shokugeki no Soma",
     "Studio": [
-      "P.A. Works"
+      "J.C.Staff"
     ],
-    "Season": "Winter 2012",
-    "Source": "Novel",
+    "Season": "Spring 2015",
     "Theme": [],
+    "Manga Serialization": "Shounen Jump (Weekly)",
     "Voice Actor": [
-      "Takamori, Natsumi",
-      "Abe, Atsushi"
+      "Taneda, Risa",
+      "Takahashi, Minami",
+      "Matsuoka, Yoshitsugu"
     ],
-    "Original Creator": "Ayatsuji, Yukito",
+    "Original Creator": "Tsukuda, Yuuto",
     "Theme Song Artist": [
-      "ALI PROJECT",
-      "Annabel"
+      "Misokkasu",
+      "Oomori, Seiko",
+      "Tokyo Karankoron",
+      "ULTRA TOWER"
     ]
   },
   {
@@ -1345,66 +1366,6 @@
       "Oda, Kazusou",
       "Tominaga, Hiroaki",
       "Yes"
-    ]
-  },
-  {
-    "Name": "Food Wars! Shokugeki no Soma",
-    "Studio": [
-      "J.C.Staff"
-    ],
-    "Season": "Spring 2015",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Taneda, Risa",
-      "Takahashi, Minami",
-      "Matsuoka, Yoshitsugu"
-    ],
-    "Original Creator": "Tsukuda, Yuuto",
-    "Theme Song Artist": [
-      "Misokkasu",
-      "Oomori, Seiko",
-      "Tokyo Karankoron",
-      "ULTRA TOWER"
-    ]
-  },
-  {
-    "Name": "Black Clover",
-    "Studio": [
-      "Pierrot"
-    ],
-    "Season": "Fall 2017",
-    "Theme": [],
-    "Length": "30+ episodes",
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Kajiwara, Gakuto",
-      "Yuuki, Kana",
-      "Shimazaki, Nobunaga"
-    ],
-    "Original Creator": "Tabata, Yuuki",
-    "Theme Song Artist": [
-      "Anzai, Kalen",
-      "BiSH",
-      "EMPiRE",
-      "Faky",
-      "GIRLFRIEND",
-      "INTERSECTION",
-      "Itowokashi",
-      "KAF",
-      "Kajiwara, Gakuto",
-      "Kankaku Piero",
-      "Kouda, Kumi",
-      "Miyuna",
-      "Oomori, Seiko",
-      "SWANKY DANK",
-      "Snow Man",
-      "Solidemo",
-      "TOMORROW X TOGETHER",
-      "The Charm Park",
-      "Treasure",
-      "Vickeblanka",
-      "m-flo"
     ]
   },
   {
@@ -1492,6 +1453,45 @@
       "Tsuji, Shion",
       "UNISON SQUARE GARDEN",
       "abingdon boys school"
+    ]
+  },
+  {
+    "Name": "Black Clover",
+    "Studio": [
+      "Pierrot"
+    ],
+    "Season": "Fall 2017",
+    "Theme": [],
+    "Length": "30+ episodes",
+    "Manga Serialization": "Shounen Jump (Weekly)",
+    "Voice Actor": [
+      "Kajiwara, Gakuto",
+      "Yuuki, Kana",
+      "Shimazaki, Nobunaga"
+    ],
+    "Original Creator": "Tabata, Yuuki",
+    "Theme Song Artist": [
+      "Anzai, Kalen",
+      "BiSH",
+      "EMPiRE",
+      "Faky",
+      "GIRLFRIEND",
+      "INTERSECTION",
+      "Itowokashi",
+      "KAF",
+      "Kajiwara, Gakuto",
+      "Kankaku Piero",
+      "Kouda, Kumi",
+      "Miyuna",
+      "Oomori, Seiko",
+      "SWANKY DANK",
+      "Snow Man",
+      "Solidemo",
+      "TOMORROW X TOGETHER",
+      "The Charm Park",
+      "Treasure",
+      "Vickeblanka",
+      "m-flo"
     ]
   },
   {
@@ -1584,27 +1584,6 @@
     ]
   },
   {
-    "Name": "The Rising of the Shield Hero",
-    "Studio": [
-      "Kinema Citrus"
-    ],
-    "Season": "Winter 2019",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai"
-    ],
-    "Voice Actor": [
-      "Hidaka, Rina",
-      "Ishikawa, Kaito",
-      "Seto, Asami"
-    ],
-    "Original Creator": "Aneko, Yusagi",
-    "Theme Song Artist": [
-      "Fujikawa, Chiai",
-      "MADKID"
-    ]
-  },
-  {
     "Name": "The Devil is a Part-Timer!",
     "Studio": [
       "White Fox"
@@ -1623,6 +1602,27 @@
     "Theme Song Artist": [
       "Kuribayashi, Minami",
       "nano.RIPE"
+    ]
+  },
+  {
+    "Name": "The Rising of the Shield Hero",
+    "Studio": [
+      "Kinema Citrus"
+    ],
+    "Season": "Winter 2019",
+    "Source": "Light novel",
+    "Theme": [
+      "Isekai"
+    ],
+    "Voice Actor": [
+      "Hidaka, Rina",
+      "Ishikawa, Kaito",
+      "Seto, Asami"
+    ],
+    "Original Creator": "Aneko, Yusagi",
+    "Theme Song Artist": [
+      "Fujikawa, Chiai",
+      "MADKID"
     ]
   },
   {
@@ -1689,24 +1689,6 @@
     ]
   },
   {
-    "Name": "Mob Psycho 100 II",
-    "Score": "above 8.7",
-    "Studio": [
-      "Bones"
-    ],
-    "Season": "Winter 2019",
-    "Theme": [],
-    "Voice Actor": [
-      "Ootsuka, Akio",
-      "Itou, Setsuo",
-      "Sakurai, Takahiro"
-    ],
-    "Original Creator": "ONE",
-    "Theme Song Artist": [
-      "sajou no hana"
-    ]
-  },
-  {
     "Name": "Fate/Zero",
     "Studio": [
       "ufotable"
@@ -1749,6 +1731,24 @@
       "Kayano, Ai",
       "Machico",
       "Takahashi, Rie"
+    ]
+  },
+  {
+    "Name": "Mob Psycho 100 II",
+    "Score": "above 8.7",
+    "Studio": [
+      "Bones"
+    ],
+    "Season": "Winter 2019",
+    "Theme": [],
+    "Voice Actor": [
+      "Ootsuka, Akio",
+      "Itou, Setsuo",
+      "Sakurai, Takahiro"
+    ],
+    "Original Creator": "ONE",
+    "Theme Song Artist": [
+      "sajou no hana"
     ]
   },
   {
@@ -1796,23 +1796,24 @@
     ]
   },
   {
-    "Name": "Spy x Family",
+    "Name": "Noragami Aragoto",
     "Studio": [
-      "Wit Studio",
-      "CloverWorks"
+      "Bones"
     ],
-    "Season": "Spring 2022",
+    "Season": "Fall 2015",
     "Theme": [],
-    "Manga Serialization": "Shounen Jump+",
+    "Manga Serialization": "Shounen Magazine (Monthly)",
     "Voice Actor": [
-      "Hayami, Saori",
-      "Eguchi, Takuya",
-      "Tanezaki, Atsumi"
+      "Sawashiro, Miyuki",
+      "Uchida, Maaya",
+      "Fukuyama, Jun",
+      "Kamiya, Hiroshi",
+      "Kaji, Yuuki"
     ],
-    "Original Creator": "Endou, Tatsuya",
+    "Original Creator": "Adachitoka",
     "Theme Song Artist": [
-      "Hoshino, Gen",
-      "Official HIGE DANdism"
+      "THE ORAL CIGARETTES",
+      "Tia"
     ]
   },
   {
@@ -1838,24 +1839,23 @@
     ]
   },
   {
-    "Name": "Noragami Aragoto",
+    "Name": "Spy x Family",
     "Studio": [
-      "Bones"
+      "Wit Studio",
+      "CloverWorks"
     ],
-    "Season": "Fall 2015",
+    "Season": "Spring 2022",
     "Theme": [],
-    "Manga Serialization": "Shounen Magazine (Monthly)",
+    "Manga Serialization": "Shounen Jump+",
     "Voice Actor": [
-      "Sawashiro, Miyuki",
-      "Uchida, Maaya",
-      "Fukuyama, Jun",
-      "Kamiya, Hiroshi",
-      "Kaji, Yuuki"
+      "Hayami, Saori",
+      "Eguchi, Takuya",
+      "Tanezaki, Atsumi"
     ],
-    "Original Creator": "Adachitoka",
+    "Original Creator": "Endou, Tatsuya",
     "Theme Song Artist": [
-      "THE ORAL CIGARETTES",
-      "Tia"
+      "Hoshino, Gen",
+      "Official HIGE DANdism"
     ]
   },
   {
@@ -1903,30 +1903,6 @@
     ]
   },
   {
-    "Name": "Assassination Classroom Second Season",
-    "Studio": [
-      "Lerche"
-    ],
-    "Season": "Winter 2016",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Okamoto, Nobuhiko",
-      "Suzaki, Aya",
-      "Fukuyama, Jun",
-      "Fuchigami, Mai"
-    ],
-    "Original Creator": "Matsui, Yuusei",
-    "Theme Song Artist": [
-      "Asanuma, Shintarou",
-      "Fuchigami, Mai",
-      "Miyawaki, Shion",
-      "Okamoto, Nobuhiko",
-      "Oosaka, Ryouta",
-      "Suzaki, Aya"
-    ]
-  },
-  {
     "Name": "Clannad",
     "Studio": [
       "Kyoto Animation"
@@ -1953,6 +1929,30 @@
     ]
   },
   {
+    "Name": "Assassination Classroom Second Season",
+    "Studio": [
+      "Lerche"
+    ],
+    "Season": "Winter 2016",
+    "Theme": [],
+    "Manga Serialization": "Shounen Jump (Weekly)",
+    "Voice Actor": [
+      "Okamoto, Nobuhiko",
+      "Suzaki, Aya",
+      "Fukuyama, Jun",
+      "Fuchigami, Mai"
+    ],
+    "Original Creator": "Matsui, Yuusei",
+    "Theme Song Artist": [
+      "Asanuma, Shintarou",
+      "Fuchigami, Mai",
+      "Miyawaki, Shion",
+      "Okamoto, Nobuhiko",
+      "Oosaka, Ryouta",
+      "Suzaki, Aya"
+    ]
+  },
+  {
     "Name": "Haikyu!! 2nd Season",
     "Studio": [
       "Production I.G"
@@ -1972,36 +1972,6 @@
       "Bird Bear Hare and Fish",
       "SPYAIR",
       "tacica"
-    ]
-  },
-  {
-    "Name": "Chainsaw Man",
-    "Studio": [
-      "MAPPA"
-    ],
-    "Season": "Fall 2022",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump+",
-    "Voice Actor": [
-      "Toya, Kikunosuke",
-      "Sakata, Shougo",
-      "Kusunoki, Tomori",
-      "Fairouz Ai"
-    ],
-    "Original Creator": "Fujimoto, Tatsuki",
-    "Theme Song Artist": [
-      "Aimer",
-      "Eve",
-      "Kanaria",
-      "Maximum the Hormone",
-      "PEOPLE 1",
-      "TK from Ling Tosite Sigure",
-      "Vaundy",
-      "Yonezu, Kenshi",
-      "ZUTOMAYO",
-      "Ziyoou-vachi",
-      "ano",
-      "syudou"
     ]
   },
   {
@@ -2026,26 +1996,6 @@
       "ON/OFF",
       "ROOKiEZ is PUNK'D",
       "Theatre Brook"
-    ]
-  },
-  {
-    "Name": "That Time I Got Reincarnated as a Slime",
-    "Studio": [
-      "8bit"
-    ],
-    "Season": "Fall 2018",
-    "Theme": [
-      "Isekai"
-    ],
-    "Manga Serialization": "Shounen Sirius",
-    "Voice Actor": [
-      "Okasaki, Miho"
-    ],
-    "Original Creator": "Fuse",
-    "Theme Song Artist": [
-      "Karasawa, Miho",
-      "Tadokoro, Azusa",
-      "Terashima, Takuma"
     ]
   },
   {
@@ -2078,23 +2028,23 @@
     ]
   },
   {
-    "Name": "Bungo Stray Dogs",
+    "Name": "That Time I Got Reincarnated as a Slime",
     "Studio": [
-      "Bones"
+      "8bit"
     ],
-    "Season": "Spring 2016",
+    "Season": "Fall 2018",
     "Theme": [
-      "Organized Crime"
+      "Isekai"
     ],
-    "Manga Serialization": "Young Ace",
+    "Manga Serialization": "Shounen Sirius",
     "Voice Actor": [
-      "Miyano, Mamoru",
-      "Uemura, Yuuto"
+      "Okasaki, Miho"
     ],
-    "Original Creator": "Asagiri, Kafka",
+    "Original Creator": "Fuse",
     "Theme Song Artist": [
-      "GRANRODEO",
-      "Luck Life"
+      "Karasawa, Miho",
+      "Tadokoro, Azusa",
+      "Terashima, Takuma"
     ]
   },
   {
@@ -2117,6 +2067,80 @@
       "Kayano, Ai",
       "Kodama, Saori",
       "Satou, Satomi"
+    ]
+  },
+  {
+    "Name": "Chainsaw Man",
+    "Studio": [
+      "MAPPA"
+    ],
+    "Season": "Fall 2022",
+    "Theme": [],
+    "Manga Serialization": "Shounen Jump+",
+    "Voice Actor": [
+      "Toya, Kikunosuke",
+      "Sakata, Shougo",
+      "Kusunoki, Tomori",
+      "Fairouz, Ai"
+    ],
+    "Original Creator": "Fujimoto, Tatsuki",
+    "Theme Song Artist": [
+      "Aimer",
+      "Eve",
+      "Kanaria",
+      "Maximum the Hormone",
+      "PEOPLE 1",
+      "TK from Ling Tosite Sigure",
+      "Vaundy",
+      "Yonezu, Kenshi",
+      "ZUTOMAYO",
+      "Ziyoou-vachi",
+      "ano",
+      "syudou"
+    ]
+  },
+  {
+    "Name": "Bungo Stray Dogs",
+    "Studio": [
+      "Bones"
+    ],
+    "Season": "Spring 2016",
+    "Theme": [
+      "Organized Crime"
+    ],
+    "Manga Serialization": "Young Ace",
+    "Voice Actor": [
+      "Miyano, Mamoru",
+      "Uemura, Yuuto"
+    ],
+    "Original Creator": "Asagiri, Kafka",
+    "Theme Song Artist": [
+      "GRANRODEO",
+      "Luck Life"
+    ]
+  },
+  {
+    "Name": "Love, Chunibyo & Other Delusions!",
+    "Studio": [
+      "Kyoto Animation"
+    ],
+    "Season": "Fall 2012",
+    "Source": "Light novel",
+    "Theme": [],
+    "Voice Actor": [
+      "Uesaka, Sumire",
+      "Akasaki, Chinatsu",
+      "Uchida, Maaya",
+      "Fukuyama, Jun",
+      "Asakura, Azumi"
+    ],
+    "Original Creator": "Torako",
+    "Theme Song Artist": [
+      "Akasaki, Chinatsu",
+      "Asakura, Azumi",
+      "Uchida, Maaya",
+      "Uesaka, Sumire",
+      "ZAQ"
     ]
   },
   {
@@ -2157,48 +2181,6 @@
     "Theme Song Artist": [
       "Aimer",
       "Kajiura, Yuki"
-    ]
-  },
-  {
-    "Name": "Love, Chunibyo & Other Delusions!",
-    "Studio": [
-      "Kyoto Animation"
-    ],
-    "Season": "Fall 2012",
-    "Source": "Light novel",
-    "Theme": [],
-    "Voice Actor": [
-      "Uesaka, Sumire",
-      "Akasaki, Chinatsu",
-      "Uchida, Maaya",
-      "Fukuyama, Jun",
-      "Asakura, Azumi"
-    ],
-    "Original Creator": "Torako",
-    "Theme Song Artist": [
-      "Akasaki, Chinatsu",
-      "Asakura, Azumi",
-      "Uchida, Maaya",
-      "Uesaka, Sumire",
-      "ZAQ"
-    ]
-  },
-  {
-    "Name": "Horimiya",
-    "Studio": [
-      "CloverWorks"
-    ],
-    "Season": "Winter 2021",
-    "Theme": [],
-    "Manga Serialization": "GFantasy",
-    "Voice Actor": [
-      "Tomatsu, Haruka",
-      "Uchiyama, Kouki"
-    ],
-    "Original Creator": "HERO",
-    "Theme Song Artist": [
-      "Friends",
-      "Kamiyama, Yoh"
     ]
   },
   {
@@ -2245,8 +2227,26 @@
     "Original Creator": "Akasaka, Aka",
     "Theme Song Artist": [
       "Fukuhara, Haruka",
-      "Suzuki, Masayuki",
-      "Suzuki, Airi"
+      "Suzuki, Airi",
+      "Suzuki, Masayuki"
+    ]
+  },
+  {
+    "Name": "Horimiya",
+    "Studio": [
+      "CloverWorks"
+    ],
+    "Season": "Winter 2021",
+    "Theme": [],
+    "Manga Serialization": "GFantasy",
+    "Voice Actor": [
+      "Tomatsu, Haruka",
+      "Uchiyama, Kouki"
+    ],
+    "Original Creator": "HERO",
+    "Theme Song Artist": [
+      "Friends",
+      "Kamiyama, Yoh"
     ]
   },
   {
@@ -2297,27 +2297,6 @@
       "Kitamura, Eri",
       "Nonaka, Ai",
       "Yuuki, Aoi"
-    ]
-  },
-  {
-    "Name": "Mushoku Tensei: Jobless Reincarnation",
-    "Studio": [
-      "Studio Bind"
-    ],
-    "Season": "Winter 2021",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai"
-    ],
-    "Voice Actor": [
-      "Uchiyama, Yumi",
-      "Kakuma, Ai",
-      "Kohara, Konomi",
-      "Kayano, Ai"
-    ],
-    "Original Creator": "Rifujin na Magonote",
-    "Theme Song Artist": [
-      "Ohara, Yuiko"
     ]
   },
   {
@@ -2403,6 +2382,27 @@
     ]
   },
   {
+    "Name": "Mushoku Tensei: Jobless Reincarnation",
+    "Studio": [
+      "Studio Bind"
+    ],
+    "Season": "Winter 2021",
+    "Source": "Light novel",
+    "Theme": [
+      "Isekai"
+    ],
+    "Voice Actor": [
+      "Uchiyama, Yumi",
+      "Kakuma, Ai",
+      "Kohara, Konomi",
+      "Kayano, Ai"
+    ],
+    "Original Creator": "Rifujin na Magonote",
+    "Theme Song Artist": [
+      "Ohara, Yuiko"
+    ]
+  },
+  {
     "Name": "Miss Kobayashi's Dragon Maid",
     "Studio": [
       "Kyoto Animation"
@@ -2425,24 +2425,24 @@
     ]
   },
   {
-    "Name": "Tokyo Revengers",
+    "Name": "Guilty Crown",
     "Studio": [
-      "LIDENFILMS"
+      "Production I.G"
     ],
-    "Season": "Spring 2021",
+    "Season": "Fall 2011",
+    "Source": "Original",
     "Theme": [
-      "Time Travel"
+      "Mecha",
+      "Romantic Subtext"
     ],
-    "Manga Serialization": "Shounen Magazine (Weekly)",
     "Voice Actor": [
-      "Shin, Yuuki",
-      "Suzuki, Tatsuhisa",
-      "Hayashi, Yuu"
+      "Kaji, Yuuki",
+      "Nakamura, Yuuichi",
+      "Kayano, Ai"
     ],
-    "Original Creator": "Wakui, Ken",
     "Theme Song Artist": [
-      "Official HIGE DANdism",
-      "eill"
+      "EGOIST",
+      "supercell"
     ]
   },
   {
@@ -2470,6 +2470,27 @@
     ]
   },
   {
+    "Name": "Tokyo Revengers",
+    "Studio": [
+      "LIDENFILMS"
+    ],
+    "Season": "Spring 2021",
+    "Theme": [
+      "Time Travel"
+    ],
+    "Manga Serialization": "Shounen Magazine (Weekly)",
+    "Voice Actor": [
+      "Shin, Yuuki",
+      "Suzuki, Tatsuhisa",
+      "Hayashi, Yuu"
+    ],
+    "Original Creator": "Wakui, Ken",
+    "Theme Song Artist": [
+      "Official HIGE DANdism",
+      "eill"
+    ]
+  },
+  {
     "Name": "Classroom of the Elite",
     "Studio": [
       "Lerche"
@@ -2488,44 +2509,24 @@
     ]
   },
   {
-    "Name": "Guilty Crown",
+    "Name": "Kuroko's Basketball",
     "Studio": [
       "Production I.G"
     ],
-    "Season": "Fall 2011",
-    "Source": "Original",
+    "Season": "Spring 2012",
     "Theme": [
-      "Mecha",
-      "Romantic Subtext"
+      "Team Sports"
     ],
+    "Manga Serialization": "Shounen Jump (Weekly)",
     "Voice Actor": [
-      "Kaji, Yuuki",
-      "Nakamura, Yuuichi",
-      "Kayano, Ai"
+      "Ono, Yuuki",
+      "Ono, Kensho"
     ],
+    "Original Creator": "Fujimaki, Tadatoshi",
     "Theme Song Artist": [
-      "EGOIST",
-      "supercell"
-    ]
-  },
-  {
-    "Name": "Attack on Titan: Final Season Part 2",
-    "Score": "above 8.7",
-    "Studio": [
-      "MAPPA"
-    ],
-    "Season": "Winter 2022",
-    "Theme": [],
-    "Manga Serialization": "Bessatsu Shounen Magazine",
-    "Voice Actor": [
-      "Ishikawa, Yui",
-      "Inoue, Marina",
-      "Kaji, Yuuki"
-    ],
-    "Original Creator": "Isayama, Hajime",
-    "Theme Song Artist": [
-      "Higuchi, Ai",
-      "SiM"
+      "GRANRODEO",
+      "Hyadain",
+      "OLDCODEX"
     ]
   },
   {
@@ -2572,24 +2573,23 @@
     ]
   },
   {
-    "Name": "Kuroko's Basketball",
+    "Name": "Attack on Titan: Final Season Part 2",
+    "Score": "above 8.7",
     "Studio": [
-      "Production I.G"
+      "MAPPA"
     ],
-    "Season": "Spring 2012",
-    "Theme": [
-      "Team Sports"
-    ],
-    "Manga Serialization": "Shounen Jump (Weekly)",
+    "Season": "Winter 2022",
+    "Theme": [],
+    "Manga Serialization": "Bessatsu Shounen Magazine",
     "Voice Actor": [
-      "Ono, Yuuki",
-      "Ono, Kensho"
+      "Ishikawa, Yui",
+      "Inoue, Marina",
+      "Kaji, Yuuki"
     ],
-    "Original Creator": "Fujimaki, Tadatoshi",
+    "Original Creator": "Isayama, Hajime",
     "Theme Song Artist": [
-      "GRANRODEO",
-      "Hyadain",
-      "OLDCODEX"
+      "Higuchi, Ai",
+      "SiM"
     ]
   },
   {
@@ -2652,29 +2652,6 @@
     ]
   },
   {
-    "Name": "Tokyo Ghoul:re",
-    "Score": "below 7.0",
-    "Studio": [
-      "Pierrot"
-    ],
-    "Season": "Spring 2018",
-    "Theme": [],
-    "Manga Serialization": "Young Jump",
-    "Voice Actor": [
-      "Hanae, Natsuki",
-      "Fujiwara, Natsumi",
-      "Hanae, Natsuki",
-      "Uchida, Yuuma",
-      "Ishikawa, Kaito",
-      "Sakura, Ayane"
-    ],
-    "Original Creator": "Ishida, Sui",
-    "Theme Song Artist": [
-      "Cö shu Nie",
-      "Ziyoou-vachi"
-    ]
-  },
-  {
     "Name": "Nisekoi: False Love",
     "Studio": [
       "Shaft"
@@ -2716,6 +2693,29 @@
     "Theme Song Artist": [
       "Chihara, Minori",
       "STEREO DIVE FOUNDATION"
+    ]
+  },
+  {
+    "Name": "Tokyo Ghoul:re",
+    "Score": "below 7.0",
+    "Studio": [
+      "Pierrot"
+    ],
+    "Season": "Spring 2018",
+    "Theme": [],
+    "Manga Serialization": "Young Jump",
+    "Voice Actor": [
+      "Hanae, Natsuki",
+      "Fujiwara, Natsumi",
+      "Hanae, Natsuki",
+      "Uchida, Yuuma",
+      "Ishikawa, Kaito",
+      "Sakura, Ayane"
+    ],
+    "Original Creator": "Ishida, Sui",
+    "Theme Song Artist": [
+      "Cö shu Nie",
+      "Ziyoou-vachi"
     ]
   },
   {
@@ -2778,6 +2778,31 @@
     ]
   },
   {
+    "Name": "Ouran High School Host Club",
+    "Studio": [
+      "Bones"
+    ],
+    "Season": "Spring 2006",
+    "Theme": [],
+    "Manga Serialization": "LaLa",
+    "Voice Actor": [
+      "Sakamoto, Maaya",
+      "Saitou, Ayaka",
+      "Fujita, Yoshinori",
+      "Suzumura, Kenichi",
+      "Kirii, Daisuke",
+      "Matsukaze, Masaya",
+      "Miyano, Mamoru"
+    ],
+    "Original Creator": "Hatori, Bisco",
+    "Theme Song Artist": [
+      "Houston, Justin",
+      "LAST ALLIANCE",
+      "Ochi, Chieko",
+      "Sa, Kristine"
+    ]
+  },
+  {
     "Name": "The Seven Deadly Sins: Revival of the Commandments",
     "Studio": [
       "A-1 Pictures"
@@ -2802,31 +2827,6 @@
       "FLOW",
       "GRANRODEO",
       "Sky Peace"
-    ]
-  },
-  {
-    "Name": "Ouran High School Host Club",
-    "Studio": [
-      "Bones"
-    ],
-    "Season": "Spring 2006",
-    "Theme": [],
-    "Manga Serialization": "LaLa",
-    "Voice Actor": [
-      "Sakamoto, Maaya",
-      "Saitou, Ayaka",
-      "Fujita, Yoshinori",
-      "Suzumura, Kenichi",
-      "Kirii, Daisuke",
-      "Matsukaze, Masaya",
-      "Miyano, Mamoru"
-    ],
-    "Original Creator": "Hatori, Bisco",
-    "Theme Song Artist": [
-      "Houston, Justin",
-      "LAST ALLIANCE",
-      "Ochi, Chieko",
-      "Sa, Kristine"
     ]
   },
   {
@@ -2895,24 +2895,6 @@
     ]
   },
   {
-    "Name": "Goblin Slayer",
-    "Studio": [
-      "White Fox"
-    ],
-    "Season": "Fall 2018",
-    "Source": "Light novel",
-    "Theme": [],
-    "Voice Actor": [
-      "Umehara, Yuuichirou",
-      "Ogura, Yui"
-    ],
-    "Original Creator": "Kagyuu, Kumo",
-    "Theme Song Artist": [
-      "Mili",
-      "Soraru"
-    ]
-  },
-  {
     "Name": "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt",
     "Studio": [
       "David Production"
@@ -2936,6 +2918,24 @@
       "Metheny, Pat",
       "Oda, Kazusou",
       "Yasumura, Makoto"
+    ]
+  },
+  {
+    "Name": "Goblin Slayer",
+    "Studio": [
+      "White Fox"
+    ],
+    "Season": "Fall 2018",
+    "Source": "Light novel",
+    "Theme": [],
+    "Voice Actor": [
+      "Umehara, Yuuichirou",
+      "Ogura, Yui"
+    ],
+    "Original Creator": "Kagyuu, Kumo",
+    "Theme Song Artist": [
+      "Mili",
+      "Soraru"
     ]
   },
   {
@@ -2984,26 +2984,6 @@
     ]
   },
   {
-    "Name": "Monster",
-    "Score": "above 8.7",
-    "Studio": [
-      "Madhouse"
-    ],
-    "Season": "Spring 2004",
-    "Theme": [],
-    "Length": "30+ episodes",
-    "Manga Serialization": "Big Comic Original",
-    "Voice Actor": [
-      "Noto, Mamiko",
-      "Sasaki, Nozomu",
-      "Kiuchi, Hidenobu"
-    ],
-    "Original Creator": "Urasawa, Naoki",
-    "Theme Song Artist": [
-      "Sylvian, David"
-    ]
-  },
-  {
     "Name": "My Little Monster",
     "Studio": [
       "Brain's Base"
@@ -3043,6 +3023,26 @@
     ]
   },
   {
+    "Name": "Monster",
+    "Score": "above 8.7",
+    "Studio": [
+      "Madhouse"
+    ],
+    "Season": "Spring 2004",
+    "Theme": [],
+    "Length": "30+ episodes",
+    "Manga Serialization": "Big Comic Original",
+    "Voice Actor": [
+      "Noto, Mamiko",
+      "Sasaki, Nozomu",
+      "Kiuchi, Hidenobu"
+    ],
+    "Original Creator": "Urasawa, Naoki",
+    "Theme Song Artist": [
+      "Sylvian, David"
+    ]
+  },
+  {
     "Name": "Gintama",
     "Score": "above 8.7",
     "Studio": [
@@ -3065,7 +3065,6 @@
       "Beat Crusaders",
       "Captain Straydum",
       "DOES",
-      "FLiP",
       "Hearts Grow",
       "Inoue, Joe",
       "KELUN",
@@ -3208,33 +3207,6 @@
     ]
   },
   {
-    "Name": "ReLIFE",
-    "Studio": [
-      "TMS Entertainment"
-    ],
-    "Season": "Summer 2016",
-    "Theme": [],
-    "Voice Actor": [
-      "Kayano, Ai",
-      "Ono, Kensho",
-      "Tomatsu, Haruka",
-      "Ueda, Reina",
-      "Uchida, Yuuma",
-      "Kimura, Ryouhei"
-    ],
-    "Original Creator": "Yayoi, Sou",
-    "Theme Song Artist": [
-      "CHEMISTRY",
-      "L'Arc~en~Ciel",
-      "Nakashima, Mika",
-      "PENGUIN RESEARCH",
-      "PUFFY",
-      "Porno Graffitti",
-      "T.M.Revolution",
-      "The Brilliant Green"
-    ]
-  },
-  {
     "Name": "Dragon Ball",
     "Studio": [
       "Toei Animation"
@@ -3288,65 +3260,30 @@
     ]
   },
   {
-    "Name": "Dr. Stone: Stone Wars",
+    "Name": "ReLIFE",
     "Studio": [
       "TMS Entertainment"
     ],
-    "Season": "Winter 2021",
-    "Theme": [
-      "Time Travel"
-    ],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Kawanishi, Kengo",
-      "Satou, Gen",
-      "Kobayashi, Yuusuke",
-      "Numakura, Manami",
-      "Ichinose, Kana",
-      "Furukawa, Makoto"
-    ],
-    "Original Creator": "Inagaki, Riichiro",
-    "Theme Song Artist": [
-      "Fujifabric",
-      "Hatena"
-    ]
-  },
-  {
-    "Name": "My Dress-Up Darling",
-    "Studio": [
-      "CloverWorks"
-    ],
-    "Season": "Winter 2022",
+    "Season": "Summer 2016",
     "Theme": [],
-    "Manga Serialization": "Young Gangan",
     "Voice Actor": [
-      "Ishige, Shouya",
-      "Suguta, Hina"
+      "Kayano, Ai",
+      "Ono, Kensho",
+      "Tomatsu, Haruka",
+      "Ueda, Reina",
+      "Uchida, Yuuma",
+      "Kimura, Ryouhei"
     ],
-    "Original Creator": "Fukuda, Shinichi",
+    "Original Creator": "Yayoi, Sou",
     "Theme Song Artist": [
-      "Akase, Akari",
-      "Spira Spica"
-    ]
-  },
-  {
-    "Name": "Overlord II",
-    "Studio": [
-      "Madhouse"
-    ],
-    "Season": "Winter 2018",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai"
-    ],
-    "Voice Actor": [
-      "Hara, Yumi",
-      "Hino, Satoshi"
-    ],
-    "Original Creator": "Maruyama, Kugane",
-    "Theme Song Artist": [
-      "MYTH & ROID",
-      "OxT"
+      "CHEMISTRY",
+      "L'Arc~en~Ciel",
+      "Nakashima, Mika",
+      "PENGUIN RESEARCH",
+      "PUFFY",
+      "Porno Graffitti",
+      "T.M.Revolution",
+      "The Brilliant Green"
     ]
   },
   {
@@ -3371,6 +3308,50 @@
       "Namikawa, Daisuke",
       "Okitsu, Kazuyuki",
       "Suzumura, Kenichi"
+    ]
+  },
+  {
+    "Name": "Dr. Stone: Stone Wars",
+    "Studio": [
+      "TMS Entertainment"
+    ],
+    "Season": "Winter 2021",
+    "Theme": [
+      "Time Travel"
+    ],
+    "Manga Serialization": "Shounen Jump (Weekly)",
+    "Voice Actor": [
+      "Kawanishi, Kengo",
+      "Satou, Gen",
+      "Kobayashi, Yuusuke",
+      "Numakura, Manami",
+      "Ichinose, Kana",
+      "Furukawa, Makoto"
+    ],
+    "Original Creator": "Inagaki, Riichiro",
+    "Theme Song Artist": [
+      "Fujifabric",
+      "Hatena"
+    ]
+  },
+  {
+    "Name": "Overlord II",
+    "Studio": [
+      "Madhouse"
+    ],
+    "Season": "Winter 2018",
+    "Source": "Light novel",
+    "Theme": [
+      "Isekai"
+    ],
+    "Voice Actor": [
+      "Hara, Yumi",
+      "Hino, Satoshi"
+    ],
+    "Original Creator": "Maruyama, Kugane",
+    "Theme Song Artist": [
+      "MYTH & ROID",
+      "OxT"
     ]
   },
   {
@@ -3425,6 +3406,24 @@
     ]
   },
   {
+    "Name": "My Dress-Up Darling",
+    "Studio": [
+      "CloverWorks"
+    ],
+    "Season": "Winter 2022",
+    "Theme": [],
+    "Manga Serialization": "Young Gangan",
+    "Voice Actor": [
+      "Ishige, Shouya",
+      "Suguta, Hina"
+    ],
+    "Original Creator": "Fukuda, Shinichi",
+    "Theme Song Artist": [
+      "Akase, Akari",
+      "Spira Spica"
+    ]
+  },
+  {
     "Name": "Fairy Tail Series 2",
     "Studio": [
       "A-1 Pictures",
@@ -3462,6 +3461,25 @@
     ]
   },
   {
+    "Name": "Food Wars! The Third Plate",
+    "Studio": [
+      "J.C.Staff"
+    ],
+    "Season": "Fall 2017",
+    "Theme": [],
+    "Manga Serialization": "Shounen Jump (Weekly)",
+    "Voice Actor": [
+      "Kanemoto, Hisako",
+      "Takahashi, Minami",
+      "Matsuoka, Yoshitsugu"
+    ],
+    "Original Creator": "Tsukuda, Yuuto",
+    "Theme Song Artist": [
+      "ZAQ",
+      "nano.RIPE"
+    ]
+  },
+  {
     "Name": "Wotakoi: Love is Hard for Otaku",
     "Studio": [
       "A-1 Pictures"
@@ -3486,9 +3504,7 @@
       "TMS Entertainment"
     ],
     "Season": "Summer 2020",
-    "Theme": [
-      "Harem"
-    ],
+    "Theme": [],
     "Manga Serialization": "Shounen Magazine (Weekly)",
     "Voice Actor": [
       "Amamiya, Sora",
@@ -3498,25 +3514,6 @@
     "Theme Song Artist": [
       "halca",
       "the peggies"
-    ]
-  },
-  {
-    "Name": "Food Wars! The Third Plate",
-    "Studio": [
-      "J.C.Staff"
-    ],
-    "Season": "Fall 2017",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Kanemoto, Hisako",
-      "Takahashi, Minami",
-      "Matsuoka, Yoshitsugu"
-    ],
-    "Original Creator": "Tsukuda, Yuuto",
-    "Theme Song Artist": [
-      "ZAQ",
-      "nano.RIPE"
     ]
   },
   {
@@ -3543,6 +3540,26 @@
     ]
   },
   {
+    "Name": "Fate/stay night",
+    "Studio": [
+      "Studio Deen"
+    ],
+    "Season": "Winter 2006",
+    "Source": "Visual novel",
+    "Theme": [],
+    "Voice Actor": [
+      "Suwabe, Junichi",
+      "Sugiyama, Noriaki",
+      "Kawasumi, Ayako",
+      "Ueda, Kana"
+    ],
+    "Original Creator": "Nasu, Kinoko",
+    "Theme Song Artist": [
+      "Jyukai",
+      "Tainaka, Sachi"
+    ]
+  },
+  {
     "Name": "Chivalry of a Failed Knight",
     "Studio": [
       "SILVER LINK.",
@@ -3561,26 +3578,6 @@
     "Theme Song Artist": [
       "ALI PROJECT",
       "Sakai, Mikio"
-    ]
-  },
-  {
-    "Name": "Fate/stay night",
-    "Studio": [
-      "Studio Deen"
-    ],
-    "Season": "Winter 2006",
-    "Source": "Visual novel",
-    "Theme": [],
-    "Voice Actor": [
-      "Suwabe, Junichi",
-      "Sugiyama, Noriaki",
-      "Kawasumi, Ayako",
-      "Ueda, Kana"
-    ],
-    "Original Creator": "Nasu, Kinoko",
-    "Theme Song Artist": [
-      "Jyukai",
-      "Tainaka, Sachi"
     ]
   },
   {
@@ -3652,27 +3649,6 @@
     ]
   },
   {
-    "Name": "Kimi ni Todoke: From Me to You",
-    "Studio": [
-      "Production I.G"
-    ],
-    "Season": "Fall 2009",
-    "Theme": [],
-    "Manga Serialization": "Bessatsu Margaret",
-    "Voice Actor": [
-      "Namikawa, Daisuke",
-      "Noto, Mamiko",
-      "Nakamura, Yuuichi",
-      "Sawashiro, Miyuki",
-      "Sanpei, Yuuko"
-    ],
-    "Original Creator": "Shiina, Karuho",
-    "Theme Song Artist": [
-      "Chara",
-      "Tanizawa, Tomofumi"
-    ]
-  },
-  {
     "Name": "Monthly Girls' Nozaki-kun",
     "Studio": [
       "Doga Kobo"
@@ -3696,22 +3672,24 @@
     ]
   },
   {
-    "Name": "That Time I Got Reincarnated as a Slime Season 2",
+    "Name": "Kimi ni Todoke: From Me to You",
     "Studio": [
-      "8bit"
+      "Production I.G"
     ],
-    "Season": "Winter 2021",
-    "Theme": [
-      "Isekai"
-    ],
-    "Manga Serialization": "Shounen Sirius",
+    "Season": "Fall 2009",
+    "Theme": [],
+    "Manga Serialization": "Bessatsu Margaret",
     "Voice Actor": [
-      "Okasaki, Miho"
+      "Namikawa, Daisuke",
+      "Noto, Mamiko",
+      "Nakamura, Yuuichi",
+      "Sawashiro, Miyuki",
+      "Sanpei, Yuuko"
     ],
-    "Original Creator": "Fuse",
+    "Original Creator": "Shiina, Karuho",
     "Theme Song Artist": [
-      "Karasawa, Miho",
-      "STEREO DIVE FOUNDATION"
+      "Chara",
+      "Tanizawa, Tomofumi"
     ]
   },
   {
@@ -3753,26 +3731,6 @@
       "CHiCO",
       "Fujifabric",
       "HoneyWorks"
-    ]
-  },
-  {
-    "Name": "Haikyu!! To the Top",
-    "Studio": [
-      "Production I.G"
-    ],
-    "Season": "Winter 2020",
-    "Theme": [
-      "Team Sports"
-    ],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Murase, Ayumu",
-      "Ishikawa, Kaito"
-    ],
-    "Original Creator": "Furudate, Haruichi",
-    "Theme Song Artist": [
-      "BURNOUT SYNDROMES",
-      "CHiCO"
     ]
   },
   {
@@ -3818,26 +3776,6 @@
     ]
   },
   {
-    "Name": "The Ancient Magus' Bride",
-    "Studio": [
-      "Wit Studio"
-    ],
-    "Season": "Fall 2017",
-    "Theme": [],
-    "Manga Serialization": "Comic Garden",
-    "Voice Actor": [
-      "Takeuchi, Ryouta",
-      "Tanezaki, Atsumi"
-    ],
-    "Original Creator": "Yamazaki, Kore",
-    "Theme Song Artist": [
-      "AKINO",
-      "Itoki, Hana",
-      "JUNNA",
-      "May'n"
-    ]
-  },
-  {
     "Name": "High School DxD New",
     "Studio": [
       "TNK"
@@ -3868,6 +3806,93 @@
       "Taketatsu, Ayana",
       "Taneda, Risa",
       "ZAQ"
+    ]
+  },
+  {
+    "Name": "That Time I Got Reincarnated as a Slime Season 2",
+    "Studio": [
+      "8bit"
+    ],
+    "Season": "Winter 2021",
+    "Theme": [
+      "Isekai"
+    ],
+    "Manga Serialization": "Shounen Sirius",
+    "Voice Actor": [
+      "Okasaki, Miho"
+    ],
+    "Original Creator": "Fuse",
+    "Theme Song Artist": [
+      "Karasawa, Miho",
+      "STEREO DIVE FOUNDATION"
+    ]
+  },
+  {
+    "Name": "Haikyu!! To the Top",
+    "Studio": [
+      "Production I.G"
+    ],
+    "Season": "Winter 2020",
+    "Theme": [
+      "Team Sports"
+    ],
+    "Manga Serialization": "Shounen Jump (Weekly)",
+    "Voice Actor": [
+      "Murase, Ayumu",
+      "Ishikawa, Kaito"
+    ],
+    "Original Creator": "Furudate, Haruichi",
+    "Theme Song Artist": [
+      "BURNOUT SYNDROMES",
+      "CHiCO"
+    ]
+  },
+  {
+    "Name": "The Ancient Magus' Bride",
+    "Studio": [
+      "Wit Studio"
+    ],
+    "Season": "Fall 2017",
+    "Theme": [],
+    "Manga Serialization": "Comic Garden",
+    "Voice Actor": [
+      "Takeuchi, Ryouta",
+      "Tanezaki, Atsumi"
+    ],
+    "Original Creator": "Yamazaki, Kore",
+    "Theme Song Artist": [
+      "AKINO",
+      "Itoki, Hana",
+      "JUNNA",
+      "May'n"
+    ]
+  },
+  {
+    "Name": "Baccano!",
+    "Studio": [
+      "Brain's Base"
+    ],
+    "Season": "Summer 2007",
+    "Source": "Light novel",
+    "Theme": [
+      "Organized Crime"
+    ],
+    "Voice Actor": [
+      "Miyamoto, Mitsuru",
+      "Onosaka, Masaya",
+      "Kobayashi, Sanae",
+      "Koyasu, Takehito",
+      "Aoki, Sayaka",
+      "Hirohashi, Ryou",
+      "Kanda, Akemi",
+      "Yoshino, Hiroyuki",
+      "Fujiwara, Keiji",
+      "Sakaguchi, Daisuke",
+      "Morita, Masakazu"
+    ],
+    "Original Creator": "Narita, Ryohgo",
+    "Theme Song Artist": [
+      "Oda, Kaori"
     ]
   },
   {
@@ -3907,34 +3932,6 @@
       "MYTH & ROID",
       "Niina, Mako",
       "Yuuki, Aoi"
-    ]
-  },
-  {
-    "Name": "Baccano!",
-    "Studio": [
-      "Brain's Base"
-    ],
-    "Season": "Summer 2007",
-    "Source": "Light novel",
-    "Theme": [
-      "Organized Crime"
-    ],
-    "Voice Actor": [
-      "Miyamoto, Mitsuru",
-      "Onosaka, Masaya",
-      "Kobayashi, Sanae",
-      "Koyasu, Takehito",
-      "Aoki, Sayaka",
-      "Hirohashi, Ryou",
-      "Kanda, Akemi",
-      "Yoshino, Hiroyuki",
-      "Fujiwara, Keiji",
-      "Sakaguchi, Daisuke",
-      "Morita, Masakazu"
-    ],
-    "Original Creator": "Narita, Ryohgo",
-    "Theme Song Artist": [
-      "Oda, Kaori"
     ]
   },
   {
@@ -4002,6 +3999,46 @@
     ]
   },
   {
+    "Name": "Yuri!!! On ICE",
+    "Studio": [
+      "MAPPA"
+    ],
+    "Season": "Fall 2016",
+    "Source": "Original",
+    "Theme": [],
+    "Voice Actor": [
+      "Toyonaga, Toshiyuki",
+      "Suwabe, Junichi",
+      "Uchiyama, Kouki"
+    ],
+    "Original Creator": "Yamamoto, Sayo",
+    "Theme Song Artist": [
+      "Fujioka, Dean",
+      "Hatano, Wataru"
+    ]
+  },
+  {
+    "Name": "Blood Blockade Battlefront",
+    "Studio": [
+      "Bones"
+    ],
+    "Season": "Spring 2015",
+    "Theme": [
+      "Vampire"
+    ],
+    "Manga Serialization": "Jump SQ.19",
+    "Voice Actor": [
+      "Nakai, Kazuya",
+      "Koyama, Rikiya",
+      "Sakaguchi, Daisuke"
+    ],
+    "Original Creator": "Nightow, Yasuhiro",
+    "Theme Song Artist": [
+      "BUMP OF CHICKEN",
+      "UNISON SQUARE GARDEN"
+    ]
+  },
+  {
     "Name": "Kaguya-sama: Love is War - Ultra Romantic",
     "Score": "above 8.7",
     "Studio": [
@@ -4027,25 +4064,6 @@
     ]
   },
   {
-    "Name": "Yuri!!! On ICE",
-    "Studio": [
-      "MAPPA"
-    ],
-    "Season": "Fall 2016",
-    "Source": "Original",
-    "Theme": [],
-    "Voice Actor": [
-      "Toyonaga, Toshiyuki",
-      "Suwabe, Junichi",
-      "Uchiyama, Kouki"
-    ],
-    "Original Creator": "Yamamoto, Sayo",
-    "Theme Song Artist": [
-      "Fujioka, Dean",
-      "Hatano, Wataru"
-    ]
-  },
-  {
     "Name": "Masamune-kun's Revenge",
     "Score": "below 7.0",
     "Studio": [
@@ -4067,45 +4085,6 @@
     ]
   },
   {
-    "Name": "Blood Blockade Battlefront",
-    "Studio": [
-      "Bones"
-    ],
-    "Season": "Spring 2015",
-    "Theme": [
-      "Vampire"
-    ],
-    "Manga Serialization": "Jump SQ.19",
-    "Voice Actor": [
-      "Nakai, Kazuya",
-      "Koyama, Rikiya",
-      "Sakaguchi, Daisuke"
-    ],
-    "Original Creator": "Nightow, Yasuhiro",
-    "Theme Song Artist": [
-      "BUMP OF CHICKEN",
-      "UNISON SQUARE GARDEN"
-    ]
-  },
-  {
-    "Name": "Mushoku Tensei: Jobless Reincarnation Part 2",
-    "Studio": [
-      "Studio Bind"
-    ],
-    "Season": "Fall 2021",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai"
-    ],
-    "Voice Actor": [
-      "Uchiyama, Yumi",
-      "Kakuma, Ai",
-      "Namikawa, Daisuke"
-    ],
-    "Original Creator": "Rifujin na Magonote",
-    "Theme Song Artist": []
-  },
-  {
     "Name": "Tokyo Ghoul:re 2nd Season",
     "Score": "below 7.0",
     "Studio": [
@@ -4125,29 +4104,6 @@
     "Theme Song Artist": [
       "TK from Ling Tosite Sigure",
       "österreich"
-    ]
-  },
-  {
-    "Name": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
-    "Studio": [
-      "White Fox"
-    ],
-    "Season": "Winter 2021",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai",
-      "Time Travel"
-    ],
-    "Voice Actor": [
-      "Takahashi, Rie",
-      "Kobayashi, Yuusuke"
-    ],
-    "Original Creator": "Nagatsuki, Tappei",
-    "Theme Song Artist": [
-      "Maeshima, Mayu",
-      "Murakawa, Rie",
-      "Takahashi, Rie",
-      "nonoc"
     ]
   },
   {
@@ -4174,6 +4130,24 @@
       "Itou, Kanako",
       "Sasaki, Eri",
       "Zwei"
+    ]
+  },
+  {
+    "Name": "BTOOOM!",
+    "Studio": [
+      "Madhouse"
+    ],
+    "Season": "Fall 2012",
+    "Theme": [],
+    "Manga Serialization": "Comic@Bunch",
+    "Voice Actor": [
+      "Mimori, Suzuko",
+      "Hongo, Kanata"
+    ],
+    "Original Creator": "Inoue, Junya",
+    "Theme Song Artist": [
+      "May'n",
+      "nano"
     ]
   },
   {
@@ -4231,58 +4205,26 @@
     ]
   },
   {
-    "Name": "Komi Can't Communicate",
+    "Name": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
     "Studio": [
-      "OLM"
+      "White Fox"
     ],
-    "Season": "Fall 2021",
+    "Season": "Winter 2021",
+    "Source": "Light novel",
     "Theme": [
-      "Romantic Subtext"
+      "Isekai",
+      "Time Travel"
     ],
-    "Manga Serialization": "Shounen Sunday",
     "Voice Actor": [
-      "Koga, Aoi",
-      "Kajiwara, Gakuto"
+      "Takahashi, Rie",
+      "Kobayashi, Yuusuke"
     ],
-    "Original Creator": "Oda, Tomohito",
+    "Original Creator": "Nagatsuki, Tappei",
     "Theme Song Artist": [
-      "Cidergirl",
-      "Kitri"
-    ]
-  },
-  {
-    "Name": "BTOOOM!",
-    "Studio": [
-      "Madhouse"
-    ],
-    "Season": "Fall 2012",
-    "Theme": [],
-    "Manga Serialization": "Comic@Bunch",
-    "Voice Actor": [
-      "Mimori, Suzuko",
-      "Hongo, Kanata"
-    ],
-    "Original Creator": "Inoue, Junya",
-    "Theme Song Artist": [
-      "May'n",
-      "nano"
-    ]
-  },
-  {
-    "Name": "To Your Eternity",
-    "Studio": [
-      "Brain's Base"
-    ],
-    "Season": "Spring 2021",
-    "Theme": [],
-    "Manga Serialization": "Shounen Magazine (Weekly)",
-    "Voice Actor": [
-      "Kawashima, Reiji"
-    ],
-    "Original Creator": "Ooima, Yoshitoki",
-    "Theme Song Artist": [
-      "Hamauzu, Masashi",
-      "Utada, Hikaru"
+      "Maeshima, Mayu",
+      "Murakawa, Rie",
+      "Takahashi, Rie",
+      "nonoc"
     ]
   },
   {
@@ -4328,6 +4270,66 @@
     ]
   },
   {
+    "Name": "Komi Can't Communicate",
+    "Studio": [
+      "OLM"
+    ],
+    "Season": "Fall 2021",
+    "Theme": [
+      "Romantic Subtext"
+    ],
+    "Manga Serialization": "Shounen Sunday",
+    "Voice Actor": [
+      "Koga, Aoi",
+      "Kajiwara, Gakuto"
+    ],
+    "Original Creator": "Oda, Tomohito",
+    "Theme Song Artist": [
+      "Cidergirl",
+      "Kitri"
+    ]
+  },
+  {
+    "Name": "To Your Eternity",
+    "Studio": [
+      "Brain's Base"
+    ],
+    "Season": "Spring 2021",
+    "Theme": [],
+    "Manga Serialization": "Shounen Magazine (Weekly)",
+    "Voice Actor": [
+      "Kawashima, Reiji"
+    ],
+    "Original Creator": "Ooima, Yoshitoki",
+    "Theme Song Artist": [
+      "Hamauzu, Masashi",
+      "Utada, Hikaru"
+    ]
+  },
+  {
+    "Name": "Yona of the Dawn",
+    "Studio": [
+      "Pierrot"
+    ],
+    "Season": "Fall 2014",
+    "Theme": [],
+    "Manga Serialization": "Hana to Yume",
+    "Voice Actor": [
+      "Suwabe, Junichi",
+      "Morita, Masakazu",
+      "Kobayashi, Sanae",
+      "Takagaki, Ayahi",
+      "Saitou, Chiwa",
+      "Minagawa, Junko"
+    ],
+    "Original Creator": "Kusanagi, Mizuho",
+    "Theme Song Artist": [
+      "Cyntia",
+      "Shikata, Akiko",
+      "vistlip"
+    ]
+  },
+  {
     "Name": "Banana Fish",
     "Studio": [
       "MAPPA"
@@ -4349,46 +4351,24 @@
     ]
   },
   {
-    "Name": "Spy x Family Part 2",
+    "Name": "Magi: The Kingdom of Magic",
     "Studio": [
-      "Wit Studio",
-      "CloverWorks"
+      "A-1 Pictures"
     ],
-    "Season": "Fall 2022",
+    "Season": "Fall 2013",
     "Theme": [],
-    "Manga Serialization": "Shounen Jump+",
+    "Manga Serialization": "Shounen Sunday",
     "Voice Actor": [
-      "Hayami, Saori",
-      "Eguchi, Takuya",
-      "Tanezaki, Atsumi"
+      "Ishihara, Kaori",
+      "Tomatsu, Haruka",
+      "Kaji, Yuuki"
     ],
-    "Original Creator": "Endou, Tatsuya",
+    "Original Creator": "Ohtaka, Shinobu",
     "Theme Song Artist": [
-      "BUMP OF CHICKEN",
-      "yama"
-    ]
-  },
-  {
-    "Name": "Yona of the Dawn",
-    "Studio": [
-      "Pierrot"
-    ],
-    "Season": "Fall 2014",
-    "Theme": [],
-    "Manga Serialization": "Hana to Yume",
-    "Voice Actor": [
-      "Suwabe, Junichi",
-      "Morita, Masakazu",
-      "Okamoto, Nobuhiko",
-      "Maeno, Tomoaki",
-      "Saitou, Chiwa",
-      "Minagawa, Junko"
-    ],
-    "Original Creator": "Kusanagi, Mizuho",
-    "Theme Song Artist": [
-      "Cyntia",
-      "Shikata, Akiko",
-      "vistlip"
+      "9nine",
+      "Aqua Timez",
+      "SID",
+      "ViViD"
     ]
   },
   {
@@ -4410,48 +4390,6 @@
     "Theme Song Artist": [
       "ALI",
       "YURiKA"
-    ]
-  },
-  {
-    "Name": "Bungo Stray Dogs 2",
-    "Studio": [
-      "Bones"
-    ],
-    "Season": "Fall 2016",
-    "Theme": [
-      "Organized Crime"
-    ],
-    "Manga Serialization": "Young Ace",
-    "Voice Actor": [
-      "Miyano, Mamoru",
-      "Uemura, Yuuto"
-    ],
-    "Original Creator": "Asagiri, Kafka",
-    "Theme Song Artist": [
-      "Hayashi, Yuu",
-      "Luck Life",
-      "SCREEN mode"
-    ]
-  },
-  {
-    "Name": "Magi: The Kingdom of Magic",
-    "Studio": [
-      "A-1 Pictures"
-    ],
-    "Season": "Fall 2013",
-    "Theme": [],
-    "Manga Serialization": "Shounen Sunday",
-    "Voice Actor": [
-      "Ishihara, Kaori",
-      "Tomatsu, Haruka",
-      "Kaji, Yuuki"
-    ],
-    "Original Creator": "Ohtaka, Shinobu",
-    "Theme Song Artist": [
-      "9nine",
-      "Aqua Timez",
-      "SID",
-      "ViViD"
     ]
   },
   {
@@ -4488,6 +4426,23 @@
     ]
   },
   {
+    "Name": "Mushoku Tensei: Jobless Reincarnation Part 2",
+    "Studio": [
+      "Studio Bind"
+    ],
+    "Season": "Fall 2021",
+    "Source": "Light novel",
+    "Theme": [
+      "Isekai"
+    ],
+    "Voice Actor": [
+      "Kakuma, Ai",
+      "Uchiyama, Yumi"
+    ],
+    "Original Creator": "Rifujin na Magonote",
+    "Theme Song Artist": []
+  },
+  {
     "Name": "Kokoro Connect",
     "Studio": [
       "SILVER LINK."
@@ -4513,6 +4468,27 @@
     ]
   },
   {
+    "Name": "Bungo Stray Dogs 2",
+    "Studio": [
+      "Bones"
+    ],
+    "Season": "Fall 2016",
+    "Theme": [
+      "Organized Crime"
+    ],
+    "Manga Serialization": "Young Ace",
+    "Voice Actor": [
+      "Miyano, Mamoru",
+      "Uemura, Yuuto"
+    ],
+    "Original Creator": "Asagiri, Kafka",
+    "Theme Song Artist": [
+      "Hayashi, Yuu",
+      "Luck Life",
+      "SCREEN mode"
+    ]
+  },
+  {
     "Name": "Mushi-Shi",
     "Studio": [
       "Artland"
@@ -4528,6 +4504,45 @@
     "Original Creator": "Urushibara, Yuki",
     "Theme Song Artist": [
       "Kerr, Ally"
+    ]
+  },
+  {
+    "Name": "The Familiar of Zero",
+    "Studio": [
+      "J.C.Staff"
+    ],
+    "Season": "Summer 2006",
+    "Source": "Light novel",
+    "Theme": [
+      "Harem",
+      "Isekai"
+    ],
+    "Voice Actor": [
+      "Gotou, Tetsuo",
+      "Hino, Satoshi",
+      "Kugimiya, Rie"
+    ],
+    "Original Creator": "Yamaguchi, Noboru",
+    "Theme Song Artist": [
+      "Ichiko",
+      "Kugimiya, Rie"
+    ]
+  },
+  {
+    "Name": "Daily Lives of High School Boys",
+    "Studio": [
+      "Sunrise"
+    ],
+    "Season": "Winter 2012",
+    "Theme": [],
+    "Voice Actor": [
+      "Sugita, Tomokazu",
+      "Irino, Miyu",
+      "Suzumura, Kenichi"
+    ],
+    "Original Creator": "Yamauchi, Yasunobu",
+    "Theme Song Artist": [
+      "Mix Speaker's,Inc."
     ]
   },
   {
@@ -4551,24 +4566,27 @@
     "Original Creator": "Takano, Ichigo",
     "Theme Song Artist": [
       "Kobukuro",
-      "Takahashi, Yuu"
+      "Takahashi, Yu"
     ]
   },
   {
-    "Name": "Daily Lives of High School Boys",
+    "Name": "Spy x Family Part 2",
     "Studio": [
-      "Sunrise"
+      "Wit Studio",
+      "CloverWorks"
     ],
-    "Season": "Winter 2012",
+    "Season": "Fall 2022",
     "Theme": [],
+    "Manga Serialization": "Shounen Jump+",
     "Voice Actor": [
-      "Sugita, Tomokazu",
-      "Irino, Miyu",
-      "Suzumura, Kenichi"
+      "Hayami, Saori",
+      "Eguchi, Takuya",
+      "Tanezaki, Atsumi"
     ],
-    "Original Creator": "Yamauchi, Yasunobu",
+    "Original Creator": "Endou, Tatsuya",
     "Theme Song Artist": [
-      "Mix Speaker's,Inc."
+      "BUMP OF CHICKEN",
+      "yama"
     ]
   },
   {
@@ -4627,28 +4645,6 @@
     ]
   },
   {
-    "Name": "The Familiar of Zero",
-    "Studio": [
-      "J.C.Staff"
-    ],
-    "Season": "Summer 2006",
-    "Source": "Light novel",
-    "Theme": [
-      "Harem",
-      "Isekai"
-    ],
-    "Voice Actor": [
-      "Gotou, Tetsuo",
-      "Hino, Satoshi",
-      "Kugimiya, Rie"
-    ],
-    "Original Creator": "Yamaguchi, Noboru",
-    "Theme Song Artist": [
-      "Ichiko",
-      "Kugimiya, Rie"
-    ]
-  },
-  {
     "Name": "A Certain Magical Index",
     "Studio": [
       "J.C.Staff"
@@ -4664,27 +4660,6 @@
     "Theme Song Artist": [
       "IKU",
       "Kawada, Mami"
-    ]
-  },
-  {
-    "Name": "Fruits Basket 1st Season",
-    "Studio": [
-      "TMS Entertainment"
-    ],
-    "Season": "Spring 2019",
-    "Theme": [],
-    "Manga Serialization": "Hana to Yume",
-    "Voice Actor": [
-      "Iwami, Manaka",
-      "Uchida, Yuuma",
-      "Shimazaki, Nobunaga"
-    ],
-    "Original Creator": "Takaya, Natsuki",
-    "Theme Song Artist": [
-      "Beverly",
-      "INTERSECTION",
-      "Otsuka, Ai",
-      "Vickeblanka"
     ]
   },
   {
@@ -4748,24 +4723,6 @@
     ]
   },
   {
-    "Name": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
-    "Studio": [
-      "J.C.Staff"
-    ],
-    "Season": "Summer 2019",
-    "Source": "Light novel",
-    "Theme": [],
-    "Voice Actor": [
-      "Matsuoka, Yoshitsugu",
-      "Minase, Inori"
-    ],
-    "Original Creator": "Omori, Fujino",
-    "Theme Song Artist": [
-      "Iguchi, Yuka",
-      "sora tob sakana"
-    ]
-  },
-  {
     "Name": "Higurashi: When They Cry",
     "Studio": [
       "Studio Deen"
@@ -4785,6 +4742,71 @@
     "Theme Song Artist": [
       "Katakiri, Rekka",
       "Shimamiya, Eiko"
+    ]
+  },
+  {
+    "Name": "Fruits Basket 1st Season",
+    "Studio": [
+      "TMS Entertainment"
+    ],
+    "Season": "Spring 2019",
+    "Theme": [],
+    "Manga Serialization": "Hana to Yume",
+    "Voice Actor": [
+      "Iwami, Manaka",
+      "Uchida, Yuuma",
+      "Shimazaki, Nobunaga"
+    ],
+    "Original Creator": "Takaya, Natsuki",
+    "Theme Song Artist": [
+      "Beverly",
+      "INTERSECTION",
+      "Otsuka, Ai",
+      "Vickeblanka"
+    ]
+  },
+  {
+    "Name": "Is It Wrong to Try to Pick Up Girls in a Dungeon? II",
+    "Studio": [
+      "J.C.Staff"
+    ],
+    "Season": "Summer 2019",
+    "Source": "Light novel",
+    "Theme": [],
+    "Voice Actor": [
+      "Matsuoka, Yoshitsugu",
+      "Minase, Inori"
+    ],
+    "Original Creator": "Omori, Fujino",
+    "Theme Song Artist": [
+      "Iguchi, Yuka",
+      "sora tob sakana"
+    ]
+  },
+  {
+    "Name": "Free! - Iwatobi Swim Club",
+    "Studio": [
+      "Kyoto Animation",
+      "Animation Do"
+    ],
+    "Season": "Summer 2013",
+    "Source": "Original",
+    "Theme": [],
+    "Voice Actor": [
+      "Yonaga, Tsubasa",
+      "Miyano, Mamoru",
+      "Matsumoto, Megumi",
+      "Hirakawa, Daisuke",
+      "Yukino, Satsuki"
+    ],
+    "Original Creator": "Ooji, Kouji",
+    "Theme Song Artist": [
+      "Hirakawa, Daisuke",
+      "Miyano, Mamoru",
+      "OLDCODEX",
+      "Shimazaki, Nobunaga",
+      "Suzuki, Tatsuhisa",
+      "Yonaga, Tsubasa"
     ]
   },
   {
@@ -4835,32 +4857,6 @@
     ]
   },
   {
-    "Name": "Free! - Iwatobi Swim Club",
-    "Studio": [
-      "Kyoto Animation",
-      "Animation Do"
-    ],
-    "Season": "Summer 2013",
-    "Source": "Original",
-    "Theme": [],
-    "Voice Actor": [
-      "Yonaga, Tsubasa",
-      "Miyano, Mamoru",
-      "Matsumoto, Megumi",
-      "Hirakawa, Daisuke",
-      "Yukino, Satsuki"
-    ],
-    "Original Creator": "Ooji, Kouji",
-    "Theme Song Artist": [
-      "Hirakawa, Daisuke",
-      "Miyano, Mamoru",
-      "OLDCODEX",
-      "Shimazaki, Nobunaga",
-      "Suzuki, Tatsuhisa",
-      "Yonaga, Tsubasa"
-    ]
-  },
-  {
     "Name": "High School DxD BorN",
     "Studio": [
       "TNK"
@@ -4886,26 +4882,6 @@
       "ChouCho",
       "Kaji, Yuuki",
       "StylipS"
-    ]
-  },
-  {
-    "Name": "Haikyu!! To the Top 2nd-cour",
-    "Studio": [
-      "Production I.G"
-    ],
-    "Season": "Fall 2020",
-    "Theme": [
-      "Team Sports"
-    ],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Murase, Ayumu",
-      "Ishikawa, Kaito"
-    ],
-    "Original Creator": "Furudate, Haruichi",
-    "Theme Song Artist": [
-      "SPYAIR",
-      "SUPER BEAVER"
     ]
   },
   {
@@ -4948,24 +4924,23 @@
     ]
   },
   {
-    "Name": "Don't Toy with Me, Miss Nagatoro",
+    "Name": "Haikyu!! To the Top 2nd-cour",
     "Studio": [
-      "Telecom Animation Film"
+      "Production I.G"
     ],
-    "Season": "Spring 2021",
+    "Season": "Fall 2020",
     "Theme": [
-      "Romantic Subtext"
+      "Team Sports"
     ],
+    "Manga Serialization": "Shounen Jump (Weekly)",
     "Voice Actor": [
-      "Yamashita, Daiki",
-      "Uesaka, Sumire"
+      "Murase, Ayumu",
+      "Ishikawa, Kaito"
     ],
-    "Original Creator": "774",
+    "Original Creator": "Furudate, Haruichi",
     "Theme Song Artist": [
-      "Izawa, Shiori",
-      "Komatsu, Mikako",
-      "Suzuki, Aina",
-      "Uesaka, Sumire"
+      "SPYAIR",
+      "SUPER BEAVER"
     ]
   },
   {
@@ -5017,6 +4992,27 @@
     ]
   },
   {
+    "Name": "Don't Toy with Me, Miss Nagatoro",
+    "Studio": [
+      "Telecom Animation Film"
+    ],
+    "Season": "Spring 2021",
+    "Theme": [
+      "Romantic Subtext"
+    ],
+    "Voice Actor": [
+      "Yamashita, Daiki",
+      "Uesaka, Sumire"
+    ],
+    "Original Creator": "774",
+    "Theme Song Artist": [
+      "Izawa, Shiori",
+      "Komatsu, Mikako",
+      "Suzuki, Aina",
+      "Uesaka, Sumire"
+    ]
+  },
+  {
     "Name": "From the New World",
     "Studio": [
       "A-1 Pictures"
@@ -5059,25 +5055,6 @@
     ]
   },
   {
-    "Name": "Kakegurui××",
-    "Studio": [
-      "MAPPA"
-    ],
-    "Season": "Winter 2019",
-    "Theme": [],
-    "Manga Serialization": "Gangan Joker",
-    "Voice Actor": [
-      "Hayami, Saori",
-      "Tanaka, Minami",
-      "Tokutake, Tatsuya"
-    ],
-    "Original Creator": "Kawamoto, Homura",
-    "Theme Song Artist": [
-      "D-selections",
-      "JUNNA"
-    ]
-  },
-  {
     "Name": "Haven't You Heard? I'm Sakamoto",
     "Studio": [
       "Studio Deen"
@@ -5095,27 +5072,22 @@
     ]
   },
   {
-    "Name": "Grand Blue Dreaming",
+    "Name": "Kakegurui××",
     "Studio": [
-      "Zero-G"
+      "MAPPA"
     ],
-    "Season": "Summer 2018",
+    "Season": "Winter 2019",
     "Theme": [],
-    "Manga Serialization": "good! Afternoon",
+    "Manga Serialization": "Gangan Joker",
     "Voice Actor": [
-      "Kimura, Ryouhei",
-      "Uchida, Yuuma",
-      "Anzai, Chika",
-      "Asumi, Kana"
+      "Hayami, Saori",
+      "Tanaka, Minami",
+      "Tokutake, Tatsuya"
     ],
-    "Original Creator": "Inoue, Kenji",
+    "Original Creator": "Kawamoto, Homura",
     "Theme Song Artist": [
-      "Kimura, Ryouhei",
-      "Konishi, Katsuyuki",
-      "Mizuki, Nana",
-      "Shounan no Kaze",
-      "Uchida, Yuuma",
-      "Yasumoto, Hiroki"
+      "D-selections",
+      "JUNNA"
     ]
   },
   {
@@ -5141,19 +5113,27 @@
     ]
   },
   {
-    "Name": "Serial Experiments Lain",
+    "Name": "Grand Blue Dreaming",
     "Studio": [
-      "Triangle Staff"
+      "Zero-G"
     ],
-    "Season": "Summer 1998",
-    "Source": "Original",
+    "Season": "Summer 2018",
     "Theme": [],
+    "Manga Serialization": "good! Afternoon",
     "Voice Actor": [
-      "Shimizu, Kaori"
+      "Kimura, Ryouhei",
+      "Uchida, Yuuma",
+      "Anzai, Chika",
+      "Asumi, Kana"
     ],
-    "Original Creator": "Ueda, Yasuyuki",
+    "Original Creator": "Inoue, Kenji",
     "Theme Song Artist": [
-      "BOA"
+      "Kimura, Ryouhei",
+      "Konishi, Katsuyuki",
+      "Mizuki, Nana",
+      "Shounan no Kaze",
+      "Uchida, Yuuma",
+      "Yasumoto, Hiroki"
     ]
   },
   {
@@ -5215,6 +5195,59 @@
     ]
   },
   {
+    "Name": "Serial Experiments Lain",
+    "Studio": [
+      "Triangle Staff"
+    ],
+    "Season": "Summer 1998",
+    "Source": "Original",
+    "Theme": [],
+    "Voice Actor": [
+      "Shimizu, Kaori"
+    ],
+    "Original Creator": "Ueda, Yasuyuki",
+    "Theme Song Artist": [
+      "BOA"
+    ]
+  },
+  {
+    "Name": "Monster Musume: Everyday Life with Monster Girls",
+    "Score": "below 7.0",
+    "Studio": [
+      "Lerche"
+    ],
+    "Season": "Summer 2015",
+    "Theme": [
+      "Anthropomorphic",
+      "Harem"
+    ],
+    "Manga Serialization": "Comic Ryu",
+    "Voice Actor": [
+      "Nakamura, Sakura",
+      "Majima, Junji",
+      "Kakuma, Ai",
+      "Yamazaki, Haruka",
+      "Amamiya, Sora",
+      "Ozawa, Ari",
+      "Aikawa, Natsuki",
+      "Nomura, Mayuka"
+    ],
+    "Original Creator": "Inui, Takemaru",
+    "Theme Song Artist": [
+      "Aikawa, Natsuki",
+      "Amamiya, Sora",
+      "Asakura, Momo",
+      "Kobayashi, Yuu",
+      "Kubo, Yurika",
+      "Mochizuki, Rei",
+      "Nakamura, Sakura",
+      "Nomura, Mayuka",
+      "Oonishi, Saori",
+      "Ozawa, Ari",
+      "Yamazaki, Haruka"
+    ]
+  },
+  {
     "Name": "Fire Force Season 2",
     "Studio": [
       "David Production"
@@ -5260,40 +5293,28 @@
     ]
   },
   {
-    "Name": "Monster Musume: Everyday Life with Monster Girls",
-    "Score": "below 7.0",
+    "Name": "Love, Chunibyo & Other Delusions!: Heart Throb",
     "Studio": [
-      "Lerche"
+      "Kyoto Animation"
     ],
-    "Season": "Summer 2015",
-    "Theme": [
-      "Anthropomorphic",
-      "Harem"
-    ],
-    "Manga Serialization": "Comic Ryu",
+    "Season": "Winter 2014",
+    "Source": "Light novel",
+    "Theme": [],
     "Voice Actor": [
-      "Nakamura, Sakura",
-      "Majima, Junji",
-      "Kakuma, Ai",
-      "Yamazaki, Haruka",
-      "Amamiya, Sora",
-      "Ozawa, Ari",
-      "Aikawa, Natsuki",
-      "Nomura, Mayuka"
+      "Uesaka, Sumire",
+      "Akasaki, Chinatsu",
+      "Nagatsuma, Juri",
+      "Uchida, Maaya",
+      "Fukuyama, Jun",
+      "Asakura, Azumi"
     ],
-    "Original Creator": "Inui, Takemaru",
+    "Original Creator": "Torako",
     "Theme Song Artist": [
-      "Aikawa, Natsuki",
-      "Amamiya, Sora",
-      "Asakura, Momo",
-      "Kobayashi, Yuu",
-      "Kubo, Yurika",
-      "Mochizuki, Rei",
-      "Nakamura, Sakura",
-      "Nomura, Mayuka",
-      "Oonishi, Saori",
-      "Ozawa, Ari",
-      "Yamazaki, Haruka"
+      "Akasaki, Chinatsu",
+      "Asakura, Azumi",
+      "Uchida, Maaya",
+      "Uesaka, Sumire",
+      "ZAQ"
     ]
   },
   {
@@ -5362,51 +5383,6 @@
     ]
   },
   {
-    "Name": "Love, Chunibyo & Other Delusions!: Heart Throb",
-    "Studio": [
-      "Kyoto Animation"
-    ],
-    "Season": "Winter 2014",
-    "Source": "Light novel",
-    "Theme": [],
-    "Voice Actor": [
-      "Uesaka, Sumire",
-      "Akasaki, Chinatsu",
-      "Nagatsuma, Juri",
-      "Uchida, Maaya",
-      "Fukuyama, Jun",
-      "Asakura, Azumi"
-    ],
-    "Original Creator": "Torako",
-    "Theme Song Artist": [
-      "Akasaki, Chinatsu",
-      "Asakura, Azumi",
-      "Uchida, Maaya",
-      "Uesaka, Sumire",
-      "ZAQ"
-    ]
-  },
-  {
-    "Name": "86 Eighty-Six",
-    "Studio": [
-      "A-1 Pictures"
-    ],
-    "Season": "Spring 2021",
-    "Source": "Light novel",
-    "Theme": [
-      "Mecha"
-    ],
-    "Voice Actor": [
-      "Hasegawa, Ikumi",
-      "Chiba, Shouya"
-    ],
-    "Original Creator": "Asato, Asato",
-    "Theme Song Artist": [
-      "hitorie",
-      "mizuki"
-    ]
-  },
-  {
     "Name": "Welcome to the N.H.K.",
     "Studio": [
       "Gonzo"
@@ -5424,29 +5400,6 @@
       "Makino, Yui",
       "Ohtsuki, Kenji",
       "Round Table featuring Nino"
-    ]
-  },
-  {
-    "Name": "The Rising of the Shield Hero Season 2",
-    "Score": "below 7.0",
-    "Studio": [
-      "Kinema Citrus",
-      "DR Movie"
-    ],
-    "Season": "Spring 2022",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai"
-    ],
-    "Voice Actor": [
-      "Hidaka, Rina",
-      "Ishikawa, Kaito",
-      "Seto, Asami"
-    ],
-    "Original Creator": "Aneko, Yusagi",
-    "Theme Song Artist": [
-      "Fujikawa, Chiai",
-      "MADKID"
     ]
   },
   {
@@ -5497,40 +5450,26 @@
     ]
   },
   {
-    "Name": "TONIKAWA: Over The Moon For You",
+    "Name": "The Rising of the Shield Hero Season 2",
+    "Score": "below 7.0",
     "Studio": [
-      "Seven Arcs"
+      "Kinema Citrus",
+      "DR Movie"
     ],
-    "Season": "Fall 2020",
-    "Theme": [],
-    "Manga Serialization": "Shounen Sunday",
-    "Voice Actor": [
-      "Enoki, Junya",
-      "Kitou, Akari"
-    ],
-    "Original Creator": "Hata, Kenjirou",
-    "Theme Song Artist": [
-      "KanoeRana",
-      "Kitou, Akari"
-    ]
-  },
-  {
-    "Name": "That Time I Got Reincarnated as a Slime Season 2 Part 2",
-    "Studio": [
-      "8bit"
-    ],
-    "Season": "Summer 2021",
+    "Season": "Spring 2022",
+    "Source": "Light novel",
     "Theme": [
       "Isekai"
     ],
-    "Manga Serialization": "Shounen Sirius",
     "Voice Actor": [
-      "Okasaki, Miho"
+      "Hidaka, Rina",
+      "Ishikawa, Kaito",
+      "Seto, Asami"
     ],
-    "Original Creator": "Fuse",
+    "Original Creator": "Aneko, Yusagi",
     "Theme Song Artist": [
-      "MindaRyn",
-      "Terashima, Takuma"
+      "Fujikawa, Chiai",
+      "MADKID"
     ]
   },
   {
@@ -5563,23 +5502,41 @@
     ]
   },
   {
-    "Name": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+    "Name": "86 Eighty-Six",
     "Studio": [
-      "ufotable"
+      "A-1 Pictures"
     ],
-    "Season": "Spring 2023",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
+    "Season": "Spring 2021",
+    "Source": "Light novel",
+    "Theme": [
+      "Mecha"
+    ],
     "Voice Actor": [
-      "Hanae, Natsuki",
-      "Kitou, Akari",
-      "Hanazawa, Kana",
-      "Kawanishi, Kengo"
+      "Hasegawa, Ikumi",
+      "Chiba, Shouya"
     ],
-    "Original Creator": "Gotouge, Koyoharu",
+    "Original Creator": "Asato, Asato",
     "Theme Song Artist": [
-      "MAN WITH A MISSION",
-      "milet"
+      "hitorie",
+      "mizuki"
+    ]
+  },
+  {
+    "Name": "TONIKAWA: Over The Moon For You",
+    "Studio": [
+      "Seven Arcs"
+    ],
+    "Season": "Fall 2020",
+    "Theme": [],
+    "Manga Serialization": "Shounen Sunday",
+    "Voice Actor": [
+      "Enoki, Junya",
+      "Kitou, Akari"
+    ],
+    "Original Creator": "Hata, Kenjirou",
+    "Theme Song Artist": [
+      "KanoeRana",
+      "Kitou, Akari"
     ]
   },
   {
@@ -5600,6 +5557,47 @@
     "Original Creator": "Hirano, Kouta",
     "Theme Song Artist": [
       "Mr. Big"
+    ]
+  },
+  {
+    "Name": "Accel World",
+    "Studio": [
+      "Sunrise"
+    ],
+    "Season": "Spring 2012",
+    "Source": "Light novel",
+    "Theme": [],
+    "Voice Actor": [
+      "Kaji, Yuuki",
+      "Toyosaki, Aki",
+      "Misawa, Sachika",
+      "Asanuma, Shintarou"
+    ],
+    "Original Creator": "Kawahara, Reki",
+    "Theme Song Artist": [
+      "ALTIMA",
+      "KOTOKO",
+      "May'n",
+      "Misawa, Sachika"
+    ]
+  },
+  {
+    "Name": "Eromanga Sensei",
+    "Score": "below 7.0",
+    "Studio": [
+      "A-1 Pictures"
+    ],
+    "Season": "Spring 2017",
+    "Source": "Light novel",
+    "Theme": [],
+    "Voice Actor": [
+      "Matsuoka, Yoshitsugu",
+      "Fujita, Akane"
+    ],
+    "Original Creator": "Fushimi, Tsukasa",
+    "Theme Song Artist": [
+      "ClariS",
+      "TrySail"
     ]
   },
   {
@@ -5631,22 +5629,22 @@
     ]
   },
   {
-    "Name": "Eromanga Sensei",
-    "Score": "below 7.0",
+    "Name": "Food Wars! The Third Plate: Totsuki Train Arc",
     "Studio": [
-      "A-1 Pictures"
+      "J.C.Staff"
     ],
-    "Season": "Spring 2017",
-    "Source": "Light novel",
+    "Season": "Spring 2018",
     "Theme": [],
+    "Manga Serialization": "Shounen Jump (Weekly)",
     "Voice Actor": [
-      "Matsuoka, Yoshitsugu",
-      "Fujita, Akane"
+      "Kanemoto, Hisako",
+      "Takahashi, Minami",
+      "Matsuoka, Yoshitsugu"
     ],
-    "Original Creator": "Fushimi, Tsukasa",
+    "Original Creator": "Tsukuda, Yuuto",
     "Theme Song Artist": [
-      "ClariS",
-      "TrySail"
+      "Fo'xTails",
+      "Luck Life"
     ]
   },
   {
@@ -5671,600 +5669,73 @@
     ]
   },
   {
-    "Name": "Accel World",
-    "Studio": [
-      "Sunrise"
-    ],
-    "Season": "Spring 2012",
-    "Source": "Light novel",
-    "Theme": [],
-    "Voice Actor": [
-      "Kaji, Yuuki",
-      "Toyosaki, Aki",
-      "Misawa, Sachika",
-      "Asanuma, Shintarou"
-    ],
-    "Original Creator": "Kawahara, Reki",
-    "Theme Song Artist": [
-      "ALTIMA",
-      "KOTOKO",
-      "May'n",
-      "Misawa, Sachika"
-    ]
-  },
-  {
-    "Name": "91 Days",
-    "Studio": [
-      "Shuka"
-    ],
-    "Season": "Summer 2016",
-    "Source": "Original",
-    "Theme": [
-      "Organized Crime"
-    ],
-    "Voice Actor": [
-      "Kondou, Takashi",
-      "Eguchi, Takuya"
-    ],
-    "Theme Song Artist": [
-      "ELISA",
-      "TK from Ling Tosite Sigure"
-    ]
-  },
-  {
-    "Name": "Food Wars! The Third Plate: Totsuki Train Arc",
-    "Studio": [
-      "J.C.Staff"
-    ],
-    "Season": "Spring 2018",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Kanemoto, Hisako",
-      "Takahashi, Minami",
-      "Matsuoka, Yoshitsugu"
-    ],
-    "Original Creator": "Tsukuda, Yuuto",
-    "Theme Song Artist": [
-      "Fo'xTails",
-      "Luck Life"
-    ]
-  },
-  {
-    "Name": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
-    "Studio": [
-      "ufotable"
-    ],
-    "Season": "Fall 2021",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Shimono, Hiro",
-      "Matsuoka, Yoshitsugu",
-      "Hanae, Natsuki",
-      "Kitou, Akari",
-      "Hino, Satoshi"
-    ],
-    "Original Creator": "Gotouge, Koyoharu",
-    "Theme Song Artist": [
-      "LiSA"
-    ]
-  },
-  {
-    "Name": "The Quintessential Quintuplets 2",
-    "Studio": [
-      "Bibury Animation Studios"
-    ],
-    "Season": "Winter 2021",
-    "Theme": [
-      "Harem"
-    ],
-    "Manga Serialization": "Shounen Magazine (Weekly)",
-    "Voice Actor": [
-      "Minase, Inori",
-      "Taketatsu, Ayana",
-      "Hanazawa, Kana",
-      "Sakura, Ayane",
-      "Itou, Miku",
-      "Matsuoka, Yoshitsugu"
-    ],
-    "Original Creator": "Haruba, Negi",
-    "Theme Song Artist": [
-      "Hanazawa, Kana",
-      "Itou, Miku",
-      "Minase, Inori",
-      "Sakura, Ayane",
-      "Taketatsu, Ayana"
-    ]
-  },
-  {
-    "Name": "[Oshi No Ko]",
-    "Score": "above 8.7",
-    "Studio": [
-      "Doga Kobo"
-    ],
-    "Season": "Spring 2023",
-    "Theme": [],
-    "Manga Serialization": "Young Jump",
-    "Voice Actor": [
-      "Takahashi, Rie",
-      "Igoma, Yurie",
-      "Ootsuka, Takeo"
-    ],
-    "Original Creator": "Akasaka, Aka",
-    "Theme Song Artist": [
-      "YOASOBI",
-      "Ziyoou-vachi"
-    ]
-  },
-  {
-    "Name": "Jujutsu Kaisen Season 2",
-    "Score": "above 8.7",
-    "Studio": [
-      "MAPPA"
-    ],
-    "Season": "Summer 2023",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Uchida, Yuuma",
-      "Sakurai, Takahiro",
-      "Nakamura, Yuuichi",
-      "Enoki, Junya",
-      "Seto, Asami"
-    ],
-    "Original Creator": "Akutami, Gege",
-    "Theme Song Artist": [
-      "Hitsujibungaku",
-      "King Gnu",
-      "Kitani, Tatsuya",
-      "Sakiyama, Soushi"
-    ]
-  },
-  {
-    "Name": "Mob Psycho 100 III",
-    "Score": "above 8.7",
-    "Studio": [
-      "Bones"
-    ],
-    "Season": "Fall 2022",
-    "Theme": [],
-    "Voice Actor": [
-      "Ootsuka, Akio",
-      "Irino, Miyu",
-      "Itou, Setsuo",
-      "Sakurai, Takahiro"
-    ],
-    "Original Creator": "ONE",
-    "Theme Song Artist": []
-  },
-  {
-    "Name": "Blue Lock",
+    "Name": "That Time I Got Reincarnated as a Slime Season 2 Part 2",
     "Studio": [
       "8bit"
     ],
-    "Season": "Fall 2022",
+    "Season": "Summer 2021",
     "Theme": [
-      "Team Sports"
+      "Isekai"
     ],
-    "Manga Serialization": "Shounen Magazine (Weekly)",
+    "Manga Serialization": "Shounen Sirius",
     "Voice Actor": [
-      "Kaito, Tasuku",
-      "Saitou, Souma",
-      "Ura, Kazuki",
-      "Ono, Yuuki"
+      "Okasaki, Miho"
     ],
-    "Original Creator": "Kaneshiro, Muneyuki",
+    "Original Creator": "Fuse",
     "Theme Song Artist": [
-      "Nakamura, Shuugo",
-      "UNISON SQUARE GARDEN"
+      "MindaRyn",
+      "Terashima, Takuma"
     ]
   },
   {
-    "Name": "Ranking of Kings",
-    "Studio": [
-      "Wit Studio"
-    ],
-    "Season": "Fall 2021",
-    "Theme": [],
-    "Voice Actor": [
-      "Hinata, Minami",
-      "Murase, Ayumu"
-    ],
-    "Original Creator": "Tooka, Sousuke",
-    "Theme Song Artist": [
-      "King Gnu",
-      "Vaundy",
-      "milet",
-      "yama"
-    ]
-  },
-  {
-    "Name": "Hell's Paradise",
-    "Studio": [
-      "MAPPA"
-    ],
-    "Season": "Spring 2023",
-    "Theme": [
-      "Samurai"
-    ],
-    "Manga Serialization": "Shounen Jump+",
-    "Voice Actor": [
-      "Kobayashi, Chiaki",
-      "Hanamori, Yumiri"
-    ],
-    "Original Creator": "Kaku, Yuuji",
-    "Theme Song Artist": [
-      "Sheena, Ringo",
-      "Uru",
-      "millennium parade"
-    ]
-  },
-  {
-    "Name": "Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway",
-    "Studio": [
-      "Project No.9"
-    ],
-    "Season": "Spring 2021",
-    "Source": "Light novel",
-    "Theme": [],
-    "Voice Actor": [
-      "Ichinose, Kana",
-      "Okitsu, Kazuyuki"
-    ],
-    "Original Creator": "Shimesaba",
-    "Theme Song Artist": [
-      "DIALOGUE+",
-      "Ishihara, Kaori"
-    ]
-  },
-  {
-    "Name": "My Hero Academia Season 6",
-    "Studio": [
-      "Bones"
-    ],
-    "Season": "Fall 2022",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Yamashita, Daiki"
-    ],
-    "Original Creator": "Horikoshi, Kouhei",
-    "Theme Song Artist": [
-      "Akiyama, Kiiro",
-      "Eve",
-      "SUPER BEAVER"
-    ]
-  },
-  {
-    "Name": "Classroom of the Elite II",
-    "Studio": [
-      "Lerche"
-    ],
-    "Season": "Summer 2022",
-    "Source": "Light novel",
-    "Theme": [],
-    "Voice Actor": [
-      "Chiba, Shouya"
-    ],
-    "Original Creator": "Kinugasa, Shougo",
-    "Theme Song Artist": [
-      "Fuchigami, Mai",
-      "ZAQ"
-    ]
-  },
-  {
-    "Name": "Redo of Healer",
+    "Name": "The Seven Deadly Sins: Signs of Holy War",
     "Score": "below 7.0",
     "Studio": [
-      "TNK"
+      "A-1 Pictures"
     ],
-    "Season": "Winter 2021",
+    "Season": "Summer 2016",
+    "Theme": [],
+    "Manga Serialization": "Shounen Magazine (Weekly)",
+    "Voice Actor": [
+      "Suzuki, Tatsuhisa",
+      "Yuuki, Aoi",
+      "Takagi, Yuuhei",
+      "Kuno, Misaki",
+      "Fukuyama, Jun",
+      "Amamiya, Sora",
+      "Kaji, Yuuki",
+      "Sakamoto, Maaya"
+    ],
+    "Original Creator": "Suzuki, Nakaba",
+    "Theme Song Artist": [
+      "MUCC",
+      "Takigawa, Alisa"
+    ]
+  },
+  {
+    "Name": "How Not to Summon a Demon Lord",
+    "Score": "below 7.0",
+    "Studio": [
+      "Ajia-do"
+    ],
+    "Season": "Summer 2018",
     "Source": "Light novel",
     "Theme": [
       "Harem",
-      "Time Travel"
-    ],
-    "Voice Actor": [
-      "Shibuya, Ayano",
-      "Hozumi, Yuya",
-      "Ishigami, Shizuka"
-    ],
-    "Original Creator": "Tsukiyo, Rui",
-    "Theme Song Artist": [
-      "ARCANA PROJECT",
-      "Kuribayashi, Minami"
-    ]
-  },
-  {
-    "Name": "The Eminence in Shadow",
-    "Studio": [
-      "Nexus"
-    ],
-    "Season": "Fall 2022",
-    "Source": "Light novel",
-    "Theme": [
       "Isekai"
     ],
     "Voice Actor": [
-      "Yamashita, Seiichirou"
+      "Mizunaka, Masaaki",
+      "Waki, Azumi",
+      "Serizawa, Yuu"
     ],
-    "Original Creator": "Aizawa, Daisuke",
+    "Original Creator": "Murasaki, Yukiya",
     "Theme Song Artist": [
-      "Asai, Ayaka",
-      "Fairouz Ai",
-      "Kanemoto, Hisako",
-      "Kondou, Reina",
-      "Mimori, Suzuko",
-      "Minase, Inori",
-      "OxT",
-      "Seto, Asami"
-    ]
-  },
-  {
-    "Name": "Call of the Night",
-    "Studio": [
-      "LIDENFILMS"
-    ],
-    "Season": "Summer 2022",
-    "Theme": [
-      "Vampire"
-    ],
-    "Manga Serialization": "Shounen Sunday",
-    "Voice Actor": [
-      "Amamiya, Sora",
-      "Satou, Gen"
-    ],
-    "Original Creator": "Kotoyama",
-    "Theme Song Artist": [
-      "Creepy Nuts"
-    ]
-  },
-  {
-    "Name": "SK8 the Infinity",
-    "Studio": [
-      "Bones"
-    ],
-    "Season": "Winter 2021",
-    "Source": "Original",
-    "Theme": [],
-    "Voice Actor": [
-      "Kobayashi, Chiaki",
-      "Hatanaka, Tasuku"
-    ],
-    "Original Creator": "Utsumi, Hiroko",
-    "Theme Song Artist": [
-      "Yuuri"
-    ]
-  },
-  {
-    "Name": "Miss Kobayashi's Dragon Maid S",
-    "Studio": [
-      "Kyoto Animation"
-    ],
-    "Season": "Summer 2021",
-    "Theme": [],
-    "Manga Serialization": "Monthly Action",
-    "Voice Actor": [
-      "Naganawa, Maria",
-      "Tamura, Mutsumi",
-      "Kuwahara, Yuuki"
-    ],
-    "Original Creator": "Cool-kyou Shinja",
-    "Theme Song Artist": [
-      "fhána"
-    ]
-  },
-  {
-    "Name": "Vinland Saga Season 2",
-    "Score": "above 8.7",
-    "Studio": [
-      "MAPPA"
-    ],
-    "Season": "Winter 2023",
-    "Theme": [],
-    "Manga Serialization": "Afternoon",
-    "Voice Actor": [
-      "Takeuchi, Shunsuke",
-      "Uemura, Yuuto"
-    ],
-    "Original Creator": "Yukimura, Makoto",
-    "Theme Song Artist": [
-      "Anonymouz",
-      "LMYK",
-      "Survive Said The Prophet",
-      "haju:harmonics"
-    ]
-  },
-  {
-    "Name": "Vivy -Fluorite Eye's Song-",
-    "Studio": [
-      "Wit Studio"
-    ],
-    "Season": "Spring 2021",
-    "Source": "Original",
-    "Theme": [
-      "Music",
-      "Time Travel"
-    ],
-    "Voice Actor": [
-      "Fukuyama, Jun",
-      "Tanezaki, Atsumi"
-    ],
-    "Original Creator": "Nagatsuki, Tappei",
-    "Theme Song Artist": [
-      "Kotsuki, Miya",
-      "Yagi, Kairi"
-    ]
-  },
-  {
-    "Name": "The Case Study of Vanitas",
-    "Studio": [
-      "Bones"
-    ],
-    "Season": "Summer 2021",
-    "Theme": [
-      "Vampire"
-    ],
-    "Manga Serialization": "Gangan Joker",
-    "Voice Actor": [
-      "Ishikawa, Kaito",
-      "Hanae, Natsuki"
-    ],
-    "Original Creator": "Mochizuki, Jun",
-    "Theme Song Artist": [
-      "LMYK",
-      "sasanomaly"
-    ]
-  },
-  {
-    "Name": "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat",
-    "Studio": [
-      "SILVER LINK.",
-      "Studio Palette"
-    ],
-    "Season": "Fall 2021",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai"
-    ],
-    "Voice Actor": [
-      "Shimoji, Shino",
-      "Takada, Yuuki",
-      "Akabane, Kenji",
-      "Ueda, Reina"
-    ],
-    "Original Creator": "Tsukiyo, Rui",
-    "Theme Song Artist": [
-      "Ninomiya, Yui",
-      "Yuuki, Aira"
-    ]
-  },
-  {
-    "Name": "Shikimori's Not Just a Cutie",
-    "Score": "below 7.0",
-    "Studio": [
-      "Doga Kobo"
-    ],
-    "Season": "Spring 2022",
-    "Theme": [],
-    "Voice Actor": [
-      "Umeda, Shuuichirou",
-      "Oonishi, Saori"
-    ],
-    "Original Creator": "Maki, Keigo",
-    "Theme Song Artist": [
-      "Nakashima, Yuki",
-      "Nasuo☆"
-    ]
-  },
-  {
-    "Name": "Bleach: Thousand-Year Blood War",
-    "Score": "above 8.7",
-    "Studio": [
-      "Pierrot"
-    ],
-    "Season": "Fall 2022",
-    "Theme": [],
-    "Manga Serialization": "Shounen Jump (Weekly)",
-    "Voice Actor": [
-      "Sugiyama, Noriaki",
-      "Morita, Masakazu"
-    ],
-    "Original Creator": "Kubo, Tite",
-    "Theme Song Artist": [
-      "Kitani, Tatsuya",
-      "SennaRin"
-    ]
-  },
-  {
-    "Name": "Takt Op. Destiny",
-    "Studio": [
-      "Madhouse",
-      "MAPPA"
-    ],
-    "Season": "Fall 2021",
-    "Source": "Mixed media",
-    "Theme": [
-      "Music"
-    ],
-    "Voice Actor": [
-      "Uchiyama, Kouki",
-      "Wakayama, Shion"
-    ],
-    "Original Creator": "Hiroi, Ouji",
-    "Theme Song Artist": [
-      "Mafumafu",
-      "Nakashima, Mika",
-      "gaku"
-    ]
-  },
-  {
-    "Name": "Bocchi the Rock!",
-    "Score": "above 8.7",
-    "Studio": [
-      "CloverWorks"
-    ],
-    "Season": "Fall 2022",
-    "Source": "4-koma manga",
-    "Theme": [
-      "CGDCT",
-      "Music"
-    ],
-    "Voice Actor": [
-      "Aoyama, Yoshino",
-      "Suzushiro, Sayumi",
-      "Hasegawa, Ikumi",
-      "Mizuno, Saku"
-    ],
-    "Original Creator": "Hamaji, Aki",
-    "Theme Song Artist": [
-      "Aoyama, Yoshino",
-      "Hasegawa, Ikumi",
-      "Mizuno, Saku",
-      "Suzushiro, Sayumi"
-    ]
-  },
-  {
-    "Name": "Overlord IV",
-    "Studio": [
-      "Madhouse"
-    ],
-    "Season": "Summer 2022",
-    "Source": "Light novel",
-    "Theme": [
-      "Isekai"
-    ],
-    "Voice Actor": [
       "Hara, Yumi",
-      "Hino, Satoshi"
-    ],
-    "Original Creator": "Maruyama, Kugane",
-    "Theme Song Artist": [
-      "Maeshima, Mayu",
-      "OxT"
-    ]
-  },
-  {
-    "Name": "Summer Time Rendering",
-    "Studio": [
-      "OLM"
-    ],
-    "Season": "Spring 2022",
-    "Theme": [
-      "Time Travel"
-    ],
-    "Manga Serialization": "Shounen Jump+",
-    "Voice Actor": [
-      "Hanae, Natsuki",
-      "Nagase, Anna"
-    ],
-    "Original Creator": "Tanaka, Yasunori",
-    "Theme Song Artist": [
-      "Asaka",
-      "Macaroni Empitsu",
-      "Riria.",
-      "cadode"
+      "Katou, Emiri",
+      "Ookubo, Rumi",
+      "Serizawa, Yuu",
+      "Waki, Azumi"
     ]
   }
 ]
