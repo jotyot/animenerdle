@@ -1,6 +1,6 @@
 //import { ShuffledPuzzle } from "./PuzzleMaker/MakePuzzle";
 import { onCall } from "firebase-functions/v2/https";
-import * as admin from "firebase-admin";
+import { db } from "./firebase";
 /**
  * Import function triggers from their respective submodules:
  *
@@ -11,6 +11,7 @@ import * as admin from "firebase-admin";
  */
 
 import * as logger from "firebase-functions/logger";
+import { ShuffledPuzzle } from "./PuzzleMaker/MakePuzzle";
 
 // import {onSchedule} from "firebase-functions/v2/scheduler"
 // Start writing functions
@@ -21,14 +22,11 @@ import * as logger from "firebase-functions/logger";
 //   response.send("Hello from Firebase!");
 // });
 
-admin.initializeApp();
-const db = admin.firestore();
-
 export const hello = onCall(async () => {
-  const puzzle = { name: "test" };
+  const puzzle = await ShuffledPuzzle();
   try {
     await db.doc("puzzles/test").set(puzzle);
-    logger.info("Hello!", { structuredData: true });
+    logger.info("Generated", puzzle);
   } catch (e) {
     logger.error("Error adding document: ", e);
   }
