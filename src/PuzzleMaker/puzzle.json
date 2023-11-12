@@ -1,79 +1,79 @@
 {
   "properties": [
-    "Season: Fall 2015",
-    "Studio: A-1 Pictures",
-    "Source: Light novel",
-    "Season: Summer 2014",
-    "Voice Actor: Sawashiro, Miyuki"
+    "Manga Serialization: Shounen Magazine (Weekly)",
+    "Studio: Bones",
+    "Score: below 7.0",
+    "Studio: CloverWorks",
+    "Theme Song Artist: the peggies"
   ],
   "entries": [
     {
-      "name": "Haikyu!! 2nd Season",
-      "property1": "Season: Fall 2015"
+      "name": "Sword Art Online II",
+      "property1": "Score: below 7.0"
     },
     {
-      "name": "Seraph of the End: Battle in Nagoya",
-      "property1": "Season: Fall 2015"
+      "name": "Spy x Family",
+      "property1": "Studio: CloverWorks"
     },
     {
-      "name": "Blue Exorcist",
-      "property1": "Studio: A-1 Pictures"
+      "name": "Darker than Black",
+      "property1": "Studio: Bones"
     },
     {
-      "name": "Durarara!!",
-      "property1": "Source: Light novel",
-      "property2": "Voice Actor: Sawashiro, Miyuki"
+      "name": "Fairy Tail",
+      "property1": "Manga Serialization: Shounen Magazine (Weekly)"
     },
     {
-      "name": "DARLING in the FRANXX",
-      "property1": "Studio: A-1 Pictures"
+      "name": "Bungo Stray Dogs",
+      "property1": "Studio: Bones"
     },
     {
-      "name": "Haganai: I don't have many friends",
-      "property1": "Source: Light novel"
+      "name": "Boruto: Naruto Next Generations",
+      "property1": "Score: below 7.0",
+      "property2": "Theme Song Artist: the peggies"
     },
     {
-      "name": "KonoSuba: God's Blessing on This Wonderful World!",
-      "property1": "Source: Light novel"
+      "name": "The Promised Neverland",
+      "property1": "Studio: CloverWorks"
+    },
+    {
+      "name": "My Hero Academia Season 5",
+      "property1": "Studio: Bones",
+      "property2": "Theme Song Artist: the peggies"
+    },
+    {
+      "name": "Rent-a-Girlfriend",
+      "property1": "Manga Serialization: Shounen Magazine (Weekly)",
+      "property2": "Theme Song Artist: the peggies"
+    },
+    {
+      "name": "Wonder Egg Priority",
+      "property1": "Studio: CloverWorks"
+    },
+    {
+      "name": "The Seven Deadly Sins",
+      "property1": "Manga Serialization: Shounen Magazine (Weekly)"
     },
     {
       "name": "Noragami Aragoto",
-      "property1": "Season: Fall 2015",
-      "property2": "Voice Actor: Sawashiro, Miyuki"
+      "property1": "Studio: Bones"
     },
     {
-      "name": "Tokyo Ghoul",
-      "property1": "Season: Summer 2014"
+      "name": "Tokyo Revengers",
+      "property1": "Manga Serialization: Shounen Magazine (Weekly)"
     },
     {
-      "name": "Wotakoi: Love is Hard for Otaku",
-      "property1": "Studio: A-1 Pictures",
-      "property2": "Voice Actor: Sawashiro, Miyuki"
+      "name": "Tokyo Ghoul:re 2nd Season",
+      "property1": "Score: below 7.0"
     },
     {
-      "name": "Blue Spring Ride",
-      "property1": "Season: Summer 2014"
+      "name": "Masamune-kun's Revenge",
+      "property1": "Score: below 7.0"
     },
     {
-      "name": "Violet Evergarden",
-      "property1": "Source: Light novel"
-    },
-    {
-      "name": "Monthly Girls' Nozaki-kun",
-      "property1": "Season: Summer 2014",
-      "property2": "Voice Actor: Sawashiro, Miyuki"
-    },
-    {
-      "name": "Akame ga Kill!",
-      "property1": "Season: Summer 2014"
-    },
-    {
-      "name": "One Punch Man",
-      "property1": "Season: Fall 2015"
-    },
-    {
-      "name": "ERASED",
-      "property1": "Studio: A-1 Pictures"
+      "name": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "property1": "Studio: CloverWorks",
+      "property2": "Theme Song Artist: the peggies"
     }
   ]
 }

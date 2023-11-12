@@ -1,6 +1,5 @@
 import propList from "./props.json" assert { type: "json" };
 import fs from "node:fs";
-import { Puzzle } from "../Classes/Puzzle.ts";
 
 const PropList = propList;
 
@@ -17,8 +16,45 @@ interface PuzzleItem {
 
 const RawPuzzle = MakePuzzle();
 console.log(RawPuzzle);
-const ShuffledPuzzle = new Puzzle(RawPuzzle).getTemplate();
+const ShuffledPuzzle = ShufflePuzzle(RawPuzzle);
 fs.writeFileSync("./puzzle.json", JSON.stringify(ShuffledPuzzle, null, 2));
+
+function ShufflePuzzle(puzzle: {
+  properties: string[];
+  entries: PuzzleItem[];
+}) {
+  const lines: [number, number, number, number][] = [
+    [0, 1, 2, 3],
+    [4, 5, 6, 7],
+    [8, 9, 10, 11],
+    [12, 13, 14, 15],
+    [0, 4, 8, 12],
+    [1, 5, 9, 13],
+    [2, 6, 10, 14],
+    [3, 7, 11, 15],
+  ];
+  let shuffled = puzzle.entries;
+  while (
+    lines.some((line) => {
+      const prop1s = line.map((n) => shuffled[n].property1);
+      const prop2s = line.map((n) => shuffled[n].property2);
+      return ThreePlusMatch(prop1s) || ThreePlusMatch(prop2s);
+    })
+  ) {
+    shuffled = shuffled
+      .map((value) => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value);
+  }
+  return { properties: puzzle.properties, entries: shuffled };
+}
+
+function ThreePlusMatch(props: (string | undefined)[]): boolean {
+  return props.some(
+    (prop, _, propLine) =>
+      prop && propLine.filter((x) => x === prop).length >= 3
+  );
+}
 
 function MakePuzzle() {
   while (true) {
