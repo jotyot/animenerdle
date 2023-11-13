@@ -14,6 +14,7 @@ function Draggable({ id, children }: Props) {
     transform: transform
       ? `translate3d(${transform.x}px, ${transform.y}px, 0)`
       : "none",
+    touchAction: "none",
   };
 
   return (
