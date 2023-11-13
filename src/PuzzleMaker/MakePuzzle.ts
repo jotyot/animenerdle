@@ -171,6 +171,11 @@ function ValidProperty(
       .flat()
       .includes(newProperty),
     DuplicatePropertyType(newProperty, [...puzzleProperties, propertyE]),
+    ThreePlusMatch(
+      [newProperty, propertyE, ...puzzleProperties].map(
+        (prop) => prop.split(":")[0]
+      )
+    ),
   ];
   return !invalidity.includes(true);
 }

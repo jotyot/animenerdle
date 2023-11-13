@@ -24,6 +24,11 @@ function ValidProperty(
       .flat()
       .includes(newProperty),
     DuplicatePropertyType(newProperty, [...puzzleProperties, propertyE]),
+    ThreePlusMatch(
+      [newProperty, propertyE, ...puzzleProperties].map(
+        (prop) => prop.split(":")[0]
+      )
+    ),
   ];
   return !invalidity.includes(true);
 }
@@ -38,6 +43,13 @@ function DuplicatePropertyType(
       .map((name) => name.split(":")[0])
       .some((type) => LimitedTypes.includes(type)) &&
     LimitedTypes.includes(newProperty.split(":")[0])
+  );
+}
+
+function ThreePlusMatch(props: (string | undefined)[]): boolean {
+  return props.some(
+    (prop, _, propLine) =>
+      prop && propLine.filter((x) => x === prop).length >= 3
   );
 }
 
@@ -112,4 +124,4 @@ function LCSLength(a: string, b: string) {
   return res;
 }
 
-export { ValidAnime, ValidEAnime, ValidProperty };
+export { ValidAnime, ValidEAnime, ValidProperty, ThreePlusMatch };

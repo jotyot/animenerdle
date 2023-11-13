@@ -1,5 +1,10 @@
 import { PuzzleItem, Entry, Property } from "./Types";
-import { ValidAnime, ValidEAnime, ValidProperty } from "./Validity";
+import {
+  ValidAnime,
+  ValidEAnime,
+  ValidProperty,
+  ThreePlusMatch,
+} from "./Validity";
 import { db } from "../firebase";
 
 export async function ShuffledPuzzle() {
@@ -39,13 +44,6 @@ function Shuffle(puzzle: { properties: string[]; entries: PuzzleItem[] }) {
       .map(({ value }) => value);
   }
   return { properties: puzzle.properties, entries: shuffled };
-}
-
-function ThreePlusMatch(props: (string | undefined)[]): boolean {
-  return props.some(
-    (prop, _, propLine) =>
-      prop && propLine.filter((x) => x === prop).length >= 3
-  );
 }
 
 function MakePuzzle(proplist: Property[]) {

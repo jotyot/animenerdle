@@ -1,79 +1,79 @@
 {
   "properties": [
-    "Manga Serialization: Shounen Magazine (Weekly)",
-    "Studio: Bones",
-    "Score: below 7.0",
-    "Studio: CloverWorks",
-    "Theme Song Artist: the peggies"
+    "Season: Spring 2017",
+    "Voice Actor: Miyano, Mamoru",
+    "Season: Summer 2016",
+    "Length: 30+ episodes",
+    "Studio: Bones"
   ],
   "entries": [
     {
-      "name": "Sword Art Online II",
-      "property1": "Score: below 7.0"
+      "name": "Free! - Iwatobi Swim Club",
+      "property1": "Voice Actor: Miyano, Mamoru"
     },
     {
-      "name": "Spy x Family",
-      "property1": "Studio: CloverWorks"
+      "name": "Durarara!!",
+      "property1": "Voice Actor: Miyano, Mamoru"
     },
     {
-      "name": "Darker than Black",
-      "property1": "Studio: Bones"
+      "name": "Bleach",
+      "property1": "Length: 30+ episodes"
     },
     {
-      "name": "Fairy Tail",
-      "property1": "Manga Serialization: Shounen Magazine (Weekly)"
+      "name": "Eromanga Sensei",
+      "property1": "Season: Spring 2017"
     },
     {
-      "name": "Bungo Stray Dogs",
-      "property1": "Studio: Bones"
+      "name": "Fullmetal Alchemist: Brotherhood",
+      "property1": "Length: 30+ episodes",
+      "property2": "Studio: Bones"
     },
     {
-      "name": "Boruto: Naruto Next Generations",
-      "property1": "Score: below 7.0",
-      "property2": "Theme Song Artist: the peggies"
+      "name": "Orange",
+      "property1": "Season: Summer 2016"
     },
     {
-      "name": "The Promised Neverland",
-      "property1": "Studio: CloverWorks"
+      "name": "Steins;Gate",
+      "property1": "Voice Actor: Miyano, Mamoru"
     },
     {
-      "name": "My Hero Academia Season 5",
-      "property1": "Studio: Bones",
-      "property2": "Theme Song Artist: the peggies"
+      "name": "ReLIFE",
+      "property1": "Season: Summer 2016"
     },
     {
-      "name": "Rent-a-Girlfriend",
-      "property1": "Manga Serialization: Shounen Magazine (Weekly)",
-      "property2": "Theme Song Artist: the peggies"
+      "name": "Gintama",
+      "property1": "Length: 30+ episodes"
     },
     {
-      "name": "Wonder Egg Priority",
-      "property1": "Studio: CloverWorks"
+      "name": "Akashic Records of Bastard Magic Instructor",
+      "property1": "Season: Spring 2017"
     },
     {
-      "name": "The Seven Deadly Sins",
-      "property1": "Manga Serialization: Shounen Magazine (Weekly)"
+      "name": "Food Wars! The Second Plate",
+      "property1": "Season: Summer 2016"
     },
     {
-      "name": "Noragami Aragoto",
-      "property1": "Studio: Bones"
+      "name": "Bungo Stray Dogs 2",
+      "property1": "Voice Actor: Miyano, Mamoru",
+      "property2": "Studio: Bones"
     },
     {
-      "name": "Tokyo Revengers",
-      "property1": "Manga Serialization: Shounen Magazine (Weekly)"
+      "name": "Attack on Titan Season 2",
+      "property1": "Season: Spring 2017"
     },
     {
-      "name": "Tokyo Ghoul:re 2nd Season",
-      "property1": "Score: below 7.0"
+      "name": "Mob Psycho 100",
+      "property1": "Season: Summer 2016",
+      "property2": "Studio: Bones"
     },
     {
-      "name": "Masamune-kun's Revenge",
-      "property1": "Score: below 7.0"
+      "name": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+      "property1": "Length: 30+ episodes"
     },
     {
-      "name": "Rascal Does Not Dream of Bunny Girl Senpai",
-      "property1": "Studio: CloverWorks",
-      "property2": "Theme Song Artist: the peggies"
+      "name": "My Hero Academia Season 2",
+      "property1": "Season: Spring 2017",
+      "property2": "Studio: Bones"
     }
   ]
 }
