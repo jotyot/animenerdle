@@ -37,7 +37,7 @@ function DuplicatePropertyType(
   newProperty: string,
   puzzleProperties: string[]
 ) {
-  const LimitedTypes = ["Voice Actor", "Theme Song Artist"];
+  const LimitedTypes = ["Voice Actor"];
   return (
     puzzleProperties
       .map((name) => name.split(":")[0])

@@ -27,6 +27,7 @@ const Themes = [
   "CGDCT",
   "Combat Sports",
   "Harem",
+  "High Stakes Game",
   "Isekai",
   "Iyashikei",
   "Mecha",
@@ -37,13 +38,14 @@ const Themes = [
   "Team Sports",
   "Time Travel",
   "Vampire",
+  "Video Game",
 ];
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 (async () => {
   const topIds = await IDsFromPagesTop(10);
-  const recentIds = await IDsFromPagesRecent(2, 2021);
+  const recentIds = await IDsFromPagesRecent(3, 2021);
   const ids = [...new Set([...topIds, ...recentIds])];
   const entries = await MakeEntries(ids);
   fs.writeFileSync("entries.json", JSON.stringify(entries, null, 2));
@@ -163,15 +165,21 @@ async function OriginalCreator(
   return originalCreators[0] && originalCreators[0].person.name;
 }
 
-async function ThemeSongArtist(data: AnimeStaff[]): Promise<string[]> {
+async function ThemeSongArtist(
+  data: AnimeStaff[],
+  voiceActors: string[]
+): Promise<string[]> {
   return data
     .filter((staff) => staff.positions.includes("Theme Song Performance"))
-    .map((staff) => staff.person.name);
+    .map((staff) => staff.person.name)
+    .filter((name) => !voiceActors.includes(name));
 }
 
 async function Entry(id: number): Promise<AnimeEntry> {
   const data = await AnimeData(id);
   const staffData = await StaffData(id);
+  const voiceActors = await VoiceActors(id);
+  const demo = data.demographics[0];
   const entry: AnimeEntry = {
     Name: data.title_english || data.title,
     Score:
@@ -191,14 +199,18 @@ async function Entry(id: number): Promise<AnimeEntry> {
       data.source === "Manga" || data.source === "Web manga"
         ? undefined
         : data.source,
+    Demographic:
+      demo && (demo.name === "Josei" || demo.name == "Shoujo")
+        ? demo.name
+        : undefined,
     Theme: data.themes
       .map((jikanResource) => jikanResource.name)
       .filter((name) => Themes.includes(name)),
     Length: data.episodes > 30 ? "30+ episodes" : undefined,
     "Manga Serialization": await Magazine(data),
-    "Voice Actor": await VoiceActors(id),
+    "Voice Actor": voiceActors,
     "Original Creator": await OriginalCreator(staffData),
-    "Theme Song Artist": await ThemeSongArtist(staffData),
+    "Theme Song Artist": await ThemeSongArtist(staffData, voiceActors),
   };
   return entry;
 }

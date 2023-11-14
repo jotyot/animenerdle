@@ -1,4 +1,3 @@
-import { onCall } from "firebase-functions/v2/https";
 import { onSchedule } from "firebase-functions/v2/scheduler";
 import { db } from "./firebase";
 import { ShuffledPuzzle } from "./PuzzleMaker/MakePuzzle";
@@ -16,7 +15,5 @@ const WritePuzzle = async () => {
   const puzzle = await ShuffledPuzzle();
   await db.doc("puzzles/current").set(puzzle);
 };
-
-export const ManualWritePuzzle = onCall(WritePuzzle);
 
 export const DailyPuzzle = onSchedule("every day 0:00", WritePuzzle);

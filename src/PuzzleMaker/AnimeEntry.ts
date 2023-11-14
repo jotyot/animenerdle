@@ -3,6 +3,7 @@ interface AnimeEntry {
   Score?: "above 8.7" | "below 7.0";
   "Original Creator"?: string;
   "Manga Serialization"?: string;
+  Demographic?: string;
   "Voice Actor": string[];
   Studio: string[];
   "Theme Song Artist"?: string[];

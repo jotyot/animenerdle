@@ -1,79 +1,79 @@
 {
   "properties": [
-    "Season: Spring 2017",
-    "Voice Actor: Miyano, Mamoru",
-    "Season: Summer 2016",
-    "Length: 30+ episodes",
-    "Studio: Bones"
+    "Theme Song Artist: Asian Kung-Fu Generation",
+    "Voice Actor: Maeno, Tomoaki",
+    "Manga Serialization: Young Jump",
+    "Season: Fall 2022",
+    "Studio: Pierrot"
   ],
   "entries": [
     {
-      "name": "Free! - Iwatobi Swim Club",
-      "property1": "Voice Actor: Miyano, Mamoru"
+      "name": "Blue Lock",
+      "property1": "Season: Fall 2022"
     },
     {
-      "name": "Durarara!!",
-      "property1": "Voice Actor: Miyano, Mamoru"
+      "name": "Naruto",
+      "property1": "Theme Song Artist: Asian Kung-Fu Generation",
+      "property2": "Studio: Pierrot"
     },
     {
-      "name": "Bleach",
-      "property1": "Length: 30+ episodes"
+      "name": "Kaguya-sama: Love is War Season 2",
+      "property1": "Manga Serialization: Young Jump"
     },
     {
-      "name": "Eromanga Sensei",
-      "property1": "Season: Spring 2017"
+      "name": "Tsuredure Children",
+      "property1": "Voice Actor: Maeno, Tomoaki"
     },
     {
-      "name": "Fullmetal Alchemist: Brotherhood",
-      "property1": "Length: 30+ episodes",
-      "property2": "Studio: Bones"
+      "name": "Fullmetal Alchemist",
+      "property1": "Theme Song Artist: Asian Kung-Fu Generation"
     },
     {
-      "name": "Orange",
-      "property1": "Season: Summer 2016"
+      "name": "[Oshi No Ko]",
+      "property1": "Manga Serialization: Young Jump"
     },
     {
-      "name": "Steins;Gate",
-      "property1": "Voice Actor: Miyano, Mamoru"
+      "name": "Mob Psycho 100 III",
+      "property1": "Season: Fall 2022"
     },
     {
-      "name": "ReLIFE",
-      "property1": "Season: Summer 2016"
+      "name": "My Hero Academia Season 6",
+      "property1": "Season: Fall 2022"
     },
     {
-      "name": "Gintama",
-      "property1": "Length: 30+ episodes"
+      "name": "Yona of the Dawn",
+      "property1": "Voice Actor: Maeno, Tomoaki",
+      "property2": "Studio: Pierrot"
     },
     {
-      "name": "Akashic Records of Bastard Magic Instructor",
-      "property1": "Season: Spring 2017"
+      "name": "Log Horizon",
+      "property1": "Voice Actor: Maeno, Tomoaki"
     },
     {
-      "name": "Food Wars! The Second Plate",
-      "property1": "Season: Summer 2016"
+      "name": "ERASED",
+      "property1": "Theme Song Artist: Asian Kung-Fu Generation"
     },
     {
-      "name": "Bungo Stray Dogs 2",
-      "property1": "Voice Actor: Miyano, Mamoru",
-      "property2": "Studio: Bones"
+      "name": "Elfen Lied",
+      "property1": "Manga Serialization: Young Jump"
     },
     {
-      "name": "Attack on Titan Season 2",
-      "property1": "Season: Spring 2017"
+      "name": "Tokyo Ghoul √A",
+      "property1": "Manga Serialization: Young Jump",
+      "property2": "Studio: Pierrot"
     },
     {
-      "name": "Mob Psycho 100",
-      "property1": "Season: Summer 2016",
-      "property2": "Studio: Bones"
+      "name": "Bleach: Thousand-Year Blood War",
+      "property1": "Season: Fall 2022",
+      "property2": "Studio: Pierrot"
     },
     {
-      "name": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
-      "property1": "Length: 30+ episodes"
+      "name": "Death Parade",
+      "property1": "Voice Actor: Maeno, Tomoaki"
     },
     {
-      "name": "My Hero Academia Season 2",
-      "property1": "Season: Spring 2017",
-      "property2": "Studio: Bones"
+      "name": "Dororo",
+      "property1": "Theme Song Artist: Asian Kung-Fu Generation"
     }
   ]
 }

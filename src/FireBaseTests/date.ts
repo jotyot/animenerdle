@@ -1,12 +1,8 @@
-import { doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore";
 import { db } from "../firebase.ts";
 
-const current = await getDoc(doc(db, "puzzles/current"));
+// import entries from "../PuzzleMaker/entries.json" assert { type: "json" };
+// entries.forEach((entry) => setDoc(doc(db, "entries/" + entry.Name), entry));
 
-const date = new Date();
-const dateString = `${date.getFullYear()}-${
-  date.getMonth() + 1
-}-${date.getDate()}`;
-
-if (current.exists())
-  await setDoc(doc(db, "puzzles/" + dateString), current.data());
+import props from "../PuzzleMaker/props.json" assert { type: "json" };
+props.forEach((props) => setDoc(doc(db, "properties/" + props.name), props));
