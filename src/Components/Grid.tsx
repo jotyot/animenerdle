@@ -57,7 +57,7 @@ function Grid({ puzzleTemplate }: Props) {
   ));
 
   const DraggableGrid = (
-    <div className="w-full flex justify-center mt-28">
+    <div className="">
       <Flipper flipKey={tiles}>
         <div className="grid grid-rows-4 grid-cols-4 gap-3 bg-stone-200 p-6 rounded-lg">
           <DndContext onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
@@ -74,10 +74,10 @@ function Grid({ puzzleTemplate }: Props) {
   );
 
   return (
-    <>
+    <div className="flex flex-col items-center justify-center w-screen h-screen">
       {DraggableGrid}
       <PropertyInfo propertyDisplay={propertyDisplay} />
-    </>
+    </div>
   );
 }
 
