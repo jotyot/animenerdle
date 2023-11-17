@@ -22,15 +22,6 @@ const mangaClient = new MangaClient();
 
 const wait = 700;
 
-const CharacterParams = {
-  mainMin: 3,
-  mainThresh: 1000,
-  mainMax: 5,
-  supMin: 0,
-  supThresh: 1000,
-  supMax: 1,
-};
-
 const Themes = [
   "Anthropomorphic",
   "CGDCT",
@@ -157,25 +148,7 @@ async function Magazine(data: Anime): Promise<undefined | string> {
 
 async function VoiceActors(id: number): Promise<string[]> {
   const data = await CharacterData(id);
-
-  const sortedChar = data.sort((a, b) => b.favorites - a.favorites);
-  const topMains = sortedChar
-    .filter((char) => char.role === "Main")
-    .slice(0, CharacterParams.mainMin);
-  const botMains = sortedChar
-    .filter((char) => char.role === "Main")
-    .slice(CharacterParams.mainMin, CharacterParams.mainMax)
-    .filter((char) => char.favorites >= CharacterParams.mainThresh);
-  const topSups = sortedChar
-    .filter((char) => char.role === "Supporting")
-    .slice(0, CharacterParams.supMin);
-  const botSups = sortedChar
-    .filter((char) => char.role === "Supporting")
-    .slice(CharacterParams.supMin, CharacterParams.supMax)
-    .filter((char) => char.favorites >= CharacterParams.supThresh);
-
-  const chars = [...topMains, ...botMains, ...topSups, ...botSups];
-  console.log(chars.map((char) => char.character.name));
+  const chars = data.filter((char) => char.role === "Main");
   const japaneseVAs = chars.map(
     (char) => char.voice_actors.filter((va) => va.language === "Japanese")[0]
   );

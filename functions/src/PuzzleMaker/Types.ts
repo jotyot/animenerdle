@@ -9,9 +9,9 @@ interface PuzzleItem {
   property2?: string;
 }
 
-interface Property {
+interface PropPoolItem {
   name: string;
   entries: Entry[];
 }
 
-export type { Entry, PuzzleItem, Property };
+export type { Entry, PuzzleItem, PropPoolItem };

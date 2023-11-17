@@ -1,6 +1,6 @@
 import { onSchedule } from "firebase-functions/v2/scheduler";
 import { db } from "./firebase";
-import { ShuffledPuzzle } from "./PuzzleMaker/MakePuzzle";
+import { CreatePuzzle } from "./PuzzleMaker/CreatePuzzle";
 
 const WritePuzzle = async () => {
   const current = (await db.doc("puzzles/current").get()).data();
@@ -12,7 +12,7 @@ const WritePuzzle = async () => {
 
   if (current) await db.doc("puzzles/" + dateString).set(current);
 
-  const puzzle = await ShuffledPuzzle();
+  const puzzle = await CreatePuzzle();
   await db.doc("puzzles/current").set(puzzle);
 };
 
