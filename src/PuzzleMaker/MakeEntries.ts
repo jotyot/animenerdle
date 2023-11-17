@@ -20,7 +20,16 @@ const topClient = new TopClient();
 const animeClient = new AnimeClient();
 const mangaClient = new MangaClient();
 
-const wait = 600;
+const wait = 700;
+
+const CharacterParams = {
+  mainMin: 3,
+  mainThresh: 1000,
+  mainMax: 5,
+  supMin: 0,
+  supThresh: 1000,
+  supMax: 1,
+};
 
 const Themes = [
   "Anthropomorphic",
@@ -44,8 +53,8 @@ const Themes = [
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 (async () => {
-  const topIds = await IDsFromPagesTop(10);
-  const recentIds = await IDsFromPagesRecent(3, 2021);
+  const topIds = await IDsFromPagesTop(15);
+  const recentIds = await IDsFromPagesRecent(4, 2020);
   const ids = [...new Set([...topIds, ...recentIds])];
   const entries = await MakeEntries(ids);
   fs.writeFileSync("entries.json", JSON.stringify(entries, null, 2));
@@ -148,12 +157,29 @@ async function Magazine(data: Anime): Promise<undefined | string> {
 
 async function VoiceActors(id: number): Promise<string[]> {
   const data = await CharacterData(id);
-  const japaneseVAs = data
+
+  const sortedChar = data.sort((a, b) => b.favorites - a.favorites);
+  const topMains = sortedChar
     .filter((char) => char.role === "Main")
-    .map(
-      (char) => char.voice_actors.filter((va) => va.language === "Japanese")[0]
-    );
-  return japaneseVAs.map((va) => va.person.name);
+    .slice(0, CharacterParams.mainMin);
+  const botMains = sortedChar
+    .filter((char) => char.role === "Main")
+    .slice(CharacterParams.mainMin, CharacterParams.mainMax)
+    .filter((char) => char.favorites >= CharacterParams.mainThresh);
+  const topSups = sortedChar
+    .filter((char) => char.role === "Supporting")
+    .slice(0, CharacterParams.supMin);
+  const botSups = sortedChar
+    .filter((char) => char.role === "Supporting")
+    .slice(CharacterParams.supMin, CharacterParams.supMax)
+    .filter((char) => char.favorites >= CharacterParams.supThresh);
+
+  const chars = [...topMains, ...botMains, ...topSups, ...botSups];
+  console.log(chars.map((char) => char.character.name));
+  const japaneseVAs = chars.map(
+    (char) => char.voice_actors.filter((va) => va.language === "Japanese")[0]
+  );
+  return japaneseVAs.filter((va) => va).map((va) => va.person.name);
 }
 
 async function OriginalCreator(

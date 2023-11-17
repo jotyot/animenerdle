@@ -1,0 +1,79 @@
+{
+  "properties": [
+    "Source: Light novel",
+    "Studio: MAPPA",
+    "Studio: A-1 Pictures",
+    "Manga Serialization: Bessatsu Margaret",
+    "Voice Actor: Nakamura, Yuuichi"
+  ],
+  "entries": [
+    {
+      "name": "The Testament of Sister New Devil",
+      "property1": "Source: Light novel",
+      "property2": "Voice Actor: Nakamura, Yuuichi"
+    },
+    {
+      "name": "Jujutsu Kaisen",
+      "property1": "Studio: MAPPA",
+      "property2": "Voice Actor: Nakamura, Yuuichi"
+    },
+    {
+      "name": "Fairy Tail",
+      "property1": "Studio: A-1 Pictures",
+      "property2": "Voice Actor: Nakamura, Yuuichi"
+    },
+    {
+      "name": "Kimi ni Todoke: From Me to You",
+      "property1": "Manga Serialization: Bessatsu Margaret",
+      "property2": "Voice Actor: Nakamura, Yuuichi"
+    },
+    {
+      "name": "Overlord",
+      "property1": "Source: Light novel"
+    },
+    {
+      "name": "Violet Evergarden",
+      "property1": "Source: Light novel"
+    },
+    {
+      "name": "High School DxD New",
+      "property1": "Source: Light novel"
+    },
+    {
+      "name": "Attack on Titan: Final Season Part 2",
+      "property1": "Studio: MAPPA"
+    },
+    {
+      "name": "Vinland Saga Season 2",
+      "property1": "Studio: MAPPA"
+    },
+    {
+      "name": "Takt Op. Destiny",
+      "property1": "Studio: MAPPA"
+    },
+    {
+      "name": "Your Lie in April",
+      "property1": "Studio: A-1 Pictures"
+    },
+    {
+      "name": "ERASED",
+      "property1": "Studio: A-1 Pictures"
+    },
+    {
+      "name": "Black Butler",
+      "property1": "Studio: A-1 Pictures"
+    },
+    {
+      "name": "My Love Story!!",
+      "property1": "Manga Serialization: Bessatsu Margaret"
+    },
+    {
+      "name": "Lovely Complex",
+      "property1": "Manga Serialization: Bessatsu Margaret"
+    },
+    {
+      "name": "Blue Spring Ride",
+      "property1": "Manga Serialization: Bessatsu Margaret"
+    }
+  ]
+}
