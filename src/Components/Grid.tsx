@@ -59,7 +59,7 @@ function Grid({ puzzleTemplate }: Props) {
   const DraggableGrid = (
     <div className="">
       <Flipper flipKey={tiles}>
-        <div className="grid grid-rows-4 grid-cols-4 gap-3 bg-stone-200 sm:p-6 xs:p-4 rounded-lg transition-[padding]">
+        <div className="grid grid-rows-4 grid-cols-4 gap-3 bg-stone-200 sm:p-6 xs:p-4 rounded-lg transition-all">
           <DndContext onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
             {[...Array(16)].map((_v, i) => (
               <TileHolder id={`drop ${i}`} key={`drop ${i}`}>

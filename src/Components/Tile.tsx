@@ -15,8 +15,17 @@ function Tile({
   flippedProps,
   isDragging = false,
 }: Props) {
-  const long = text.length > 35;
-  const med = text.length > 20;
+  function textParams() {
+    if (text.length > 60) {
+      return "lg:text-xs sm:text-[10px] xs:text-[8.5px] px-1";
+    } else if (text.length > 35) {
+      return "lg:text-sm xs:text-xs px-1";
+    } else if (text.length > 20) {
+      return "lg:text-base sm:text-sm xs:text-xs px-2";
+    } else {
+      return "lg:text-lg sm:text-base xs:text-sm px-3";
+    }
+  }
 
   return (
     <div
@@ -26,13 +35,7 @@ function Tile({
       text-center font-sans font-medium shadow-sm shadow-gray-400
       transition-[width,font-size,line-height]
       ${isDragging ? " scale-150" : " scale-100"} 
-      ${
-        long
-          ? "lg:text-sm xs:text-xs px-1"
-          : med
-          ? "lg:text-base sm:text-sm xs:text-xs px-2"
-          : "lg:text-lg sm:text-base xs:text-sm px-3"
-      }
+      ${textParams()}
       ${colorID === -1 ? "text-slate-700" : "text-slate-100"}`}
       {...flippedProps}
     >

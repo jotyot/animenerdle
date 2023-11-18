@@ -7,22 +7,19 @@ interface Props {
 
 function PropertyInfo({ propertyDisplay }: Props) {
   return (
-    <div className="">
-      <div>
-        {propertyDisplay.map(
-          (property) =>
-            property.active && (
-              <div
-                className={` flex justify-start my-3 xs:w-96 sm:w-[28rem] lg:w-[32rem] xs:text-base sm:text-lg lg:text-xl 
+    <div>
+      {propertyDisplay.map(
+        (property) =>
+          property.active && (
+            <div
+              className={` flex justify-start my-3 xs:w-96 sm:w-[28rem] lg:w-[32rem] xs:text-base sm:text-lg lg:text-xl 
                 py-1 px-3 rounded-md border-b-4 text-slate-100 font-sans font-medium 
-                transition-all
               ${Colors[property.colorID + 1]} ${Borders[property.colorID + 1]}`}
-              >
-                {property.name}
-              </div>
-            )
-        )}
-      </div>
+            >
+              {property.name}
+            </div>
+          )
+      )}
     </div>
   );
 }
