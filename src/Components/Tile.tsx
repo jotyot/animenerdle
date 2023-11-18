@@ -15,17 +15,23 @@ function Tile({
   flippedProps,
   isDragging = false,
 }: Props) {
-  const long = text.length > 40;
+  const long = text.length > 35;
   const med = text.length > 20;
 
   return (
     <div
       className={` aspect-square rounded-lg select-none
       border-b-4 ${Colors[colorID + 1]} ${Borders[colorID + 1]}       
-      absolute flex justify-center items-center w-24
+      absolute flex justify-center items-center sm:w-24 xs:w-20
       text-center font-sans font-medium shadow-sm shadow-gray-400
       ${isDragging ? " scale-150" : " scale-100"} 
-      ${long ? "text-xs px-1" : med ? "text-sm px-2" : "text-base px-3"}
+      ${
+        long
+          ? "text-xs px-1"
+          : med
+          ? "sm:text-sm xs:text-xs px-2"
+          : "sm:text-base xs:text-sm px-3"
+      }
       ${colorID === -1 ? "text-slate-700" : "text-slate-100"}`}
       {...flippedProps}
     >
