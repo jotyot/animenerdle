@@ -1,79 +1,79 @@
 {
   "properties": [
-    "Theme Song Artist: Asian Kung-Fu Generation",
-    "Voice Actor: Maeno, Tomoaki",
-    "Manga Serialization: Young Jump",
-    "Season: Fall 2022",
-    "Studio: Pierrot"
+    "Season: Winter 2020",
+    "Season: Spring 2021",
+    "Voice Actor: Eguchi, Takuya",
+    "Manga Serialization: LaLa",
+    "Studio: Brain's Base"
   ],
   "entries": [
     {
-      "name": "Blue Lock",
-      "property1": "Season: Fall 2022"
+      "name": "In/Spectre",
+      "property1": "Season: Winter 2020",
+      "property2": "Studio: Brain's Base"
     },
     {
-      "name": "Naruto",
-      "property1": "Theme Song Artist: Asian Kung-Fu Generation",
-      "property2": "Studio: Pierrot"
+      "name": "To Your Eternity",
+      "property1": "Season: Spring 2021",
+      "property2": "Studio: Brain's Base"
     },
     {
-      "name": "Kaguya-sama: Love is War Season 2",
-      "property1": "Manga Serialization: Young Jump"
+      "name": "My Teen Romantic Comedy SNAFU",
+      "property1": "Voice Actor: Eguchi, Takuya",
+      "property2": "Studio: Brain's Base"
     },
     {
-      "name": "Tsuredure Children",
-      "property1": "Voice Actor: Maeno, Tomoaki"
+      "name": "Natsume's Book of Friends",
+      "property1": "Manga Serialization: LaLa",
+      "property2": "Studio: Brain's Base"
     },
     {
-      "name": "Fullmetal Alchemist",
-      "property1": "Theme Song Artist: Asian Kung-Fu Generation"
+      "name": "Interspecies Reviewers",
+      "property1": "Season: Winter 2020"
     },
     {
-      "name": "[Oshi No Ko]",
-      "property1": "Manga Serialization: Young Jump"
+      "name": "Dorohedoro",
+      "property1": "Season: Winter 2020"
     },
     {
-      "name": "Mob Psycho 100 III",
-      "property1": "Season: Fall 2022"
+      "name": "Haikyu!! To the Top",
+      "property1": "Season: Winter 2020"
     },
     {
-      "name": "My Hero Academia Season 6",
-      "property1": "Season: Fall 2022"
+      "name": "My Hero Academia Season 5",
+      "property1": "Season: Spring 2021"
     },
     {
-      "name": "Yona of the Dawn",
-      "property1": "Voice Actor: Maeno, Tomoaki",
-      "property2": "Studio: Pierrot"
+      "name": "Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway",
+      "property1": "Season: Spring 2021"
     },
     {
-      "name": "Log Horizon",
-      "property1": "Voice Actor: Maeno, Tomoaki"
+      "name": "How Not to Summon a Demon Lord Ω",
+      "property1": "Season: Spring 2021"
     },
     {
-      "name": "ERASED",
-      "property1": "Theme Song Artist: Asian Kung-Fu Generation"
+      "name": "Mashle: Magic and Muscles",
+      "property1": "Voice Actor: Eguchi, Takuya"
     },
     {
-      "name": "Elfen Lied",
-      "property1": "Manga Serialization: Young Jump"
+      "name": "Given",
+      "property1": "Voice Actor: Eguchi, Takuya"
     },
     {
-      "name": "Tokyo Ghoul √A",
-      "property1": "Manga Serialization: Young Jump",
-      "property2": "Studio: Pierrot"
+      "name": "Spy x Family Part 2",
+      "property1": "Voice Actor: Eguchi, Takuya"
     },
     {
-      "name": "Bleach: Thousand-Year Blood War",
-      "property1": "Season: Fall 2022",
-      "property2": "Studio: Pierrot"
+      "name": "Vampire Knight",
+      "property1": "Manga Serialization: LaLa"
     },
     {
-      "name": "Death Parade",
-      "property1": "Voice Actor: Maeno, Tomoaki"
+      "name": "Maid Sama!",
+      "property1": "Manga Serialization: LaLa"
     },
     {
-      "name": "Dororo",
-      "property1": "Theme Song Artist: Asian Kung-Fu Generation"
+      "name": "Ouran High School Host Club",
+      "property1": "Manga Serialization: LaLa"
     }
   ]
 }

@@ -56,7 +56,8 @@ class PuzzleMaker {
         success = success && this.MakeBasicAnimes(property);
       });
 
-      if (success) break;
+      if (this.AllProps().includes("Voice Actor: Eguchi, Takuya"))
+        if (success) break;
     }
   }
 
@@ -274,4 +275,4 @@ function LCSLength(a: string, b: string) {
 }
 
 const puzzle = new PuzzleMaker(propList).GetPuzzle();
-fs.writeFileSync("./puzzlea.json", JSON.stringify(puzzle, null, 2));
+fs.writeFileSync("./puzzle.json", JSON.stringify(puzzle, null, 2));
